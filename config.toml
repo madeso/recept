@@ -5,7 +5,7 @@ title = "Gustavs recept"
 theme = "kiss"
 copyright = "Samlat av Gustav"
 disqusShortname = ""
-googleAnalytics = ""
+googleAnalytics = "UA-121645753-1"
 # Number of posts per page
 Paginate = 5
 enableRobotsTXT = true
