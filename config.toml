@@ -10,6 +10,14 @@ googleAnalytics = "UA-121645753-1"
 Paginate = 5
 enableRobotsTXT = true
 
+[params.info]
+homeTitle = "Gustavs recept" # Title for home page
+# related = true # Includes related articles at the bottom of the article
+
+[params.sections_left]
+"/tags" = "Tags"
+"/category" = "Categories"
+
 [taxonomies]
 tag ="tags"
 category ="category"
