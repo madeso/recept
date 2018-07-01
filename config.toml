@@ -10,7 +10,8 @@ googleAnalytics = "UA-121645753-1"
 Paginate = 5
 enableRobotsTXT = true
 
-relativeURLs = true
+# relativeURLs = true
+canonifyURLs = true
 
 [params.info]
 homeTitle = "Gustavs recept" # Title for home page
