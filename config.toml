@@ -1,0 +1,15 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Recepten"
+
+theme = "kiss"
+copyright = "&copy; Gustav"
+disqusShortname = ""
+googleAnalytics = ""
+# Number of posts per page
+Paginate = 5
+enableRobotsTXT = true
+
+[taxonomies]
+tag ="tags"
+category ="category"
