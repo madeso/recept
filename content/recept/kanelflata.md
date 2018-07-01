@@ -2,12 +2,8 @@
 title: "Festlig kanelfläta"
 date: 2018-07-01T18:30:24+02:00
 tags:
-- Inte testat
 category:
-- Mat
-- Efterrätt
 - Kaka
-- Tillbehör
 ---
 
 # Ingredienser (deg)
