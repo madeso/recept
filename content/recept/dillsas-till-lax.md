@@ -8,7 +8,6 @@ tags:
 category:
 - Tillbehör
 ---
-
 # Ingredienser
 * 3 dl gräddfil
 * 4 msk majonnäs

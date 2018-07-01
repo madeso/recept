@@ -7,7 +7,7 @@ tags:
 category:
 - Tillbehör
 ---
-![tortillastubbar](/recept/agg.jpg)
+![](/recept/agg.jpg)
 # Ingredienser
 * A sharp object like a thumbtack
 * Any number of eggs, preferably ones that aren’t ultra-fresh

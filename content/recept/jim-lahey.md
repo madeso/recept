@@ -6,7 +6,7 @@ tags:
 category:
 - Bröd
 ---
-![tortillastubbar](/recept/jim-lahey.jpg)
+![](/recept/jim-lahey.jpg)
 # Ingredienser
 * 0,5 kg vetemjöl (ca 7 dl)
 1 1/4 tsk salt

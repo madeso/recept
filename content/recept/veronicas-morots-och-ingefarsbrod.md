@@ -6,7 +6,7 @@ tags:
 category:
 - Bröd
 ---
-![tortillastubbar](/recept/morotsbrod.jpg)
+![](/recept/morotsbrod.jpg)
 # Ingredienser
 * 2 dl  kokande vatten
 * 1 dl  ekologiskt rågmjöl

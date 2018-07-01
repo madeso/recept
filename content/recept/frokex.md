@@ -6,7 +6,7 @@ tags:
 category:
 - Bröd
 ---
-![tortillastubbar](/recept/frokex.jpg)
+![](/recept/frokex.jpg)
 
 Knapriga kex. Passar bra som knäckebröd och gott med smör och ost på.
 

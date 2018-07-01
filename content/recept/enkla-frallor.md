@@ -6,7 +6,7 @@ tags:
 category:
 - Bröd
 ---
-![tortillastubbar](/recept/enkla-frallor.jpg)
+![](/recept/enkla-frallor.jpg)
 
 Enkla frallor. Ljusa frallor som är enkla att baka. Goda till frukost, fika, till soppa eller som kuvertbröd åt det mesta.
 Du kan byta ut en del av vetemjölet mot siktat dinkel, speltvetemjöl, durumvetemjöl eller grahamsmjöl.

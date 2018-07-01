@@ -6,7 +6,6 @@ tags:
 category:
 - Kaka
 ---
-
 # Ingredienser (deg)
 * 1 paket (2 och 1/4 tsk) aktiv torrjäst
 * 62ml varmt vatten (110F-115F)

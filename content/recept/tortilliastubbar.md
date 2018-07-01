@@ -6,7 +6,7 @@ tags:
 category:
 - Förrätt
 ---
-![tortillastubbar](/recept/tortilliastubbar.jpg)
+![](/recept/tortilliastubbar.jpg)
 # Ingredienser
 * 4 tortillabröd ca 24 cm i diameter
 * 100 g rökt skinka

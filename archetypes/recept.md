@@ -35,7 +35,7 @@ category:
 - Soppa
 - Burgare
 ---
-![tortillastubbar](/recept/tortilliastubbar.jpg)
+![](/recept/tortilliastubbar.jpg)
 # Ingredienser
 * Sak
 
