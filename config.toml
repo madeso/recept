@@ -1,9 +1,9 @@
 baseURL = "https://madeso.gitlab.io/recept/"
 languageCode = "en-us"
-title = "Recepten"
+title = "Gustavs recept"
 
 theme = "kiss"
-copyright = "&copy; Gustav"
+copyright = "Samlat av Gustav"
 disqusShortname = ""
 googleAnalytics = ""
 # Number of posts per page
