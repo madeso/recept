@@ -5,6 +5,7 @@ tags:
 - Kyckling
 - Basilika
 - Ris
+- todo
 category:
 - Mat
 ---
@@ -21,7 +22,6 @@ category:
 * 1½ msk konc kycklingfond
 * ½ dl grovhackad basilika
 * 1 dl ris
-* Smör att steka i
 
 # Tillagning
 1. Bryn kycklingfiléer i smör, salta och peppra under stekningen.
