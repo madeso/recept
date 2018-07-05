@@ -29,7 +29,7 @@ Gör dagen innnan.
 3. dela upp i små rektangulära figurer
 4. lägg på ingredienser på varje figur och vikihopa till en boll
 5. stapla i en ungsform med en håla i miten för sås
-6. in i ugnen 180 grader 35-45 minuter
+6. huin i ugnen 180 grader 35-45 minuter
 
 # Ingredienser (sås)
 * Vitlök
