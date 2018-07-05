@@ -4,7 +4,6 @@ date: 2018-07-02T09:02:11+02:00
 tags:
 - Spoonery
 - Pasta
-- Vegetarisk
 - Klassiker
 - todo
 category:
