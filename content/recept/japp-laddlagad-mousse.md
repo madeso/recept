@@ -8,7 +8,7 @@ category:
 ---
 ![](/recept/japp-lattlagad-mousse.jpg)
 
-Recept på Japp - en lättlagad mousse perfekt till efterrätt. Du gör den av mörk choklad, chokladbitar av Japp eller Mars, ägg, socker, salt och grädde. Servera den krämiga desserten i glas och garnera med hackad choklad.
+Denna mousse är perfekt till efterrätt. Du gör den av mörk choklad, chokladbitar av Japp eller Mars, ägg, socker, salt och grädde. Servera den krämiga desserten i glas och garnera med hackad choklad.
 
 # Ingredienser
 * 175 g mörk blockchoklad
