@@ -6,6 +6,7 @@ tags:
 - Jul
 - Avskriven
 - todo
+- Choklad
 category:
 - Kaka
 ---

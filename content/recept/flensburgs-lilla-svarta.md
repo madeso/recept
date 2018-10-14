@@ -5,6 +5,7 @@ tags:
 - Klassiker
 - Svårlagat
 - Maffig
+- Choklad
 category:
 - Kaka
 ---

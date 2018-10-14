@@ -5,6 +5,7 @@ tags:
 - Hos mor
 - Inte testat
 - Avskriven
+- Choklad
 category:
 - Kaka
 ---
