@@ -22,11 +22,11 @@ Laga juliga våfflor med smak av pepparkaka! Perfekt till din julbrunch, glöggm
 
 # Tillagning
 1. Smält smöret och låt svalna lite.
-Vispa ihop mjölk, mjöl, ägg, bakpulver, salt, vaniljsocker, socker och pepparkakskrydda.
-Rör ner smöret och kallt vatten.
-Hetta upp våffeljärnet.
-Smörj den första laggen.
-Grädda våfflorna gyllene och lägg dem på galler så håller de sig frasiga.
+1. Vispa ihop mjölk, mjöl, ägg, bakpulver, salt, vaniljsocker, socker och pepparkakskrydda.
+1. Rör ner smöret och kallt vatten.
+1. Hetta upp våffeljärnet.
+1. Smörj den första laggen.
+1. Grädda våfflorna gyllene och lägg dem på galler så håller de sig frasiga.
 
 # Källa
 * [Källa](https://www.ica.se/recept/pepparkaksvafflor-724681/)
