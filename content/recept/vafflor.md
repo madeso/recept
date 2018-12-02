@@ -2,6 +2,7 @@
 title: "Våfflor"
 date: 2018-07-01T15:50:00+02:00
 tags:
+- Våffla
 - Enkelt
 category:
 - Efterrätt
