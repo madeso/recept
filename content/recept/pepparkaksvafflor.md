@@ -1,11 +1,13 @@
 ---
-title: "Pepparkaksvåfflor"
+title: "Pepparkaksvåfflor (8-10 st)"
 date: 2018-12-02T18:07:59+01:00
 tags:
 - Våffla
 category:
 - Efterrätt
 ---
+Laga juliga våfflor med smak av pepparkaka! Perfekt till din julbrunch, glöggmingel eller adventsfika. Våfflorna serveras med en krämig och syrlig lingongrädde som kompletterar smakerna fint.
+
 # Ingredienser
 * 125 g smör
 * 2 dl mjölk
