@@ -4,6 +4,7 @@ date: 2019-02-02T12:55:05+01:00
 tags:
 - Potatis
 - timjan
+- frysbar
 category:
 - Soppa
 ---

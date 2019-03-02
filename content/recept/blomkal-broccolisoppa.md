@@ -2,6 +2,7 @@
 title: "Blomkål- och broccolisoppa"
 date: 2019-02-16T13:06:06+01:00
 tags:
+- frysbar
 category:
 - Soppa
 ---
