@@ -2,8 +2,7 @@
 title: "Pizzabullar"
 date: 2018-07-03T07:18:18+02:00
 tags:
-- Svårlagat
-- todo
+- favorit
 - Pizzabullar
 category:
 - Mat
@@ -27,10 +26,10 @@ Gör dagen innnan.
 # Tillagning (bullar)
 1. dela upp ingredienser i små hanterbara storlekar
 2. kavla ut till 1/4-1/5 banans tjocklek
-3. dela upp i små rektangulära figurer
-4. lägg på ingredienser på varje figur och vikihopa till en boll
-5. stapla i en ungsform med en håla i miten för sås
-6. huin i ugnen 180 grader 35-45 minuter
+3. Bred på tomatsås
+4. Rulla ihop degen till en rulle från långsidan.
+5. Skär ca 3 cm tjocka skivor och lägg bullarna på en plåt med bakplåtspapper.
+6. In i ugnen 180 grader 35-45 minuter
 
 # Ingredienser (sås)
 * Vitlök
@@ -45,4 +44,5 @@ Gör dagen innnan.
 
 # Källa
 * [Deg](http://www.ica.se/recept/pizzadeg-258023/)
+* [Rullning](https://www.ica.se/recept/pizzabullar-med-soppa-724834/)
 * [Bullar](http://imgur.com/gallery/oZZIK)
