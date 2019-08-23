@@ -6,6 +6,7 @@ tags:
 - Klassiker
 - Enkelt
 - Cashew nötter
+- Favorit
 - todo
 category:
 - Mat
