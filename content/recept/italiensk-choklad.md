@@ -8,11 +8,11 @@ category:
 - Dricka
 ---
 # Ingredienser
-* 114 g hackad choklad
-* 9 g maizena/majsmöl
-* 30 g socker
-* 6 g kakao
-* 354 ml mjölk
+* 114 g fin hackad choklad
+* 1 msk (9 g) maizena/majsmöl
+* 2 msk (30 g) socker
+* 1 msk (6 g) kakao
+* 1.5 koppar (354 ml) mjölk
 
 
 

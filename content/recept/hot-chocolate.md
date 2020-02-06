@@ -8,11 +8,11 @@ category:
 - Dricka
 ---
 # Ingredienser
-* 236 ml mjölk
-* 18 g grädde
-* 2 g vaniljextrakt
-* 18 g brunt socker
-* 13 g kakao
+* 1 kopp (236 ml) mjölk
+* 1 msk (18 g) grädde
+* 1/4 tsk (2 g) vaniljextrakt
+* 1/2 msk (18 g) brunt socker
+* 2 msk (13 g) kakao
 
 # Tillagning
 1. Häll allt i en kastrull och vispa under uppvärmning tills allt är varm och har löst sig.
