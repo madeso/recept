@@ -22,7 +22,6 @@ majs, vita bönor eller kikärtor så blir den lite matigare.
 * 2 buljonger, höns, grönsaks...
 
 # Tillagning
-1. Steg
 1. Skala och hacka lök och fräs i lite rapsolja eller smör i en kastrull.
 1. Rör i ingefära, peppar, passerade tomater, grädde och buljongtärningar.
 1. Låt soppan småkoka några minuter.
