@@ -1,6 +1,7 @@
 baseURL = "https://madeso.gitlab.io/recept/"
 languageCode = "en-us"
 title = "Gustavs recept"
+newContentEditor = "vim"
 
 theme = "kiss"
 copyright = "Samlat av Gustav"
