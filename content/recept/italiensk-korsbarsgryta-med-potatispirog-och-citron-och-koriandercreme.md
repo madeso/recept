@@ -2,7 +2,7 @@
 title: "Italiensk Högrevsgryta Med Körsbär Och Potatispirog"
 date: 2018-12-16T08:38:54+01:00
 tags:
-- Slowcocker
+- slowcooker
 category:
 - Mat
 ---
