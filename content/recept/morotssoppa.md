@@ -1,5 +1,5 @@
 ---
-title: "Morotssoppa"
+title: "Morotssoppa med fetaost & cashewnötter "
 date: 2020-08-16T19:17:12+02:00
 tags:
 - Hos mor
@@ -8,7 +8,7 @@ tags:
 category:
 - Soppa
 ---
-Jag har sneglat på recept på morotssoppa i flera månader. Igår gjorde jag äntligen slag i saken och kokade mig en. Det var Pickis enkla recept som tillslut vann mitt hjärta. Dock gjorde jag en del förändringar. Inte för att hennes recept inte verkade gott. Det verkade fantastiskt gott. Men igår var jag sugen på en annorlunda variant. Med cashewnötter och fetaost blir soppan len och krämig, men utan att blir för tung. En uppiggande och snäll soppa vilket kan behövas under denna mörka månad.
+En uppiggande och snäll soppa som med cashewnötter och fetaost blir len och krämig, men utan att blir för tung.
 
 # Ingredienser
 * 4 port.
