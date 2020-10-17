@@ -23,18 +23,14 @@ def check(from_path, to_path):
     return True
 
 
-def run_template():
-    data = {}
-    data['title'] = title_text
-    data['section_header'] = section_header
-    data['header'] = chapter.title
-    data['body'] = body
-    data['prev'] = prev_link
-    data['next'] = next_link
-    data['book_title'] = book.title
-    data['copyright'] = book.copyright
 
-    output = pystache_render(chapter.href, template, data)
+def pystache_render(filename, template, data):
+    renderer = pystache.renderer.Renderer(missing_tags='strict')
+    try:
+        return renderer.render(template, data)
+    except pystache.context.KeyNotFoundError as e:
+        print(filename, e)
+        return ''
 
 
 def handle_watch(args):
@@ -58,6 +54,29 @@ class Recept:
         self.image = image
         self.description = description
         self.sections = sections
+
+
+class Template:
+    def __init__(self, path: str):
+        self.path = path
+        with open(path) as f:
+            self.content = f.read()
+
+    def render(self, recept: Recept):
+        data = {}
+        data['title'] = recept.title
+        data['image'] = recept.image
+        data['description'] = recept.description
+        sections = []
+        for s in recept.sections:
+            d = {}
+            d['steps'] = [{'step': st} for st in s.steps]
+            d['ingredients'] = [{'ingredient': i} for i in s.ingredients]
+            sections.append(d)
+        data['sections'] = sections
+
+        output = pystache_render(self.path, self.content, data)
+        return output
 
 
 class Reader:
@@ -134,6 +153,15 @@ def handle_test(args):
         print()
 
 
+def handle_render(args):
+    recept = parse_file(args.file)
+    template = Template('recept.html')
+    with open('index.html', 'w') as f:
+        output = template.render(recept)
+        print(output, file=f)
+
+
+
 def main():
     parser = argparse.ArgumentParser(description='Create or write a recept')
     sub_parsers = parser.add_subparsers(dest='command_name', title='Commands', help='', metavar='<command>')
@@ -151,6 +179,12 @@ def main():
     sub.add_argument('--folder', help='the folder where to run from', default=os.getcwd())
     sub.add_argument('file', help='the file to test', default=os.getcwd())
     sub.set_defaults(func=handle_test)
+
+
+    sub = sub_parsers.add_parser('render', help='Parse and render a recept file')
+    sub.add_argument('--folder', help='the folder where to run from', default=os.getcwd())
+    sub.add_argument('file', help='the file to test', default=os.getcwd())
+    sub.set_defaults(func=handle_render)
 
     args = parser.parse_args()
     if args.command_name is not None:
