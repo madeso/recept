@@ -1,0 +1,292 @@
+/* colors from https://flatuicolors.com/palette/se */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body, #mainlogo
+{
+    color: #1e272e;
+}
+
+body {
+    line-height: 1.75em;
+    background-color: #d2dae2;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 300;
+}
+
+.shortdate {
+    display: inline;
+}
+
+a:link, a:visited
+{
+    text-decoration: none;
+}
+
+a {
+    color: #3c40c6;
+    text-decoration: none;
+}
+
+div#content
+{
+    max-width: 805px;
+    margin:auto;
+    position: relative;
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 90px;
+}
+
+img
+{
+    max-width: 90%;
+    height:auto;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    float: left;
+    vertical-align: middle;
+}
+
+#featuredprojects img
+{
+    /* image size should be 250 * 180  */
+    width: 32%;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    float: left;
+    vertical-align: middle;
+    padding-left: 3px;
+}
+
+.screenshots img.screenshot {
+    padding: 3px;
+}
+
+.screenshots {
+    display: inline-block;
+    float: none;
+}
+
+.post img {
+    display: block;
+    float: none;
+}
+
+.post {
+    margin-bottom: 20px;
+}
+
+
+h2.latestpostsheader, a.see-more, .post, .featuedimages, #intro {
+    /* temporary to fix mobile tight view */
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+h2.latestpostsheader {
+    padding-top: 40px;
+}
+
+#featuredprojects h2.latestpostsheader {
+    padding-top: 0;
+}
+
+.firstcontent {
+    margin-bottom: 80px;
+}
+
+.to-top {
+    text-align: center;
+}
+
+.to-top {
+    margin-bottom: 40px;
+}
+
+.featured {
+    display: inline-block;
+}
+
+#header {
+    display: block;
+    padding-bottom: 40px;
+}
+
+#header h1 {
+    font-size: 2em;
+    display: inline-block;
+}
+
+#header #toplinks {
+    display: block;
+}
+
+#header #mainlogo {
+    padding: 6px;
+    font-size: 2em;
+    display: inline-block;
+}
+
+pre code {
+    font-family: 'Source Code Pro', monospace;
+}
+
+
+.hidden {
+    display: none;
+}
+
+a:hover .hidden {
+    display: inline;
+}
+
+.projectlinks a {
+    padding-right: 0.6em;
+    vertical-align: middle;
+}
+
+.projectlinks .fa {
+    padding-right: 0.3em;
+}
+
+
+.projectlinks a .fa {
+    -webkit-transition: -webkit-transform .1s ease-out;
+    transition: transform .1s ease-out;
+}
+
+.projectlinks a:hover .fa {
+    -ms-transform: scale(2.0, 2.0); /* IE 9 */
+    -webkit-transform: scale(2.0, 2.0); /* Safari */
+    transform: scale(2.0, 2.0);
+}
+
+#toplinks {
+    text-transform: lowercase;
+}
+
+.main {
+    text-transform: capitalize;
+    font-size: 2em;
+}
+
+.previewheader {
+    font-size: 1.5em;
+}
+
+.title {
+    padding-bottom: .3em;
+    width: 80%;
+    display: block;
+    vertical-align: middle;
+}
+
+.title::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title .header {
+    float: left;
+}
+
+.title .right {
+    float: right;
+    display: inline;
+}
+.main .fa {
+    font-size: .5em;
+}
+
+a img.screenshot {
+    -webkit-transition: -webkit-transform .1s ease-out;
+    transition: transform .1s ease-out;
+}
+
+a:hover img.screenshot {
+    -ms-transform: scale(1.2, 1.2); /* IE 9 */
+    -webkit-transform: scale(1.2, 1.2); /* Safari */
+    transform: scale(1.2, 1.2);
+}
+
+.title a .fa {
+    -webkit-transition: -webkit-transform .2s ease-out;
+    transition: transform .2s ease-out;
+}
+
+.title a:hover .fa {
+    -ms-transform: scale(2.0, 2.0); /* IE 9 */
+    -webkit-transform: scale(2.0, 2.0); /* Safari */
+    transform: scale(2.0, 2.0);
+}
+
+
+div.bigimage {
+    width: 100%;
+}
+
+div.bigimage img.bigimage {
+    width: 100%;
+    max-width: 100%;
+}
+
+.lntd pre.chroma
+{
+    padding-left: 0;
+}
+
+pre.chroma
+{
+    border: 0;
+    padding-left: 20px;
+}
+
+
+ul.pagination {
+    display: block;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.pagination li {
+    display: inline;
+    padding: 10px;
+}
+
+.pagination li:first-child, .pagination li:last-child {
+    padding: 0;
+}
+
+.pagination a:hover {
+    font-weight: bold;
+}
+
+.pagenumber {
+    width: 100%;
+    height: 13px;
+    border-bottom: 1px solid #485460;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 90px
+}
+
+.pagenumber span {
+    font-size: 1.1em;
+    padding: 0 10px;
+    background-color: #F3F5F6; /* same as background */
+}
+
+
+#spinner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+    display: none;
+}
