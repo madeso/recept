@@ -16,8 +16,12 @@ category:
 * 1 dl långkornigt ris
 * 1 ägg med 1 tsk japansk soja
 * Olja till stekning
-* 1 tärnad röd paprika, 10 cm strimlad purjolök, ½–1 strimlad röd chili och 1 msk finriven färsk ingefära
-* 1 dl gröna sojabönor, ½ dl (30 g) delade cashewnötter
+* 1 tärnad röd paprika
+* 10 cm strimlad purjolök
+* 1/2 – 1 strimlad röd chili
+* 1 msk finriven färsk ingefära
+* 1 dl gröna sojabönor
+* 1/2 dl (30 g) delade cashewnötter
 * limeklyftor (servering).
 
 # Tillagning
