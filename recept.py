@@ -8,6 +8,27 @@ import pystache
 import markdown
 
 
+def add_file_arguments(parser):
+    parser.add_argument('--root', help='the folder where to run from', default=os.getcwd())
+    parser.add_argument('--output', help='the folder where to write to', default='')
+
+
+def input_file(args, path):
+    return os.path.join(os.path.abspath(args.root), path)
+
+
+def output_file(args, path):
+    output = args.output
+    if output == '':
+        output = os.path.abspath(args.root)
+    else:
+        output = os.path.abspath(output)
+
+    os.makedirs(output, exist_ok=True)
+    
+    return os.path.join(output, path)
+
+
 def run_markdown(contents: str):
     body = markdown.markdown(contents, extensions=['extra', 'def_list', 'codehilite'])
     body = body.replace('<aside markdown="1"', '<aside')
@@ -162,6 +183,11 @@ def handle_render(args):
 
 
 
+def handle_paths(args):
+    print(input_file(args, 'input.txt'))
+    print(output_file(args, 'output.txt'))
+
+
 def main():
     parser = argparse.ArgumentParser(description='Create or write a recept')
     sub_parsers = parser.add_subparsers(dest='command_name', title='Commands', help='', metavar='<command>')
@@ -176,15 +202,18 @@ def main():
     # sub.set_defaults(func=handle_build)
 
     sub = sub_parsers.add_parser('test', help='Parse a recept file')
-    sub.add_argument('--folder', help='the folder where to run from', default=os.getcwd())
+    add_file_arguments(sub)
     sub.add_argument('file', help='the file to test', default=os.getcwd())
     sub.set_defaults(func=handle_test)
 
-
     sub = sub_parsers.add_parser('render', help='Parse and render a recept file')
-    sub.add_argument('--folder', help='the folder where to run from', default=os.getcwd())
+    add_file_arguments(sub)
     sub.add_argument('file', help='the file to test', default=os.getcwd())
     sub.set_defaults(func=handle_render)
+
+    sub = sub_parsers.add_parser('paths', help='debug write paths')
+    add_file_arguments(sub)
+    sub.set_defaults(func=handle_paths)
 
     args = parser.parse_args()
     if args.command_name is not None:
