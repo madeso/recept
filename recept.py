@@ -70,11 +70,12 @@ class Section:
 
 
 class Recept:
-    def __init__(self, title: str, image: str, description, sections):
+    def __init__(self, title: str, image: str, description: str, sections, favorite):
         self.title = title
         self.image = image
         self.description = description
         self.sections = sections
+        self.favorite = favorite
 
 
 class Template:
@@ -87,6 +88,7 @@ class Template:
         data = {}
         data['title'] = recept.title
         data['image'] = recept.image
+        data['favorite'] = recept.favorite
         data['description'] = recept.description if recept.description != '' else None
         sections = []
         for s in recept.sections:
@@ -145,16 +147,22 @@ def parse_recept_file(path) -> Recept:
         title = lines.read()
         image = '' if lines.peek_empty() else lines.read()
         description = lines.read_section()
+        favorite = False
         
         sections = []
         while lines.has_more():
             lines.skip_empty()
-            ingredients = lines.read_section()
-            lines.skip_empty()
-            steps = lines.read_section()
-            sections.append(Section(ingredients, steps))
+            l = lines.peek().strip()
+            if l == '*':
+                lines.read()
+                favorite = True
+            else:
+                ingredients = lines.read_section()
+                lines.skip_empty()
+                steps = lines.read_section()
+                sections.append(Section(ingredients, steps))
 
-        recept = Recept(title, image, ''.join(description).strip(), sections)
+        recept = Recept(title, image, ''.join(description).strip(), sections, favorite)
 
         return recept
 
@@ -171,8 +179,9 @@ def parse_md_file(path) -> Recept:
         
         frontmatter = yaml.load(''.join(frontmatter), Loader=yaml.Loader)
         content = ''.join(lines.lines)
+        favorite = 'Favorit' in frontmatter['tags']
 
-        return Recept(frontmatter['title'], '', run_markdown(content), [])
+        return Recept(frontmatter['title'], '', run_markdown(content), [], favorite)
         
 
 
