@@ -70,12 +70,13 @@ class Section:
 
 
 class Recept:
-    def __init__(self, title: str, image: str, description: str, sections, favorite):
+    def __init__(self, title: str, image: str, description: str, sections, favorite, tags):
         self.title = title
         self.image = image
         self.description = description
         self.sections = sections
         self.favorite = favorite
+        self.tags = tags
 
 
 class Template:
@@ -90,6 +91,8 @@ class Template:
         data['image'] = recept.image
         data['favorite'] = recept.favorite
         data['description'] = recept.description if recept.description != '' else None
+        data['tags'] = [{'tag': tag} for tag in recept.tags]
+        data['has_tags'] = len(recept.tags) > 0
         sections = []
         for s in recept.sections:
             d = {}
@@ -139,6 +142,11 @@ class Reader:
         return r
 
 
+def is_command(str, cmd):
+    if len(str) == 0:
+        return False
+    return str[0:1] == cmd
+
 
 def parse_recept_file(path) -> Recept:
     with open(path) as f:
@@ -148,6 +156,7 @@ def parse_recept_file(path) -> Recept:
         image = '' if lines.peek_empty() else lines.read()
         description = lines.read_section()
         favorite = False
+        tags = []
         
         sections = []
         while lines.has_more():
@@ -156,13 +165,16 @@ def parse_recept_file(path) -> Recept:
             if l == '*':
                 lines.read()
                 favorite = True
+            elif is_command(l, '#'):
+                for t in (l.strip() for l in lines.read().strip().split('#') if len(l.strip()) > 0):
+                    tags.append(t)
             else:
                 ingredients = lines.read_section()
                 lines.skip_empty()
                 steps = lines.read_section()
                 sections.append(Section(ingredients, steps))
 
-        recept = Recept(title, image, ''.join(description).strip(), sections, favorite)
+        recept = Recept(title, image, ''.join(description).strip(), sections, favorite, tags)
 
         return recept
 
@@ -181,7 +193,7 @@ def parse_md_file(path) -> Recept:
         content = ''.join(lines.lines)
         favorite = 'Favorit' in frontmatter['tags']
 
-        return Recept(frontmatter['title'], '', run_markdown(content), [], favorite)
+        return Recept(frontmatter['title'], '', run_markdown(content), [], favorite, frontmatter['tags'])
         
 
 

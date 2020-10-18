@@ -53,6 +53,13 @@
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
                 <h1 class="display-4">{{title}}{{#favorite}} <i class="fas fa-heart"></i>{{/favorite}}</h1>
+                {{#has_tags}}
+                <div class="btn-group btn-group-sm" role="group" aria-label="Tags">
+                    {{#tags}}
+                    <button type="button" class="btn btn-link">#{{tag}}</button>
+                    {{/tags}}
+                </div>
+                {{/has_tags}}
             </div>
         </div>
 
