@@ -87,7 +87,7 @@ class Template:
         data = {}
         data['title'] = recept.title
         data['image'] = recept.image
-        data['description'] = recept.description
+        data['description'] = recept.description if recept.description != '' else None
         sections = []
         for s in recept.sections:
             d = {}
@@ -138,7 +138,7 @@ class Reader:
 
 
 
-def parse_file(path) -> Recept:
+def parse_recept_file(path) -> Recept:
     with open(path) as f:
         lines = Reader([l.strip() for l in f])
         
@@ -157,6 +157,35 @@ def parse_file(path) -> Recept:
         recept = Recept(title, image, ''.join(description).strip(), sections)
 
         return recept
+
+
+def parse_md_file(path) -> Recept:
+    import yaml
+    with open(path) as f:
+        lines = Reader([l for l in f][1:])
+
+        frontmatter = []
+        while lines.has_more() and lines.peek().strip() != '---':
+            frontmatter.append(lines.read())
+        lines.read()
+        
+        frontmatter = yaml.load(''.join(frontmatter), Loader=yaml.Loader)
+        content = ''.join(lines.lines)
+
+        return Recept(frontmatter['title'], '', run_markdown(content), [])
+        
+
+
+
+def parse_file(path) -> Recept:
+    ext = os.path.splitext(path)[1]
+    if ext == '.recept':
+        return parse_recept_file(path)
+    elif ext == '.md':
+        return parse_md_file(path)
+    else:
+        print('Unknown extension', ext)
+        return None
 
 
 def handle_test(args):
