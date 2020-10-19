@@ -23,17 +23,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
-                            <a class="nav-link active" href="#">Mat <span class="sr-only">(current)</span></a>
-                            <a class="nav-link" href="#">Soppa</a>
-                            <a class="nav-link" href="#">Dricka</a>
-                            <a class="nav-link" href="#">Picnic</a>
-                            <a class="nav-link" href="#">Efterrätt</a>
+                            {{#common_categories}}
+                            <a class="nav-link{{#selected}} active{{/selected}}" href="#">{{name}}{{#selected}} <span class="sr-only">(current)</span>{{/selected}}</a>
+                            {{/common_categories}}
 
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Kategori</a>
                                 <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="#">Burgare</a>
-                                    <a class="dropdown-item" href="#">Tacos</a>
+                                    {{#extra_categories}}
+                                    <a class="nav-link{{#selected}} active{{/selected}}" href="#">{{name}}{{#selected}} <span class="sr-only">(current)</span>{{/selected}}</a>
+                                    {{/extra_categories}}
                                     <div class="dropdown-divider"></div>
                                     <a class="dropdown-item" href="#">Separated link</a>
                                 </div>

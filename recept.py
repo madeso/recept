@@ -63,6 +63,45 @@ def handle_watch(args):
         time.sleep(0.3)
 
 
+class Categories:
+    def __init__(self):
+        self.common = []
+        self.extra = []
+    
+    def add_commons(self, names: typing.List[str]):
+        for name in names:
+            if name not in self.common:
+                self.common.append(name)
+    
+    def add_extra(self, name: str):
+        if name not in self.extra:
+            self.extra.append(name)
+
+    def add(self, name: str):
+        if name in self.common:
+            pass
+        else:
+            self.add_extra(name)
+
+    
+    def iterate_names(self):
+        for name in self.common:
+            yield name
+        
+        for name in self.extra:
+            yield name
+
+
+
+def create_categories() -> Categories:
+    cat = Categories()
+    cat.add_commons(['Mums mat', 'Soppa', 'Dricka', 'Picnic', 'Efterrätt'])
+    cat.add_extra('Burgare')
+    cat.add_extra('Tacos')
+    cat.add_extra('Mat')
+    return cat
+
+
 class Section:
     def __init__(self, ingredients, steps):
         self.ingredients = ingredients
@@ -70,8 +109,9 @@ class Section:
 
 
 class Recept:
-    def __init__(self, title: str, image: str, description: str, sections, favorite, tags):
+    def __init__(self, title: str, category: str, image: str, description: str, sections, favorite, tags):
         self.title = title
+        self.category = category
         self.image = image
         self.description = description
         self.sections = sections
@@ -85,13 +125,16 @@ class Template:
         with open(path) as f:
             self.content = f.read()
 
-    def render(self, recept: Recept):
+    def render(self, recept: Recept, cat: Categories):
         data = {}
         data['title'] = recept.title
         data['image'] = recept.image
         data['favorite'] = recept.favorite
         data['description'] = recept.description if recept.description != '' else None
         data['tags'] = [{'tag': tag} for tag in recept.tags]
+        categories = lambda names: [{'name': name, 'selected': name==recept.category} for name in names]
+        data['common_categories'] = categories(cat.common)
+        data['extra_categories'] = categories(cat.extra)
         data['has_tags'] = len(recept.tags) > 0
         sections = []
         for s in recept.sections:
@@ -153,6 +196,7 @@ def parse_recept_file(path) -> Recept:
         lines = Reader([l.strip() for l in f])
         
         title = lines.read()
+        category = lines.read()
         image = '' if lines.peek_empty() else lines.read()
         description = lines.read_section()
         favorite = False
@@ -174,7 +218,7 @@ def parse_recept_file(path) -> Recept:
                 steps = lines.read_section()
                 sections.append(Section(ingredients, steps))
 
-        recept = Recept(title, image, ''.join(description).strip(), sections, favorite, tags)
+        recept = Recept(title, category, image, ''.join(description).strip(), sections, favorite, tags)
 
         return recept
 
@@ -193,7 +237,7 @@ def parse_md_file(path) -> Recept:
         content = ''.join(lines.lines)
         favorite = 'Favorit' in frontmatter['tags']
 
-        return Recept(frontmatter['title'], '', run_markdown(content), [], favorite, frontmatter['tags'])
+        return Recept(frontmatter['title'], frontmatter['category'], '', run_markdown(content), [], favorite, frontmatter['tags'])
         
 
 
@@ -212,6 +256,7 @@ def parse_file(path) -> Recept:
 def handle_test(args):
     recept = parse_file(args.file)
     print('Title:', recept.title)
+    print('Category:', recept.category)
     print('Image:', recept.image)
     if recept.description != '':
         print('Descrption:', recept.description)
@@ -228,7 +273,7 @@ def handle_render(args):
     recept = parse_file(args.file)
     template = Template('recept.html')
     with open('index.html', 'w') as f:
-        output = template.render(recept)
+        output = template.render(recept, create_categories())
         print(output, file=f)
 
 
