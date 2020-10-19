@@ -9,7 +9,7 @@ import markdown
 
 
 def add_file_arguments(parser):
-    parser.add_argument('--output', help='the folder where to write to', default=os.getcwd())
+    parser.add_argument('--output', help='the folder where to write to', default=os.path.join(os.getcwd(), 'generated'))
 
 
 def input_file(path):
@@ -22,6 +22,14 @@ def output_file(args, path):
     output = os.path.abspath(args.output)
     os.makedirs(output, exist_ok=True)
     return os.path.join(output, path)
+
+
+def list_files(mypath: str, ext):
+    """yield all paths in mypath that matches the ext extension"""
+    for (dirpath, dirnames, filenames) in os.walk(mypath):
+        for filename in filenames:
+            if os.path.splitext(filename)[1] in ext:
+                yield os.path.join(dirpath, filename)
 
 
 def run_markdown(contents: str):
@@ -119,17 +127,22 @@ class Template:
         self.path = path
         with open(path) as f:
             self.content = f.read()
+    
+    def base_data(self, recept_category: str, cat: Categories):
+        data = {}
+        categories = lambda names: [{'name': name, 'selected': name==recept_category} for name in names]
+        data['common_categories'] = categories(cat.common)
+        data['extra_categories'] = categories(cat.extra)
+        return data
 
     def render(self, recept: Recept, cat: Categories):
-        data = {}
+        data = self.base_data(recept.category, cat)
+
         data['title'] = recept.title
         data['image'] = recept.image
         data['favorite'] = recept.favorite
         data['description'] = recept.description if recept.description != '' else None
         data['tags'] = [{'tag': tag} for tag in recept.tags]
-        categories = lambda names: [{'name': name, 'selected': name==recept.category} for name in names]
-        data['common_categories'] = categories(cat.common)
-        data['extra_categories'] = categories(cat.extra)
         data['has_tags'] = len(recept.tags) > 0
         sections = []
         for s in recept.sections:
@@ -138,6 +151,13 @@ class Template:
             d['ingredients'] = [{'ingredient': i} for i in s.ingredients]
             sections.append(d)
         data['sections'] = sections
+
+        output = pystache_render(self.path, self.content, data)
+        return output
+
+    def render_index(self, recept: typing.Iterable[Recept], cat: Categories):
+        data = self.base_data('', cat)
+        data['recept'] = [{'title': r.title, 'category': r.category} for r in recept]
 
         output = pystache_render(self.path, self.content, data)
         return output
@@ -223,18 +243,20 @@ def parse_md_file(path) -> Recept:
     with open(path) as f:
         lines = Reader([l for l in f][1:])
 
-        frontmatter = []
+        frontmatter_source = []
         while lines.has_more() and lines.peek().strip() != '---':
-            frontmatter.append(lines.read())
+            frontmatter_source.append(lines.read())
         lines.read()
         
-        frontmatter = yaml.load(''.join(frontmatter), Loader=yaml.Loader)
+        frontmatter = yaml.load(''.join(frontmatter_source), Loader=yaml.Loader)
         content = ''.join(lines.lines)
-        favorite = 'Favorit' in frontmatter['tags']
 
-        return Recept(frontmatter['title'], frontmatter['category'], '', run_markdown(content), [], favorite, frontmatter['tags'])
+        frontmatter_tags = frontmatter['tags'] or []
+
+        favorite = 'Favorit' in frontmatter_tags
+
+        return Recept(frontmatter['title'], frontmatter['category'], '', run_markdown(content), [], favorite, frontmatter_tags)
         
-
 
 
 def parse_file(path) -> Recept:
@@ -272,10 +294,23 @@ def handle_render(args):
         print(output, file=f)
 
 
-
 def handle_paths(args):
     print(input_file('input.txt'))
     print(output_file(args, 'output.txt'))
+
+
+def handle_generate(args):
+    index_template = Template(input_file('index.html'))
+    recept = [parse_file(file) for file in list_files(args.input, ['.md', '.recept'])]
+
+    cat = create_categories()
+
+    for r in recept:
+        cat.add(r.category)
+
+    with open(output_file(args, 'index.html'), 'w') as f:
+        output = index_template.render_index(recept, cat)
+        print(output, file=f)
 
 
 def main():
@@ -291,14 +326,19 @@ def main():
     # sub.add_argument('--filter', help='specify a file name filter to just regenerate a subset of the files')
     # sub.set_defaults(func=handle_build)
 
+    sub = sub_parsers.add_parser('generate', help='Parse all files and generate output')
+    add_file_arguments(sub)
+    sub.add_argument('--input', help='the input folder', default=os.getcwd())
+    sub.set_defaults(func=handle_generate)
+
     sub = sub_parsers.add_parser('test', help='Parse a recept file')
     add_file_arguments(sub)
-    sub.add_argument('file', help='the file to test', default=os.getcwd())
+    sub.add_argument('file', help='the file to test')
     sub.set_defaults(func=handle_test)
 
     sub = sub_parsers.add_parser('render', help='Parse and render a recept file')
     add_file_arguments(sub)
-    sub.add_argument('file', help='the file to test', default=os.getcwd())
+    sub.add_argument('file', help='the file to test')
     sub.set_defaults(func=handle_render)
 
     sub = sub_parsers.add_parser('paths', help='debug write paths')
