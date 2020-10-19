@@ -7,6 +7,8 @@ import os
 import pystache
 import markdown
 
+from stringlistcombiner import StringListCombiner
+
 
 def add_file_arguments(parser):
     parser.add_argument('--output', help='the folder where to write to', default=os.path.join(os.getcwd(), 'generated'))
@@ -80,11 +82,12 @@ class Categories:
         if name not in self.extra:
             self.extra.append(name)
 
-    def add(self, name: str):
-        if name in self.common:
-            pass
-        else:
-            self.add_extra(name)
+    def add(self, names: typing.List[str]):
+        for name in names:
+            if name in self.common:
+                pass
+            else:
+                self.add_extra(name)
 
     
     def iterate_names(self):
@@ -98,7 +101,7 @@ class Categories:
 
 def create_categories() -> Categories:
     cat = Categories()
-    cat.add_commons(['Mums mat', 'Soppa', 'Dricka', 'Picnic', 'Efterrätt'])
+    cat.add_commons(['Mat', 'Soppa', 'Dricka', 'Picnic', 'Efterrätt'])
     cat.add_extra('Burgare')
     cat.add_extra('Tacos')
     cat.add_extra('Mat')
@@ -112,14 +115,19 @@ class Section:
 
 
 class Recept:
-    def __init__(self, title: str, category: str, image: str, description: str, sections, favorite, tags):
+    def __init__(self, title: str, categories: str, image: str, description: str, sections, favorite, tags):
         self.title = title
-        self.category = category
+        self.categories = categories
         self.image = image
         self.description = description
         self.sections = sections
         self.favorite = favorite
         self.tags = tags
+
+
+def slc(names: typing.List[str]) -> str:
+    s = StringListCombiner(', ', ' och ', 'Ingen kategori')
+    return s.combine(names)
 
 
 class Template:
@@ -128,15 +136,15 @@ class Template:
         with open(path) as f:
             self.content = f.read()
     
-    def base_data(self, recept_category: str, cat: Categories):
+    def base_data(self, recept_categories: typing.List[str], cat: Categories):
         data = {}
-        categories = lambda names: [{'name': name, 'selected': name==recept_category} for name in names]
+        categories = lambda names: [{'name': name, 'selected': name in recept_categories} for name in names]
         data['common_categories'] = categories(cat.common)
         data['extra_categories'] = categories(cat.extra)
         return data
 
     def render(self, recept: Recept, cat: Categories):
-        data = self.base_data(recept.category, cat)
+        data = self.base_data(recept.categories, cat)
 
         data['title'] = recept.title
         data['image'] = recept.image
@@ -157,7 +165,7 @@ class Template:
 
     def render_index(self, recept: typing.Iterable[Recept], cat: Categories):
         data = self.base_data('', cat)
-        data['recept'] = [{'title': r.title, 'category': r.category} for r in recept]
+        data['recept'] = [{'title': r.title, 'category': slc(r.categories)} for r in recept]
 
         output = pystache_render(self.path, self.content, data)
         return output
@@ -211,7 +219,7 @@ def parse_recept_file(path) -> Recept:
         lines = Reader([l.strip() for l in f])
         
         title = lines.read()
-        category = lines.read()
+        categories = [c.trim() for c in lines.read().split(',')]
         image = '' if lines.peek_empty() else lines.read()
         description = lines.read_section()
         favorite = False
@@ -233,7 +241,7 @@ def parse_recept_file(path) -> Recept:
                 steps = lines.read_section()
                 sections.append(Section(ingredients, steps))
 
-        recept = Recept(title, category, image, ''.join(description).strip(), sections, favorite, tags)
+        recept = Recept(title, categories, image, ''.join(description).strip(), sections, favorite, tags)
 
         return recept
 
@@ -255,7 +263,7 @@ def parse_md_file(path) -> Recept:
 
         favorite = 'Favorit' in frontmatter_tags
 
-        return Recept(frontmatter['title'], frontmatter['category'], '', run_markdown(content), [], favorite, frontmatter_tags)
+        return Recept(frontmatter['title'], frontmatter['category'] or [], '', run_markdown(content), [], favorite, frontmatter_tags)
         
 
 
@@ -273,7 +281,7 @@ def parse_file(path) -> Recept:
 def handle_test(args):
     recept = parse_file(args.file)
     print('Title:', recept.title)
-    print('Category:', recept.category)
+    print('Categories:', recept.categories)
     print('Image:', recept.image)
     if recept.description != '':
         print('Descrption:', recept.description)
@@ -306,7 +314,7 @@ def handle_generate(args):
     cat = create_categories()
 
     for r in recept:
-        cat.add(r.category)
+        cat.add(r.categories)
 
     with open(output_file(args, 'index.html'), 'w') as f:
         output = index_template.render_index(recept, cat)
