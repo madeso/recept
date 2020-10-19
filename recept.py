@@ -9,23 +9,18 @@ import markdown
 
 
 def add_file_arguments(parser):
-    parser.add_argument('--root', help='the folder where to run from', default=os.getcwd())
-    parser.add_argument('--output', help='the folder where to write to', default='')
+    parser.add_argument('--output', help='the folder where to write to', default=os.getcwd())
 
 
-def input_file(args, path):
-    return os.path.join(os.path.abspath(args.root), path)
+def input_file(path):
+    return os.path.abspath(path)
 
 
 def output_file(args, path):
-    output = args.output
-    if output == '':
-        output = os.path.abspath(args.root)
-    else:
-        output = os.path.abspath(output)
-
+    if os.path.isabs(path):
+        return path
+    output = os.path.abspath(args.output)
     os.makedirs(output, exist_ok=True)
-    
     return os.path.join(output, path)
 
 
@@ -270,16 +265,16 @@ def handle_test(args):
 
 
 def handle_render(args):
-    recept = parse_file(args.file)
-    template = Template('recept.html')
-    with open('index.html', 'w') as f:
+    recept = parse_file(input_file(args.file))
+    template = Template(input_file('recept.html'))
+    with open(output_file(args, 'index.html'), 'w') as f:
         output = template.render(recept, create_categories())
         print(output, file=f)
 
 
 
 def handle_paths(args):
-    print(input_file(args, 'input.txt'))
+    print(input_file('input.txt'))
     print(output_file(args, 'output.txt'))
 
 
