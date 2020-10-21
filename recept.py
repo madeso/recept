@@ -22,8 +22,10 @@ def output_file(args, path):
     if os.path.isabs(path):
         return path
     output = os.path.abspath(args.output)
-    os.makedirs(output, exist_ok=True)
-    return os.path.join(output, path)
+    result = os.path.join(output, path)
+    folder = os.path.dirname(result)
+    os.makedirs(folder, exist_ok=True)
+    return result
 
 
 def list_files(mypath: str, ext):
@@ -115,7 +117,8 @@ class Section:
 
 
 class Recept:
-    def __init__(self, title: str, categories: str, image: str, description: str, sections, favorite, tags):
+    def __init__(self, name: str, title: str, categories: str, image: str, description: str, sections, favorite, tags):
+        self.name = name
         self.title = title
         self.categories = categories
         self.image = image
@@ -128,6 +131,10 @@ class Recept:
 def slc(names: typing.List[str]) -> str:
     s = StringListCombiner(', ', ' och ', 'Ingen kategori')
     return s.combine(names)
+
+
+def link(r: Recept) -> str:
+    return 'recept/{}.html'.format(r.name)
 
 
 class Template:
@@ -165,7 +172,7 @@ class Template:
 
     def render_index(self, recept: typing.Iterable[Recept], cat: Categories):
         data = self.base_data('', cat)
-        data['recept'] = [{'title': r.title, 'category': slc(r.categories)} for r in recept]
+        data['recept'] = [{'title': r.title, 'link': link(r), 'category': slc(r.categories), 'link': link(r)} for r in recept]
 
         output = pystache_render(self.path, self.content, data)
         return output
@@ -214,6 +221,10 @@ def is_command(str, cmd):
     return str[0:1] == cmd
 
 
+def file_name(path: str) -> str:
+    return os.path.splitext(os.path.basename(path))[0]
+
+
 def parse_recept_file(path) -> Recept:
     with open(path) as f:
         lines = Reader([l.strip() for l in f])
@@ -241,7 +252,7 @@ def parse_recept_file(path) -> Recept:
                 steps = lines.read_section()
                 sections.append(Section(ingredients, steps))
 
-        recept = Recept(title, categories, image, ''.join(description).strip(), sections, favorite, tags)
+        recept = Recept(file_name(path), title, categories, image, ''.join(description).strip(), sections, favorite, tags)
 
         return recept
 
@@ -263,7 +274,7 @@ def parse_md_file(path) -> Recept:
 
         favorite = 'Favorit' in frontmatter_tags
 
-        return Recept(frontmatter['title'], frontmatter['category'] or [], '', run_markdown(content), [], favorite, frontmatter_tags)
+        return Recept(file_name(path), frontmatter['title'], frontmatter['category'] or [], '', run_markdown(content), [], favorite, frontmatter_tags)
         
 
 
@@ -307,18 +318,32 @@ def handle_paths(args):
     print(output_file(args, 'output.txt'))
 
 
-def handle_generate(args):
-    index_template = Template(input_file('index.html'))
-    recept = [parse_file(file) for file in list_files(args.input, ['.md', '.recept'])]
+def generate_project(args, input_folder: str, index_template: Template, output_template: Template):
+    recept = [parse_file(file) for file in list_files(input_folder, ['.md', '.recept'])]
 
     cat = create_categories()
 
     for r in recept:
         cat.add(r.categories)
 
+    print('writing index')
     with open(output_file(args, 'index.html'), 'w') as f:
         output = index_template.render_index(recept, cat)
         print(output, file=f)
+    
+    for r in recept:
+        file_name = link(r)
+        print('writing {}'.format(file_name))
+        with open(output_file(args, file_name), 'w') as f:
+            output = output_template.render(r, cat)
+            print(output, file=f)
+
+
+def handle_generate(args):
+    index_template = Template(input_file('index.html'))
+    output_template = Template(input_file('recept.html'))
+    
+    generate_project(args, args.input, index_template, output_template)
 
 
 def main():
