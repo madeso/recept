@@ -5,15 +5,15 @@ variables:
 
 test:
   script:
-  - ./recept.py generate
+  - ./recept.py generate --input content
   except:
   - master
 
 pages:
   script:
-  - ./recept.py generate
+  - ./recept.py generate --input content
   artifacts:
     paths:
-    - public
+    - generated
   only:
   - master
