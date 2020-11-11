@@ -5,12 +5,14 @@ variables:
 
 test:
   script:
+  - pip install pystache
   - ./recept.py generate --input content
   except:
   - master
 
 pages:
   script:
+  - pip install pystache
   - ./recept.py generate --input content
   artifacts:
     paths:
