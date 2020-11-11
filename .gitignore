@@ -1,4 +1,5 @@
 *.un~
 .vscode
 generated
+public
 __pycache__

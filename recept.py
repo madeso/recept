@@ -11,7 +11,7 @@ from stringlistcombiner import StringListCombiner
 
 
 def add_file_arguments(parser):
-    parser.add_argument('--output', help='the folder where to write to', default=os.path.join(os.getcwd(), 'generated'))
+    parser.add_argument('--output', help='the folder where to write to', default=os.path.join(os.getcwd(), 'public'))
 
 
 def input_file(path):

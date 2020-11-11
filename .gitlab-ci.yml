@@ -21,6 +21,6 @@ pages:
   - ls -a
   artifacts:
     paths:
-    - generated
+    - public
   only:
   - master
