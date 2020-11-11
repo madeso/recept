@@ -7,6 +7,7 @@ test:
   script:
   - pip install pystache
   - pip install Markdown
+  - pip install pyyaml
   - ./recept.py generate --input content
   except:
   - master
@@ -15,6 +16,7 @@ pages:
   script:
   - pip install pystache
   - pip install Markdown
+  - pip install pyyaml
   - ./recept.py generate --input content
   artifacts:
     paths:
