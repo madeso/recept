@@ -6,6 +6,7 @@ variables:
 test:
   script:
   - pip install pystache
+  - pip install Markdown
   - ./recept.py generate --input content
   except:
   - master
@@ -13,6 +14,7 @@ test:
 pages:
   script:
   - pip install pystache
+  - pip install Markdown
   - ./recept.py generate --input content
   artifacts:
     paths:
