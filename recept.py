@@ -3,6 +3,7 @@
 import argparse
 import typing
 import os
+import shutil
 
 import pystache
 import markdown
@@ -358,6 +359,11 @@ def generate_project(args, input_folder: str, index_template: Template, output_t
         with open(output_file(args, file_name), 'w') as f:
             output = output_template.render(r, cat)
             print(output, file=f)
+        if r.image != '':
+            image_relative = output_file(args, os.path.join(urllink(r), r.image))
+            image_source = input_file(os.path.join('static', 'recept', r.image))
+            print('copying image', image_source, image_relative)
+            shutil.copy(image_source, image_relative)
 
 
 def handle_generate(args):
