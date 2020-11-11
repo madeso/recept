@@ -18,6 +18,7 @@ pages:
   - pip install Markdown
   - pip install pyyaml
   - ./recept.py generate --input content
+  - ls -a
   artifacts:
     paths:
     - generated
