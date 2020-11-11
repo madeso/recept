@@ -1,2 +1,4 @@
-public/
 *.un~
+.vscode
+generated
+__pycache__
