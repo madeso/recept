@@ -134,7 +134,19 @@ def slc(names: typing.List[str]) -> str:
 
 
 def link(r: Recept) -> str:
-    return 'recept/{}.html'.format(r.name)
+    return 'recept/{}/index.html'.format(r.name)
+
+
+def urllink(r: Recept) -> str:
+    l = link(r)
+    index_html = '/index.html'
+    if l.endswith(index_html):
+        newl = l[:-len(index_html)] + '/'
+        print('Changing link', l, newl)
+        return newl
+    else:
+        return l
+
 
 
 class Template:
@@ -172,7 +184,7 @@ class Template:
 
     def render_index(self, recept: typing.Iterable[Recept], cat: Categories):
         data = self.base_data('', cat)
-        data['recept'] = [{'title': r.title, 'link': link(r), 'category': slc(r.categories), 'link': link(r)} for r in recept]
+        data['recept'] = [{'title': r.title, 'link': urllink(r), 'category': slc(r.categories), 'link': urllink(r)} for r in recept]
 
         output = pystache_render(self.path, self.content, data)
         return output
