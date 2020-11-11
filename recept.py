@@ -238,11 +238,12 @@ def file_name(path: str) -> str:
 
 
 def parse_recept_file(path) -> Recept:
+    print('Parsing file ', path)
     with open(path) as f:
         lines = Reader([l.strip() for l in f])
         
         title = lines.read()
-        categories = [c.trim() for c in lines.read().split(',')]
+        categories = [c.strip() for c in lines.read().split(',')]
         image = '' if lines.peek_empty() else lines.read()
         description = lines.read_section()
         favorite = False
@@ -269,7 +270,12 @@ def parse_recept_file(path) -> Recept:
         return recept
 
 
+def get_frontmatter(frontmatter, name: str):
+    return frontmatter[name] if frontmatter is not None else None
+
+
 def parse_md_file(path) -> Recept:
+    print('Parsing', path)
     import yaml
     with open(path) as f:
         lines = Reader([l for l in f][1:])
@@ -282,11 +288,11 @@ def parse_md_file(path) -> Recept:
         frontmatter = yaml.load(''.join(frontmatter_source), Loader=yaml.Loader)
         content = ''.join(lines.lines)
 
-        frontmatter_tags = frontmatter['tags'] or []
+        frontmatter_tags = get_frontmatter(frontmatter, 'tags') or []
 
         favorite = 'Favorit' in frontmatter_tags
 
-        return Recept(file_name(path), frontmatter['title'], frontmatter['category'] or [], '', run_markdown(content), [], favorite, frontmatter_tags)
+        return Recept(file_name(path), get_frontmatter(frontmatter, 'title') or '', get_frontmatter(frontmatter, 'category') or [], '', run_markdown(content), [], favorite, frontmatter_tags)
         
 
 
