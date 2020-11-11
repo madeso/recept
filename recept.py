@@ -336,8 +336,11 @@ def handle_paths(args):
     print(output_file(args, 'output.txt'))
 
 
-def generate_project(args, input_folder: str, index_template: Template, output_template: Template):
-    recept = [parse_file(file) for file in list_files(input_folder, ['.md', '.recept'])]
+def generate_project(args, input_folder: str, index_template: Template, output_template: Template, markdown: bool):
+    patterns = ['.recept']
+    if markdown:
+        patterns.append('.md')
+    recept = [parse_file(file) for file in list_files(input_folder, patterns)]
 
     cat = create_categories()
 
@@ -361,7 +364,7 @@ def handle_generate(args):
     index_template = Template(input_file('index.html'))
     output_template = Template(input_file('recept.html'))
     
-    generate_project(args, args.input, index_template, output_template)
+    generate_project(args, args.input, index_template, output_template, args.markdown)
 
 
 def main():
@@ -379,6 +382,7 @@ def main():
 
     sub = sub_parsers.add_parser('generate', help='Parse all files and generate output')
     add_file_arguments(sub)
+    sub.add_argument('--no-markdown', dest='markdown', action='store_false')
     sub.add_argument('--input', help='the input folder', default=os.getcwd())
     sub.set_defaults(func=handle_generate)
 
