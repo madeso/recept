@@ -142,7 +142,7 @@ def urllink(r: Recept) -> str:
     index_html = '/index.html'
     if l.endswith(index_html):
         newl = l[:-len(index_html)] + '/'
-        print('Changing link', l, newl)
+        # print('Changing link', l, newl)
         return newl
     else:
         return l
