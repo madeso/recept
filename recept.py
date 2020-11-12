@@ -223,7 +223,10 @@ class Reader:
         r = []
 
         while not self.peek_empty():
-            r.append(self.read())
+            line = self.read()
+            if line == '|':
+                return r
+            r.append(line)
         
         return r
 
