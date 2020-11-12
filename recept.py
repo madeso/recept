@@ -249,7 +249,7 @@ def parse_recept_file(path) -> Recept:
         title = lines.read()
         categories = [c.strip() for c in lines.read().split(',')]
         image = '' if lines.peek_empty() else lines.read()
-        description = lines.read_section()
+        description = run_markdown('\n\n'.join(lines.read_section()).strip())
         favorite = False
         tags = []
         
@@ -269,7 +269,7 @@ def parse_recept_file(path) -> Recept:
                 steps = lines.read_section()
                 sections.append(Section(ingredients, steps))
 
-        recept = Recept(file_name(path), title, categories, image, ''.join(description).strip(), sections, favorite, tags)
+        recept = Recept(file_name(path), title, categories, image, description, sections, favorite, tags)
 
         return recept
 
