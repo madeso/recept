@@ -248,7 +248,9 @@ def parse_recept_file(path) -> Recept:
         
         title = lines.read()
         categories = [c.strip() for c in lines.read().split(',')]
-        image = '' if lines.peek_empty() else lines.read()
+        image = '' if lines.peek_empty() or lines.peek() == 'image' else lines.read()
+        if lines.peek() == 'image':
+            lines.read()
         description = run_markdown('\n\n'.join(lines.read_section()).strip())
         favorite = False
         tags = []
