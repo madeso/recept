@@ -91,6 +91,8 @@ class Categories:
         for name in names:
             if name in self.common:
                 self.common[name].recept.append(r)
+            elif name in self.extra:
+                self.extra[name].recept.append(r)
             else:
                 c = Cat(name)
                 c.recept.append(r)
