@@ -24,14 +24,14 @@
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
                             {{#common_categories}}
-                            <a class="nav-link{{#selected}} active{{/selected}}" href="#">{{name}}{{#selected}} <span class="sr-only">(current)</span>{{/selected}}</a>
+                            <a class="nav-link{{#selected}} active{{/selected}}" href="../../{{link}}">{{name}}{{#selected}} <span class="sr-only">(current)</span>{{/selected}}</a>
                             {{/common_categories}}
 
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Kategori</a>
                                 <div class="dropdown-menu">
                                     {{#extra_categories}}
-                                    <a class="nav-link{{#selected}} active{{/selected}}" href="#">{{name}}{{#selected}} <span class="sr-only">(current)</span>{{/selected}}</a>
+                                    <a class="nav-link{{#selected}} active{{/selected}}" href="../../{{link}}">{{name}}{{#selected}} <span class="sr-only">(current)</span>{{/selected}}</a>
                                     {{/extra_categories}}
                                     <div class="dropdown-divider"></div>
                                     <a class="dropdown-item" href="#">Separated link</a>

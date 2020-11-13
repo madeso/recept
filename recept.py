@@ -71,26 +71,30 @@ def handle_watch(args):
         time.sleep(0.3)
 
 
+class Cat:
+    def __init__(self, name: str):
+        self.recept = []
+        self.name = name
+
+
 class Categories:
     def __init__(self):
-        self.common = []
-        self.extra = []
+        self.common = {}
+        self.extra = {}
     
     def add_commons(self, names: typing.List[str]):
         for name in names:
             if name not in self.common:
-                self.common.append(name)
-    
-    def add_extra(self, name: str):
-        if name not in self.extra:
-            self.extra.append(name)
+                self.common[name] = Cat(name)
 
-    def add(self, names: typing.List[str]):
+    def add(self, names: typing.List[str], r: 'Recept'):
         for name in names:
             if name in self.common:
-                pass
+                self.common[name].recept.append(r)
             else:
-                self.add_extra(name)
+                c = Cat(name)
+                c.recept.append(r)
+                self.extra[name] = c
 
     
     def iterate_names(self):
@@ -100,14 +104,18 @@ class Categories:
         for name in self.extra:
             yield name
 
+    def iterate_cats(self):
+        for _, c in self.common.items():
+            yield c
+        
+        for _, c in self.extra.items():
+            yield c
+
 
 
 def create_categories() -> Categories:
     cat = Categories()
     cat.add_commons(['Mat', 'Soppa', 'Dricka', 'Picnic', 'Efterrätt'])
-    cat.add_extra('Burgare')
-    cat.add_extra('Tacos')
-    cat.add_extra('Mat')
     return cat
 
 
@@ -149,6 +157,9 @@ def urllink(r: Recept) -> str:
         return l
 
 
+def cat_link(c: Cat) -> str:
+    return 'cats/' + c.name + '.html'
+
 
 class Template:
     def __init__(self, path: str):
@@ -158,7 +169,7 @@ class Template:
     
     def base_data(self, recept_categories: typing.List[str], cat: Categories):
         data = {}
-        categories = lambda names: [{'name': name, 'selected': name in recept_categories} for name in names]
+        categories = lambda names: [{'name': name, 'selected': name in recept_categories, 'link': cat_link(c)} for name, c in names.items()]
         data['common_categories'] = categories(cat.common)
         data['extra_categories'] = categories(cat.extra)
         return data
@@ -187,6 +198,13 @@ class Template:
         data = self.base_data('', cat)
         data['recept'] = [{'title': r.title, 'link': urllink(r), 'category': slc(r.categories), 'link': urllink(r)} for r in recept]
 
+        output = pystache_render(self.path, self.content, data)
+        return output
+
+    def render_cat(self, cat: Cat, cats: Categories):
+        data = self.base_data([cat.name], cats)
+        ds = []
+        data['recept'] = [{'title': r.title, 'link': urllink(r), 'category': slc(r.categories), 'link': urllink(r)} for r in cat.recept]
         output = pystache_render(self.path, self.content, data)
         return output
 
@@ -342,7 +360,7 @@ def handle_paths(args):
     print(output_file(args, 'output.txt'))
 
 
-def generate_project(args, input_folder: str, index_template: Template, output_template: Template, markdown: bool):
+def generate_project(args, input_folder: str, index_template: Template, output_template: Template, cat_template: Template, markdown: bool):
     patterns = ['.recept']
     if markdown:
         patterns.append('.md')
@@ -351,12 +369,18 @@ def generate_project(args, input_folder: str, index_template: Template, output_t
     cat = create_categories()
 
     for r in recept:
-        cat.add(r.categories)
+        cat.add(r.categories, r)
 
     print('writing index')
     with open(output_file(args, 'index.html'), 'w') as f:
         output = index_template.render_index(recept, cat)
         print(output, file=f)
+
+    print('writing cats')
+    for c in cat.iterate_cats():
+        with open(output_file(args, cat_link(c)), 'w') as f:
+            output = cat_template.render_cat(c, cat)
+            print(output, file=f)
     
     for r in recept:
         file_name = link(r)
@@ -374,8 +398,9 @@ def generate_project(args, input_folder: str, index_template: Template, output_t
 def handle_generate(args):
     index_template = Template(input_file('index.html'))
     output_template = Template(input_file('recept.html'))
+    cat_template = Template(input_file('cat.html'))
     
-    generate_project(args, args.input, index_template, output_template, args.markdown)
+    generate_project(args, args.input, index_template, output_template, cat_template, args.markdown)
 
 
 def main():

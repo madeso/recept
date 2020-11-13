@@ -12,7 +12,7 @@
     <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="../index.html">
                     🍴 Gustavs recept
                 </a>
 
@@ -24,14 +24,14 @@
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
                             {{#common_categories}}
-                            <a class="nav-link{{#selected}} active{{/selected}}" href="{{link}}">{{name}}{{#selected}} <span class="sr-only">(current)</span>{{/selected}}</a>
+                            <a class="nav-link{{#selected}} active{{/selected}}" href="../{{link}}">{{name}}{{#selected}} <span class="sr-only">(current)</span>{{/selected}}</a>
                             {{/common_categories}}
 
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Kategori</a>
                                 <div class="dropdown-menu">
                                     {{#extra_categories}}
-                                    <a class="nav-link{{#selected}} active{{/selected}}" href="{{link}}">{{name}}{{#selected}} <span class="sr-only">(current)</span>{{/selected}}</a>
+                                    <a class="nav-link{{#selected}} active{{/selected}}" href="../{{link}}">{{name}}{{#selected}} <span class="sr-only">(current)</span>{{/selected}}</a>
                                     {{/extra_categories}}
                                 </div>
                             </li>
@@ -61,7 +61,7 @@
                         <div class="card-body">
                             <h5 class="card-title">{{category}}</h5>
                             <p class="card-text">{{title}}</p>
-                            <a href="{{link}}" class="btn btn-primary">Läs</a>
+                            <a href="../{{link}}" class="btn btn-primary">Läs</a>
                         </div>
                     </div>
                 </div>
