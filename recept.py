@@ -494,6 +494,8 @@ def safe_file_name(title: str) -> str:
     r = r.replace('å', 'a')
     r = r.replace('ä', 'a')
     r = r.replace('ö', 'o')
+    r = r.replace('é', 'e')
+    r = r.replace('è', 'e')
     r = r.replace('?', '')
     r = r.replace(',', '')
     r = r.replace('.', '')
