@@ -15,6 +15,14 @@ from stringlistcombiner import StringListCombiner
 FRONTMATTER_SEPERATOR_CHAR = '+'
 FRONTMATTER_SEPERATOR_MIN_LENGTH = 3
 
+class Args:
+    def __init__(self, is_debug: bool):
+        self.is_debug = is_debug
+
+    def debug_print(self, text: str):
+        if self.is_debug:
+            print(text)
+
 
 def file_exist(file: str) -> bool:
     return os.path.isfile(file)
@@ -338,8 +346,8 @@ def is_true(file: str, val_case: str) -> bool:
 
 
 
-def parse_recept_file(path) -> Recept:
-    print('Parsing file ', path)
+def parse_recept_file(args: Args, path: str) -> Recept:
+    args.debug_print('Parsing file {}'.format(path))
 
     fm, content = read_frontmatter_file(path)
     data = load_front_matter(fm, path)
@@ -395,10 +403,10 @@ def parse_md_file(path) -> Recept:
 
 
 
-def parse_file(path) -> Recept:
+def parse_file(args: Args, path: str) -> Recept:
     ext = os.path.splitext(path)[1]
     if ext == '.recept':
-        return parse_recept_file(path)
+        return parse_recept_file(args, path)
     elif ext == '.md':
         return parse_md_file(path)
     else:
@@ -407,7 +415,7 @@ def parse_file(path) -> Recept:
 
 
 def handle_test(args):
-    recept = parse_file(args.file)
+    recept = parse_file(Args(args.debug), args.file)
     print('Title:', recept.title)
     print('Categories:', recept.categories)
     print('Image:', recept.image)
@@ -423,7 +431,7 @@ def handle_test(args):
 
 
 def handle_render(args):
-    recept = parse_file(input_file(args.file))
+    recept = parse_file(Args(args.debug), input_file(args.file))
     template = Template(input_file('recept.html'))
     with open(output_file(args, 'index.html'), 'w') as f:
         output = template.render(recept, create_categories())
@@ -435,23 +443,23 @@ def handle_paths(args):
     print(output_file(args, 'output.txt'))
 
 
-def generate_project(args, input_folder: str, index_template: Template, output_template: Template, cat_template: Template, markdown: bool):
+def generate_project(aargs: Args, args, input_folder: str, index_template: Template, output_template: Template, cat_template: Template, markdown: bool):
     patterns = ['.recept']
     if markdown:
         patterns.append('.md')
-    recept = [parse_file(file) for file in list_files(input_folder, patterns)]
+    recept = [parse_file(aargs, file) for file in list_files(input_folder, patterns)]
 
     cat = create_categories()
 
     for r in recept:
         cat.add(r.categories, r)
 
-    print('writing index')
+    aargs.debug_print('writing index')
     with open(output_file(args, 'index.html'), 'w') as f:
         output = index_template.render_index(recept, cat)
         print(output, file=f)
 
-    print('writing cats')
+    aargs.debug_print('writing cats')
     for c in cat.iterate_cats():
         with open(output_file(args, cat_link(c)), 'w') as f:
             output = cat_template.render_cat(c, cat)
@@ -459,14 +467,14 @@ def generate_project(args, input_folder: str, index_template: Template, output_t
 
     for r in recept:
         file_name = link(r)
-        print('writing {}'.format(file_name))
+        aargs.debug_print('writing {}'.format(file_name))
         with open(output_file(args, file_name), 'w') as f:
             output = output_template.render(r, cat)
             print(output, file=f)
         if r.image != '':
             image_relative = output_file(args, os.path.join(urllink(r), r.image))
             image_source = input_file(os.path.join('static', 'recept', r.image))
-            print('copying image', image_source, image_relative)
+            aargs.debug_print('copying image {} {}'.format(image_source, image_relative))
             shutil.copy(image_source, image_relative)
 
 
@@ -475,7 +483,7 @@ def handle_generate(args):
     output_template = Template(input_file('recept.html'))
     cat_template = Template(input_file('cat.html'))
 
-    generate_project(args, args.input, index_template, output_template, cat_template, args.markdown)
+    generate_project(Args(args.debug), args, args.input, index_template, output_template, cat_template, args.markdown)
 
 
 def main():
@@ -495,16 +503,19 @@ def main():
     add_file_arguments(sub)
     sub.add_argument('--no-markdown', dest='markdown', action='store_false')
     sub.add_argument('--input', help='the input folder', default=os.getcwd())
+    sub.add_argument('--debug', action='store_true')
     sub.set_defaults(func=handle_generate)
 
     sub = sub_parsers.add_parser('test', help='Parse a recept file')
     add_file_arguments(sub)
     sub.add_argument('file', help='the file to test')
+    sub.add_argument('--debug', action='store_true')
     sub.set_defaults(func=handle_test)
 
     sub = sub_parsers.add_parser('render', help='Parse and render a recept file')
     add_file_arguments(sub)
     sub.add_argument('file', help='the file to test')
+    sub.add_argument('--debug', action='store_true')
     sub.set_defaults(func=handle_render)
 
     sub = sub_parsers.add_parser('paths', help='debug write paths')
