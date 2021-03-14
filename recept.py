@@ -4,11 +4,43 @@ import argparse
 import typing
 import os
 import shutil
+import time
 
 import pystache
 import markdown
+import yaml
 
 from stringlistcombiner import StringListCombiner
+
+FRONTMATTER_SEPERATOR_CHAR = '+'
+FRONTMATTER_SEPERATOR_MIN_LENGTH = 3
+
+
+def file_exist(file: str) -> bool:
+    return os.path.isfile(file)
+
+
+def read_frontmatter_file(path: str, missing_is_error: bool = True) -> typing.Tuple[str, str]:
+    has_frontmatter = False
+    first = []
+    second = []
+    if not missing_is_error and not file_exist(path):
+        return (None, '')
+    with open(path, 'r', encoding='utf-8') as inputfile:
+        for line in inputfile:
+            if not has_frontmatter:
+                s = line.strip()
+                if len(s) >= FRONTMATTER_SEPERATOR_MIN_LENGTH and len(s) * FRONTMATTER_SEPERATOR_CHAR == s:
+                    has_frontmatter = True
+                else:
+                    first.append(line)
+            else:
+                second.append(line)
+        if has_frontmatter:
+            return (''.join(first), ''.join(second))
+        else:
+            return ('', ''.join(first))
+
 
 
 def add_file_arguments(parser):
@@ -31,7 +63,7 @@ def output_file(args, path):
 
 def list_files(mypath: str, ext):
     """yield all paths in mypath that matches the ext extension"""
-    for (dirpath, dirnames, filenames) in os.walk(mypath):
+    for (dirpath, _, filenames) in os.walk(mypath):
         for filename in filenames:
             if os.path.splitext(filename)[1] in ext:
                 yield os.path.join(dirpath, filename)
@@ -62,7 +94,7 @@ def pystache_render(filename, template, data):
         return ''
 
 
-def handle_watch(args):
+def handle_watch(_):
     while True:
         # book = get_book(args.folder)
         # stat = Stat()
@@ -81,7 +113,7 @@ class Categories:
     def __init__(self):
         self.common = {}
         self.extra = {}
-    
+
     def add_commons(self, names: typing.List[str]):
         for name in names:
             if name not in self.common:
@@ -98,18 +130,18 @@ class Categories:
                 c.recept.append(r)
                 self.extra[name] = c
 
-    
+
     def iterate_names(self):
         for name in self.common:
             yield name
-        
+
         for name in self.extra:
             yield name
 
     def iterate_cats(self):
         for _, c in self.common.items():
             yield c
-        
+
         for _, c in self.extra.items():
             yield c
 
@@ -168,7 +200,7 @@ class Template:
         self.path = path
         with open(path) as f:
             self.content = f.read()
-    
+
     def base_data(self, recept_categories: typing.List[str], cat: Categories):
         data = {}
         categories = lambda names: [{'name': name, 'selected': name in recept_categories, 'link': cat_link(c)} for name, c in names.items()]
@@ -198,15 +230,14 @@ class Template:
 
     def render_index(self, recept: typing.Iterable[Recept], cat: Categories):
         data = self.base_data('', cat)
-        data['recept'] = [{'title': r.title, 'link': urllink(r), 'category': slc(r.categories), 'link': urllink(r)} for r in recept]
+        data['recept'] = [{'title': r.title, 'link': urllink(r), 'category': slc(r.categories)} for r in recept]
 
         output = pystache_render(self.path, self.content, data)
         return output
 
     def render_cat(self, cat: Cat, cats: Categories):
         data = self.base_data([cat.name], cats)
-        ds = []
-        data['recept'] = [{'title': r.title, 'link': urllink(r), 'category': slc(r.categories), 'link': urllink(r)} for r in cat.recept]
+        data['recept'] = [{'title': r.title, 'category': slc(r.categories), 'link': urllink(r)} for r in cat.recept]
         output = pystache_render(self.path, self.content, data)
         return output
 
@@ -223,7 +254,7 @@ class Reader:
             return self.lines[0]
         else:
             return ''
-    
+
     def peek_empty(self) -> bool:
         return self.peek().strip() == ''
 
@@ -234,7 +265,7 @@ class Reader:
             return r
         else:
             return ''
-    
+
     def skip_empty(self):
         while self.has_more() and self.peek().strip() == '':
             self.read()
@@ -247,62 +278,104 @@ class Reader:
             if line == '|':
                 return r
             r.append(line)
-        
+
         return r
-
-
-def is_command(str, cmd):
-    if len(str) == 0:
-        return False
-    return str[0:1] == cmd
 
 
 def file_name(path: str) -> str:
     return os.path.splitext(os.path.basename(path))[0]
 
 
+
+def load_front_matter(lines: str, path: str) -> typing.Dict[str, str]:
+    def on_key(r: typing.Dict[str, str], key: str, value: str):
+        if key in r:
+            r[key] = r[key] + '\n' + value
+        else:
+            r[key] = value
+    r = {}
+    key = None
+    line_number = 0
+
+    for sline in lines.splitlines() if lines is not None else []:
+        line_number = line_number + 1
+        line = sline.lstrip()
+        if len(sline) != len(line) and key is not None:
+            on_key(r, key, line)
+        else:
+            if len(line) == 0:
+                if key is not None:
+                    on_key(r, key, '')
+                continue
+            if key is not None:
+                on_key(r, key, '')
+                key = None
+            spl = line.split(':', maxsplit=1)
+            if len(spl) == 2:
+                k = spl[0].strip()
+                v = spl[1].strip()
+                if len(v) == 0:
+                    key = k
+                else:
+                    on_key(r, k, spl[1])
+            else:
+                print('{}({}): Syntax error, missing colon in line: {}'.format(path, line_number, line))
+    if key is not None:
+        on_key(r, key, '')
+
+    return r
+
+
+def is_true(file: str, val_case: str) -> bool:
+    val = val_case.lower()
+    if val in ['true', 'yes', '1']:
+        return True
+    elif val in ['false', 'no', '0']:
+        return False
+    else:
+        print('{}: "{}" is not a known boolean'.format(file, val_case))
+        return False
+
+
+
 def parse_recept_file(path) -> Recept:
     print('Parsing file ', path)
-    with open(path) as f:
-        lines = Reader([l.strip() for l in f])
-        
-        title = lines.read()
-        categories = [c.strip() for c in lines.read().split(',')]
-        image = '' if lines.peek_empty() or lines.peek() == 'image' else lines.read()
-        if lines.peek() == 'image':
-            lines.read()
-        description = run_markdown('\n\n'.join(lines.read_section()).strip())
-        favorite = False
-        tags = []
-        
-        sections = []
-        while lines.has_more():
-            lines.skip_empty()
-            l = lines.peek().strip()
-            if l == '*':
-                lines.read()
-                favorite = True
-            elif is_command(l, '#'):
-                for t in (l.strip() for l in lines.read().strip().split('#') if len(l.strip()) > 0):
-                    tags.append(t)
-            else:
-                ingredients = lines.read_section()
-                lines.skip_empty()
-                steps = lines.read_section()
-                sections.append(Section(ingredients, steps))
 
-        recept = Recept(file_name(path), title, categories, image, description, sections, favorite, tags)
+    fm, content = read_frontmatter_file(path)
+    data = load_front_matter(fm, path)
 
-        return recept
+    title = get_frontmatter(data, 'title')
+
+    categories = [c.strip() for c in (get_frontmatter(data, 'categories') or '').split(',')]
+    image = (get_frontmatter(data, 'image') or '').strip()
+    description = run_markdown(get_frontmatter(data, 'description') or '').strip()
+    favorite = is_true(path, (get_frontmatter(data, 'favorite') or 'false').strip())
+    tagdata = (get_frontmatter(data, 'tags') or '').strip().split('#')
+    tags = [l.strip() for l in tagdata if len(l.strip()) > 0]
+
+    sections = []
+
+    lines = Reader([l.strip() for l in content.splitlines()])
+    while lines.has_more():
+        lines.skip_empty()
+        ingredients = lines.read_section()
+        lines.skip_empty()
+        steps = lines.read_section()
+        sections.append(Section(ingredients, steps))
+
+    recept = Recept(file_name(path), title, categories, image, description, sections, favorite, tags)
+
+    return recept
 
 
 def get_frontmatter(frontmatter, name: str):
-    return frontmatter[name] if frontmatter is not None else None
+    if frontmatter is None:
+        return None
+    return frontmatter[name] if name in frontmatter else None
 
 
 def parse_md_file(path) -> Recept:
     print('Parsing', path)
-    import yaml
     with open(path) as f:
         lines = Reader([l for l in f][1:])
 
@@ -310,7 +383,7 @@ def parse_md_file(path) -> Recept:
         while lines.has_more() and lines.peek().strip() != '---':
             frontmatter_source.append(lines.read())
         lines.read()
-        
+
         frontmatter = yaml.load(''.join(frontmatter_source), Loader=yaml.Loader)
         content = ''.join(lines.lines)
 
@@ -319,7 +392,7 @@ def parse_md_file(path) -> Recept:
         favorite = 'Favorit' in frontmatter_tags
 
         return Recept(file_name(path), get_frontmatter(frontmatter, 'title') or '', get_frontmatter(frontmatter, 'category') or [], '', run_markdown(content), [], favorite, frontmatter_tags)
-        
+
 
 
 def parse_file(path) -> Recept:
@@ -383,7 +456,7 @@ def generate_project(args, input_folder: str, index_template: Template, output_t
         with open(output_file(args, cat_link(c)), 'w') as f:
             output = cat_template.render_cat(c, cat)
             print(output, file=f)
-    
+
     for r in recept:
         file_name = link(r)
         print('writing {}'.format(file_name))
@@ -401,7 +474,7 @@ def handle_generate(args):
     index_template = Template(input_file('index.html'))
     output_template = Template(input_file('recept.html'))
     cat_template = Template(input_file('cat.html'))
-    
+
     generate_project(args, args.input, index_template, output_template, cat_template, args.markdown)
 
 
@@ -450,4 +523,3 @@ if __name__ == "__main__":
         main()
     except KeyboardInterrupt:
         pass
-
