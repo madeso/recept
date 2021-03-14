@@ -486,6 +486,42 @@ def handle_generate(args):
     generate_project(Args(args.debug), args, args.input, index_template, output_template, cat_template, args.markdown)
 
 
+def safe_file_name(title: str) -> str:
+    r = title
+    r = r.lower()
+    r = r.strip()
+    r = r.replace(' ', '-')
+    r = r.replace('å', 'a')
+    r = r.replace('ä', 'a')
+    r = r.replace('ö', 'o')
+    r = r.replace('?', '')
+    r = r.replace(',', '')
+    r = r.replace('.', '')
+    r = r.replace('!', '')
+    return r
+
+
+def handle_new(args):
+    title = args.title
+    name = safe_file_name(title)
+    path = os.path.join(os.getcwd(), 'content', 'recept', name + '.recept')
+    print(title)
+    print(name)
+    print(path)
+    content = []
+    content.append('title: ' + title)
+    content.append('category: Mat')
+    content.append('tags: #hej')
+    content.append('+++')
+    content.append('')
+    content.append('Ingrediens')
+    content.append('|')
+    content.append('Steg')
+
+    with open(path, 'w') as f:
+        print('\n'.join(content), file=f)
+
+
 def main():
     parser = argparse.ArgumentParser(description='Create or write a recept')
     sub_parsers = parser.add_subparsers(dest='command_name', title='Commands', help='', metavar='<command>')
@@ -511,6 +547,10 @@ def main():
     sub.add_argument('file', help='the file to test')
     sub.add_argument('--debug', action='store_true')
     sub.set_defaults(func=handle_test)
+
+    sub = sub_parsers.add_parser('new', help='Create a new recept file')
+    sub.add_argument('title', help='the title of the recept')
+    sub.set_defaults(func=handle_new)
 
     sub = sub_parsers.add_parser('render', help='Parse and render a recept file')
     add_file_arguments(sub)
