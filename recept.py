@@ -355,7 +355,7 @@ def parse_recept_file(args: Args, path: str) -> Recept:
 
     title = get_frontmatter(data, 'title')
 
-    categories = [c.strip() for c in (get_frontmatter(data, 'categories') or '').split(',')]
+    categories = [c.strip() for c in (get_frontmatter(data, 'category') or '').split(',')]
     image = (get_frontmatter(data, 'image') or '').strip()
     description = run_markdown(get_frontmatter(data, 'description') or '').strip()
     favorite = is_true(path, (get_frontmatter(data, 'favorite') or 'false').strip())
