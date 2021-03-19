@@ -8,7 +8,7 @@ tags:
 - Avskriven
 - Räkor
 category:
-- Mat
+- Soppa
 ---
 # Ingredienser
 * 1 knippa persilja
@@ -31,4 +31,4 @@ category:
 1. Hetta upp en stekpanna med olivolja
 1. Tillsätt räkor, curry och kajennpeppar och stek allt i 2-3 minuter.
 1. Häll upp soppan i djupa tallrikar. Fördela räkorna och strö över persilja.
- 
+
