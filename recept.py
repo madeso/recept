@@ -78,6 +78,7 @@ def list_files(mypath: str, ext):
 
 
 def run_markdown(contents: str):
+    # replace 1/2 with ½
     body = markdown.markdown(contents, extensions=['extra', 'def_list', 'codehilite'])
     body = body.replace('<aside markdown="1"', '<aside')
     return body
@@ -507,13 +508,14 @@ def handle_new(args):
     title = args.title
     name = safe_file_name(title)
     path = os.path.join(os.getcwd(), 'content', 'recept', name + '.recept')
-    print(title)
-    print(name)
-    print(path)
+    # print(title)
+    # print(name)
+    # print(path)
     content = []
     content.append('title: ' + title)
     content.append('category: Mat')
     content.append('tags: #hej')
+    content.append('description: text')
     content.append('+++')
     content.append('')
     content.append('Ingrediens')
@@ -522,6 +524,7 @@ def handle_new(args):
 
     with open(path, 'w') as f:
         print('\n'.join(content), file=f)
+    print(path)
 
 
 def main():
