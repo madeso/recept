@@ -398,7 +398,7 @@ def parse_md_file(path) -> Recept:
 
         frontmatter_tags = get_frontmatter(frontmatter, 'tags') or []
 
-        favorite = 'Favorit' in frontmatter_tags
+        favorite = 'Favorit' in frontmatter_tags or 'Klassiker' in frontmatter_tags
 
         return Recept(file_name(path), get_frontmatter(frontmatter, 'title') or '', get_frontmatter(frontmatter, 'category') or [], '', run_markdown(content), [], favorite, frontmatter_tags)
 
