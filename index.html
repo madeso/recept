@@ -19,10 +19,11 @@
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-            
+
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
+                            <a class="nav-link" href="favorite.html">[fav]</a>
                             {{#common_categories}}
                             <a class="nav-link{{#selected}} active{{/selected}}" href="{{link}}">{{name}}{{#selected}} <span class="sr-only">(current)</span>{{/selected}}</a>
                             {{/common_categories}}
@@ -37,7 +38,7 @@
                             </li>
                             <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
                         </div>
-                    </div>    
+                    </div>
 
                     <form class="form-inline my-2 my-lg-0">
                         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">

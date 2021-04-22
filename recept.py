@@ -460,6 +460,11 @@ def generate_project(aargs: Args, args, input_folder: str, index_template: Templ
         output = index_template.render_index(recept, cat)
         print(output, file=f)
 
+    aargs.debug_print('writing favorite')
+    with open(output_file(args, 'favorite.html'), 'w') as f:
+        output = index_template.render_index([r for r in recept if r.favorite], cat)
+        print(output, file=f)
+
     aargs.debug_print('writing cats')
     for c in cat.iterate_cats():
         with open(output_file(args, cat_link(c)), 'w') as f:
