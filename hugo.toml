@@ -1,0 +1,21 @@
+baseURL = 'https://example.org/'
+locale = 'se-sv'
+title = 'Mina recept'
+
+theme = 'recept'
+
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+
+  [[menus.main]]
+    name = 'Recept'
+    pageRef = '/recept'
+    weight = 20
+
+  [[menus.main]]
+    name = 'Tags'
+    pageRef = '/tags'
+    weight = 30
