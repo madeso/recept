@@ -1,8 +1,8 @@
 ---
-title: "Köttfarspaj med fetaost"
+title: Köttfarspaj med fetaost
 tags:
 - Inte testat
-category:
+categories:
 - Mat
 ---
 # Ingredienser

@@ -1,8 +1,8 @@
 ---
-title: "American pancakes (10-12)"
+title: American pancakes (10-12)
 tags:
 - Pannkaka
-category:
+categories:
 - Efterrätt
 ---
 

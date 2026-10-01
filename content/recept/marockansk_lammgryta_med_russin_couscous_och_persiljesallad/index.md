@@ -1,10 +1,10 @@
 ---
-title: " Marockansk lammgryta med russin, couscous och persiljesallad"
+title:  Marockansk lammgryta med russin, couscous och persiljesallad
 tags:
- - 'lina'
+ - lina
 
 categories:
-- 'Mat'
+- Mat
 ---
 
 

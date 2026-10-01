@@ -1,9 +1,9 @@
 ---
-title: "Hemlagat äppelmos (5 dl)"
+title: Hemlagat äppelmos (5 dl)
 tags:
 - Inte testat
 - Äpplemos
-category:
+categories:
 - Tillbehör
 ---
 ![](/recept/hemlagat-appelmos.jpg)

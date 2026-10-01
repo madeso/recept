@@ -1,11 +1,11 @@
 ---
-title: "Flädersaft"
+title: Flädersaft
 tags:
 - Fläder
 - Klassiker
 - Sommar
 - Saft
-category:
+categories:
 - Dricka
 ---
 # Ingredienser

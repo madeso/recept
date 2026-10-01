@@ -1,10 +1,9 @@
 ---
-title: " Pizzokie (10 bitar)"
+title:  Pizzokie (10 bitar)
 tags:
- - 'bufe'
-
+ - bufe
 categories:
-- 'Kaka'
+- Kaka
 ---
 
 Det trendigaste bakverket just nu stavas pizookie - söt chocolate chip cookie i jätteformat. Här gör jag kakan med pekannötter och serverar med vaniljglass.

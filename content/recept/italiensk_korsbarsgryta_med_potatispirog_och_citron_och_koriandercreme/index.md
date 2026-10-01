@@ -1,8 +1,8 @@
 ---
-title: "Italiensk Högrevsgryta Med Körsbär Och Potatispirog"
+title: Italiensk Högrevsgryta Med Körsbär Och Potatispirog
 tags:
 - slowcooker
-category:
+categories:
 - Mat
 ---
 # Ingredienser (gryta)

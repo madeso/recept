@@ -1,10 +1,10 @@
 ---
-title: "Rabarbersaft"
+title: Rabarbersaft
 tags:
 - Rabarber
 - Sommar
 - Klassiker
-category:
+categories:
 - Dricka
 ---
 ![](/recept/rabarbersaft.jpg)

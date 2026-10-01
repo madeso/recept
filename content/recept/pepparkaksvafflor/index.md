@@ -1,8 +1,8 @@
 ---
-title: "Pepparkaksvåfflor (8-10 st)"
+title: Pepparkaksvåfflor (8-10 st)
 tags:
 - Våffla
-category:
+categories:
 - Efterrätt
 ---
 Laga juliga våfflor med smak av pepparkaka! Perfekt till din julbrunch, glöggmingel eller adventsfika. Våfflorna serveras med en krämig och syrlig lingongrädde som kompletterar smakerna fint.

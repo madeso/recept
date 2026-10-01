@@ -1,12 +1,12 @@
 ---
-title: " Morotssoppa med fetaost & cashewnötter (4 port)"
+title:  Morotssoppa med fetaost & cashewnötter (4 port)
 tags:
- - 'Hos mor'
- - 'Vegetarisk'
- - 'Enkelt'
+ - Hos mor
+ - Vegetarisk
+ - Enkelt
 
 categories:
-- 'Soppa'
+- Soppa
 ---
 ![](static/morotssoppa.jpg)
 

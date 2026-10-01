@@ -1,10 +1,10 @@
 ---
-title: "Nutella (4 dl)"
+title: Nutella (4 dl)
 tags:
 - Nutella
 - Inte testat
 - Avskriven
-category:
+categories:
 - Tillbehör
 ---
 Poms nutella med extra smak från både rostade sesamfrön och sahini (sesampaste)

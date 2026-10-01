@@ -1,10 +1,10 @@
 ---
-title: " Pho - vietnamesiska nudlar med kyckling, citrongräsbuljong och pak soi"
+title:  Pho - vietnamesiska nudlar med kyckling, citrongräsbuljong och pak soi
 tags:
- - 'lina'
+ - lina
 
 categories:
-- 'Mat'
+- Mat
 ---
 
 

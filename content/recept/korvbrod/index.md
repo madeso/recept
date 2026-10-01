@@ -1,8 +1,8 @@
 ---
-title: "Korvbröd (20st)"
+title: Korvbröd (20st)
 tags:
 - Misslyckats
-category:
+categories:
 - Bröd
 ---
 ![](/recept/korvbrod.jpg)

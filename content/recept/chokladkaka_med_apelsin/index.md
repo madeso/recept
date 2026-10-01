@@ -1,11 +1,11 @@
 ---
-title: "Chokladkaka med apelsin"
+title: Chokladkaka med apelsin
 tags:
 - Hos mor
 - Inte testat
 - Avskriven
 - Choklad
-category:
+categories:
 - Kaka
 ---
 # Ingredienser (Chokladbotten)

@@ -1,11 +1,11 @@
 ---
-title: "Spagetthi gamberetto med chilli och persilja"
+title: Spagetthi gamberetto med chilli och persilja
 tags:
 - Pasta
 - Enkelt
 - Avskriven
 - Vitlök
-category:
+categories:
 - Mat
 ---
 # Ingredienser

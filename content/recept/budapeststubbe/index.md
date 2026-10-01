@@ -1,7 +1,7 @@
 ---
-title: "Budapeststubbe"
+title: Budapeststubbe
 tags:
-category:
+categories:
 - Kaka
 ---
 # Ingredienser

@@ -1,9 +1,9 @@
 ---
-title: "Saffranskladdkaka"
+title: Saffranskladdkaka
 tags:
 - Saffran
 - Vit choklad
-category:
+categories:
 - Kaka
 ---
 # Ingredienser

@@ -1,10 +1,10 @@
 ---
-title: "Broccoligratäng med ost och småtomater"
+title: Broccoligratäng med ost och småtomater
 tags:
 - Hos mor
 - Vegetarisk
 - Enkelt
-category:
+categories:
 - Mat
 ---
 Färgglad och mättande middag som alla gillar. Broccolin kan bytas ut mot t ex blomkål.

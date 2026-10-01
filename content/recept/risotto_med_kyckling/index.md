@@ -1,9 +1,9 @@
 ---
-title: "Kräming risotto med kyckling"
+title: Kräming risotto med kyckling
 tags:
 - Risotto
 - Kyckling
-category:
+categories:
 - Mat
 ---
 ![](/recept/risotto-kyckling.jpg)

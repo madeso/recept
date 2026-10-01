@@ -1,10 +1,10 @@
 ---
-title: "Citron- och halloumipasta med basilika"
+title: Citron- och halloumipasta med basilika
 tags:
 - Inte testat
 - Vegetarisk
 - Basilika
-category:
+categories:
 - Mat
 ---
 ![](/recept/citron-och-halloumipasta-med-basilika.jpg)

@@ -1,10 +1,10 @@
 ---
-title: " Morotssoppa med kokos"
+title:  Morotssoppa med kokos
 tags:
- - 'vegetarisk'
+ - vegetarisk
 
 categories:
-- 'Soppa'
+- Soppa
 ---
 
 En billig och smakrik soppa med sensommarprimören morot, kryddad med ingefära och lime.

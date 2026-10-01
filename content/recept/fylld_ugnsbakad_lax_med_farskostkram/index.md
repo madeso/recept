@@ -1,11 +1,11 @@
 ---
-title: " Fylld ugnsbakad lax med färskostkräm"
+title:  Fylld ugnsbakad lax med färskostkräm
 tags:
- - 'Lax'
- - 'Ost'
+ - Lax
+ - Ost
 
 categories:
-- 'Mat'
+- Mat
 ---
 
 

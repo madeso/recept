@@ -1,11 +1,11 @@
 ---
-title: " Tigerkaka (ca 15 bitar)"
+title:  Tigerkaka (ca 15 bitar)
 tags:
- - 'tiger'
- - 'buffe'
+ - tiger
+ - buffe
 
 categories:
-- 'Kaka'
+- Kaka
 ---
 
 

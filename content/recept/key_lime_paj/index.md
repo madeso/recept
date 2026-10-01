@@ -1,10 +1,10 @@
 ---
-title: "KEY LIME PAJ (12 bitar)"
+title: KEY LIME PAJ (12 bitar)
 tags:
 - Enkelt
 - Klassiker
 - Smulpaj
-category:
+categories:
 - Kaka
 ---
 En amerikansk paj som har fått sitt namn av de små limefrukterna som växer på Florida Keys.

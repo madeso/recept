@@ -1,13 +1,13 @@
 ---
-title: " Italienska köttbullar i tomatsås (560 kcal)"
+title:  Italienska köttbullar i tomatsås (560 kcal)
 tags:
- - 'Spoonery'
- - 'Pasta'
- - 'Klassiker'
- - 'todo'
+ - Spoonery
+ - Pasta
+ - Klassiker
+ - todo
 
 categories:
-- 'Mat'
+- Mat
 ---
 ![](static/italienska-kottbullar-i-tomatsas.jpg)
 

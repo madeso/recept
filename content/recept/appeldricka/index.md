@@ -1,11 +1,11 @@
 ---
-title: "Stinas äppledricka"
+title: Stinas äppledricka
 tags:
 - Från mor
 - Inte testat
 - Äpple
 - Avskriven
-category:
+categories:
 - Dricka
 ---
 # Ingredienser

@@ -1,11 +1,11 @@
 ---
-title: "Chocolate Walnut Pie"
+title: Chocolate Walnut Pie
 tags:
 - Inte testat
 - Paj
 - todo
 - Choklad
-category:
+categories:
 - Kaka
 ---
 # Ingredienser

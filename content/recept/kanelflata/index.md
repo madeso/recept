@@ -1,7 +1,7 @@
 ---
-title: "Festlig kanelfläta"
+title: Festlig kanelfläta
 tags:
-category:
+categories:
 - Kaka
 ---
 # Ingredienser (deg)

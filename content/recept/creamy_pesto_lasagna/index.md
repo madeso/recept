@@ -1,9 +1,9 @@
 ---
-title: "Creamy Pesto Lasagna"
+title: Creamy Pesto Lasagna
 tags:
 - Inte testat
 - todo
-category:
+categories:
 - Mat
 ---
 # Ingredienser

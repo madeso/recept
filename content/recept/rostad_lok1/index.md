@@ -1,8 +1,8 @@
 ---
-title: "Rostad Lök"
+title: Rostad Lök
 tags:
 - Rostad lök
-category:
+categories:
 - Burgare
 ---
 Den hemmagjorda varianten blir smakrik och supergod!

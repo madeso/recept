@@ -1,8 +1,8 @@
 ---
-title: "Ostsas"
+title: Ostsas
 tags:
 - Tacos
-category:
+categories:
 - Fest
 ---
 # Ingredienser

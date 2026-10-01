@@ -1,10 +1,10 @@
 ---
-title: " Zucchinilasagne med kycklingfärs"
+title:  Zucchinilasagne med kycklingfärs
 tags:
- - 'avskriven'
+ - avskriven
 
 categories:
-- 'Mat'
+- Mat
 ---
 
 

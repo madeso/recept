@@ -1,10 +1,10 @@
 ---
-title: "Fryst choklad- och hasselnötscheesecake"
+title: Fryst choklad- och hasselnötscheesecake
 tags:
 - Mums
 - Nutella
 - Choklad
-category:
+categories:
 - Kaka
 ---
 ![](/recept/fryst-choklad-och-hasselnotscheesecake.jpg)

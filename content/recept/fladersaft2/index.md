@@ -1,11 +1,11 @@
 ---
-title: "Flädersaft (2 liter)"
+title: Flädersaft (2 liter)
 tags:
 - Saft
 - Klassiker
 - Sommar
 - Fläder
-category:
+categories:
 - Dricka
 ---
 # Ingredienser

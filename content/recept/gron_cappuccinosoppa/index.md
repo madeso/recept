@@ -1,10 +1,10 @@
 ---
-title: " Grön cappuccinosoppa med parmesanchips"
+title:  Grön cappuccinosoppa med parmesanchips
 tags:
- - 'hos mor'
+ - hos mor
 
 categories:
-- 'Soppa'
+- Soppa
 ---
 
 [Källa](http://www.matklubben.nu/recept/gr%F6n_cappuccinosoppa_med_parmesanchips_45255.html#.ViIFwWj8JSB)

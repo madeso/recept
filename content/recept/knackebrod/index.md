@@ -1,9 +1,9 @@
 ---
-title: "Knäckebröd med frön (30 bitar)"
+title: Knäckebröd med frön (30 bitar)
 tags:
 - Knäcke
 - Jul
-category:
+categories:
 - Bröd
 ---
 ![](/recept/knackebrod-med-fro.jpg)

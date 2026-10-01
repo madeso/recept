@@ -1,9 +1,9 @@
 ---
-title: "Chokladdröm med råmarinerade päron"
+title: Chokladdröm med råmarinerade päron
 tags:
 - Päron
 - Choklad
-category:
+categories:
 - Efterrätt
 ---
 # Ingredienser (marinerat päron)

@@ -1,9 +1,9 @@
 ---
-title: "Kladdig Kladdkaka"
+title: Kladdig Kladdkaka
 tags:
 - Kladdkaka
 - Enkelt
-category:
+categories:
 - Kaka
 ---
 # Ingredienser

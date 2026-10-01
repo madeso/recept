@@ -1,10 +1,10 @@
 ---
-title: "Pasta med fläskfilé, mozzarella, tomat och basilika"
+title: Pasta med fläskfilé, mozzarella, tomat och basilika
 tags:
 - Pasta
 - Enkelt
 - Basilika
-category:
+categories:
 - Mat
 ---
 Snabbt, lättlagat och en riktigt god middag med influenser från Italien.

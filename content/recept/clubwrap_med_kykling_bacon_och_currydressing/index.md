@@ -1,9 +1,9 @@
 ---
-title: "Clubwrap med kykling bacon och currydressing"
+title: Clubwrap med kykling bacon och currydressing
 tags:
 - Klassiker
 - Enkelt
-category:
+categories:
 - Mat
 - Tortillabröd
 ---

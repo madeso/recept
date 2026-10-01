@@ -1,10 +1,10 @@
 ---
-title: "Kattkaka"
+title: Kattkaka
 tags:
 - Klassiker
 - todo
 - Choklad
-category:
+categories:
 - Kaka
 ---
 # Ingredienser (totalt)

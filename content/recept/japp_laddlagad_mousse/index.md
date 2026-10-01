@@ -1,8 +1,8 @@
 ---
-title: "Japp! - en lättlagad mousse"
+title: Japp! - en lättlagad mousse
 tags:
 - Inte testat
-category:
+categories:
 - Efterrätt
 ---
 ![](/recept/japp-lattlagad-mousse.jpg)

@@ -1,7 +1,7 @@
 ---
-title: "Gulaschsoppa med köttfärs"
+title: Gulaschsoppa med köttfärs
 tags:
-category:
+categories:
 - Soppa
 ---
 En riktigt matig och god gulaschsoppa med smak av köttfärs. Servera den rykande heta gulaschsoppan tillsammans med en rejäl klick gräddfil och njut av de goda smakerna!

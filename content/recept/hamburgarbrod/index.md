@@ -1,8 +1,8 @@
 ---
-title: "Hamburgerbröd utan dess like"
+title: Hamburgerbröd utan dess like
 tags:
 - Klassiker
-category:
+categories:
 - Bröd
 - Burgare
 ---

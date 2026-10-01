@@ -1,10 +1,10 @@
 ---
-title: "Persisk kyckling med kanel, kardemumma och koriander"
+title: Persisk kyckling med kanel, kardemumma och koriander
 tags:
 - Kyckling
 - Kardemumma
 - Slowcoocker
-category:
+categories:
 - Mat
 ---
 # Ingredienser

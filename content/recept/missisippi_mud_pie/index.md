@@ -1,8 +1,8 @@
 ---
-title: "Missisippi Mudpie"
+title: Missisippi Mudpie
 tags:
 - Maffig
-category:
+categories:
 - Kaka
 ---
 # Ingredienser (degen)

@@ -1,14 +1,14 @@
 ---
-title: " Udonnudlar med koreansk kålsallad och krämigt ägg"
+title:  Udonnudlar med koreansk kålsallad och krämigt ägg
 tags:
- - 'ägg'
- - 'nudlar'
- - 'vegetarisk'
- - 'lina'
+ - ägg
+ - nudlar
+ - vegetarisk
+ - lina
 
 categories:
-- 'Mat'
-- 'Favorite'
+- Mat
+- Favorite
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: " Pitabröd (16 stycken)"
+title:  Pitabröd (16 stycken)
 tags:
- - 'pita'
+ - pita
 
 categories:
-- 'Bröd'
+- Bröd
 ---
 
 

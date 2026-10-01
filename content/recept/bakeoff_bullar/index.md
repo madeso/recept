@@ -1,8 +1,8 @@
 ---
-title: "Bullar à la bake-off (25 st)"
+title: Bullar à la bake-off (25 st)
 tags:
 - Inte testat
-category:
+categories:
 - Bröd
 ---
 ![](/recept/bullar-bakeoff.jpg)

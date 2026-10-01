@@ -1,8 +1,8 @@
 ---
-title: "Luftiga frallor (12 st)"
+title: Luftiga frallor (12 st)
 tags:
 - Inte testat
-category:
+categories:
 - Bröd
 ---
 # Ingredienser

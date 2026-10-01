@@ -1,8 +1,8 @@
 ---
-title: "Enkla frallor"
+title: Enkla frallor
 tags:
 - Inte testat
-category:
+categories:
 - Bröd
 ---
 ![](/recept/enkla-frallor.jpg)

@@ -1,12 +1,12 @@
 ---
-title: " Vitlökssill"
+title:  Vitlökssill
 tags:
- - 'Vitlök'
- - 'Sill'
- - 'Majonäs'
+ - Vitlök
+ - Sill
+ - Majonäs
 
 categories:
-- 'Sill'
+- Sill
 ---
 
 [Källa](https://abba.se/recept/sillinlaggningar/vitlokssill/)

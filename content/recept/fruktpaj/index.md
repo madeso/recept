@@ -1,8 +1,8 @@
 ---
-title: "Fruktpaj"
+title: Fruktpaj
 tags:
 - Smulpaj
-category:
+categories:
 - Efterrätt
 ---
 # Ingredienser (smulpaj)

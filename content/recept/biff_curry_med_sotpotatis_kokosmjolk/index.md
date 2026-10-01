@@ -1,8 +1,8 @@
 ---
-title: "Biff Curry med sötpotatis i kokosmjölk"
+title: Biff Curry med sötpotatis i kokosmjölk
 tags:
 - Slowcoocker
-category:
+categories:
 - Mat
 - Burgare
 ---

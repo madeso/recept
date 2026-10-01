@@ -1,11 +1,11 @@
 ---
-title: "Kyckling i gräddsås (460 kcal)"
+title: Kyckling i gräddsås (460 kcal)
 tags:
 - Kyckling
 - Basilika
 - Ris
 - todo
-category:
+categories:
 - Mat
 ---
 ![](/recept/kyckling-i-graddsas.jpg)

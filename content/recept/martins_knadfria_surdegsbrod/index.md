@@ -1,12 +1,12 @@
 ---
-title: " Martins knådfria surdegsbröd"
+title:  Martins knådfria surdegsbröd
 tags:
- - 'Surdeg'
- - 'Bröd bröd bröd'
- - 'Martin'
+ - Surdeg
+ - Bröd bröd bröd
+ - Martin
 
 categories:
-- 'Bröd'
+- Bröd
 ---
 
 Eftersom det är väldigt få moment i det här receptet är det inte heller så mycket som kan gå fel. Det allra viktigaste är att surdegen är riktigt bubblig och livlig när du blandar degen. Ju varmare degen har det desto snabbare jäser den, så om du har det väldigt varmt inomhus får du korta ner jästiderna. Det går utmärkt att ersätta en del av vetemjölet med en annan sorts mjöl. Upp till en fjärdedel av mjölmängden kan du byta ut utan att det påverkar själva bakningen nämnvärt.

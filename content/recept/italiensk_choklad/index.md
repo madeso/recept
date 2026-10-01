@@ -1,9 +1,9 @@
 ---
-title: "Italiensk Choklad"
+title: Italiensk Choklad
 tags:
 - Svårlagat
 - Picknick
-category:
+categories:
 - Dricka
 ---
 # Ingredienser

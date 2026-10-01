@@ -1,10 +1,10 @@
 ---
-title: "Rabarberkycling"
+title: Rabarberkycling
 tags:
 - Rabarber
 - Kyckling
 - Klassiker
-category:
+categories:
 - Mat
 ---
 ![](/recept/rabarberkyckling.jpg)

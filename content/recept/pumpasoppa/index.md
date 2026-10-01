@@ -1,8 +1,8 @@
 ---
-title: " Pumpasoppa med färskost"
+title:  Pumpasoppa med färskost
 
 categories:
-- 'Soppa'
+- Soppa
 ---
 
 Pumpasoppan är god som snabblagad vardagsmat men också given till Halloween, kanske som förrätt? Denna färgglada måltid innehåller massor av vitaminer och med färskost i soppan blir den både krämig och mättande. Servera gärna med ett gott knäckebröd toppat med färskost, krasse och champinjoner.

@@ -1,8 +1,8 @@
 ---
-title: "Rostad Lök"
+title: Rostad Lök
 tags:
 - Rostad lök
-category:
+categories:
 - Burgare
 ---
 Rostad lök som svärfar brukar göra till stek. Det blir någonstans mittemellan stekt och rostad lök egentligen, men smakar jättegott (lök gör ju nästan alltid det...)

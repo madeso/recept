@@ -1,5 +1,5 @@
 ---
-title: "Saffranssnurror med vit choklad"
+title: Saffranssnurror med vit choklad
 tags:
 - Inte testat
 - Saffran
@@ -7,7 +7,7 @@ tags:
 - Saffransdeg
 - Vit choklad
 - todo
-category:
+categories:
 - Kaka
 ---
 1/2 Sats vetedeg med saffran

@@ -1,10 +1,10 @@
 ---
-title: " Julkryddade färsjärpar med picklad gurka och potatismos"
+title:  Julkryddade färsjärpar med picklad gurka och potatismos
 tags:
- - 'lina'
+ - lina
 
 categories:
-- 'Mat'
+- Mat
 ---
 
 

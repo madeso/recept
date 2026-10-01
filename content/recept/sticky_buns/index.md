@@ -1,5 +1,5 @@
 ---
-title: "Sticky buns med saffran"
+title: Sticky buns med saffran
 tags:
 - Inte testat
 - Saffran
@@ -7,7 +7,7 @@ tags:
 - Jul
 - Saffransdeg
 - todo
-category:
+categories:
 - Kaka
 ---
 Namnet sticky buns är benämningen på amerikanska kanelbullar med glasyr. Så om du vill kan du även ringla över den glasyren över bullarna när de svalnat.

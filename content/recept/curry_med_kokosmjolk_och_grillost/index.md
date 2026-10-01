@@ -1,11 +1,11 @@
 ---
-title: " Curry med kokosmjölk och grillost (4 personer)"
+title:  Curry med kokosmjölk och grillost (4 personer)
 tags:
- - 'vegetarisk'
- - 'buffe'
+ - vegetarisk
+ - buffe
 
 categories:
-- 'Mat'
+- Mat
 ---
 
 

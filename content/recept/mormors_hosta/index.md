@@ -1,8 +1,8 @@
 ---
-title: "Mormors Hosta (25x)"
+title: Mormors Hosta (25x)
 tags:
 - Klassiker
-category:
+categories:
 - Kaka
 ---
 # Ingredienser

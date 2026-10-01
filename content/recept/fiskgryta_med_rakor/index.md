@@ -1,12 +1,12 @@
 ---
-title: "Fiskgryta med räkor (440 kcal)"
+title: Fiskgryta med räkor (440 kcal)
 tags:
 - Spoonery
 - Klassiker
 - Räkor
 - Jobbig
 - todo
-category:
+categories:
 - Mat
 ---
 ![](/recept/fiskgryta-med-rakor.jpg)

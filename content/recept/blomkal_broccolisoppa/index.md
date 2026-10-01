@@ -1,5 +1,5 @@
 ---
-title: " Blomkål- och broccolisoppa"
+title:  Blomkål- och broccolisoppa
 tags:
  - 'frysbar'
 

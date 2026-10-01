@@ -1,9 +1,9 @@
 ---
-title: "Ferraro Rocher Cupcakes med Nutellasmör (24st)"
+title: Ferraro Rocher Cupcakes med Nutellasmör (24st)
 tags:
 - Maffig
 - todo
-category:
+categories:
 - Kaka
 ---
 # Ingredienser (muffins)

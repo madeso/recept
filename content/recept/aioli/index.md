@@ -1,7 +1,7 @@
 ---
-title: "Aioli"
+title: Aioli
 tags:
-category:
+categories:
 ---
 Det går snabbt att göra din alldeles egna aioli och du får den precis som du vill. Aiolin har en intensiv smak från vitlök och dijonsenap och är ett måste till dina handskalade räkor.
 # Ingredienser

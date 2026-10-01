@@ -1,12 +1,12 @@
 ---
-title: " Filodegsrulle med kyckling, apelsin och fetaost"
+title:  Filodegsrulle med kyckling, apelsin och fetaost
 tags:
- - 'filodeg'
- - 'mums'
- - 'lina'
+ - filodeg
+ - mums
+ - lina
 
 categories:
-- 'Mat'
+- Mat
 ---
 
 

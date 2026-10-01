@@ -1,9 +1,9 @@
 ---
-title: "Linssoppa med tomat"
+title: Linssoppa med tomat
 tags:
 - Röda linser
 - Vegetarisk
-category:
+categories:
 - Soppa
 ---
 Mäktig vegetarisk soppa med krossade tomater, rödvinsvinäger, röda linser och vitlök. Krydda din linssoppa med timjan, basilika och paprikapulver. En lättlagad och väldigt god soppa som dessutom är billig.

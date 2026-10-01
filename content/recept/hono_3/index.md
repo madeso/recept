@@ -1,8 +1,8 @@
 ---
-title: "Hönökaka (6x)"
+title: Hönökaka (6x)
 tags:
 - Hönökaka
-category:
+categories:
 - Bröd
 ---
 # Ingredienser

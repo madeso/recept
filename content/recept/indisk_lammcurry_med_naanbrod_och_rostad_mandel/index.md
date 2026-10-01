@@ -1,10 +1,10 @@
 ---
-title: " Indisk lammcurry med naanbröd och rostad mandel"
+title:  Indisk lammcurry med naanbröd och rostad mandel
 tags:
- - 'lina'
+ - lina
 
 categories:
-- 'Mat'
+- Mat
 ---
 
 

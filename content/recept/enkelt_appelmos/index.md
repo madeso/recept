@@ -1,9 +1,9 @@
 ---
-title: "Enkelt äppelmos (1 port)"
+title: Enkelt äppelmos (1 port)
 tags:
 - Inte testat
 - Äpplemos
-category:
+categories:
 - Tillbehör
 ---
 ![](/recept/enkelt-appelmos.jpg)

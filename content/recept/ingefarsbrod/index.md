@@ -1,8 +1,8 @@
 ---
-title: "Ingefärsbröd med solrosfrön"
+title: Ingefärsbröd med solrosfrön
 tags:
 - Klassiker
-category:
+categories:
 - Bröd
 ---
 Ett snabbakat matbröd med smak av ingefära.

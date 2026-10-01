@@ -1,8 +1,8 @@
 ---
-title: "Cream Cheese Stuffed Monkey Bread"
+title: Cream Cheese Stuffed Monkey Bread
 tags:
 - Svårlagat
-category:
+categories:
 - Kaka
 ---
 # Ingredienser (deg)

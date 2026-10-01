@@ -1,8 +1,8 @@
 ---
-title: "Majonäs"
+title: Majonäs
 tags:
 - Enkelt
-category:
+categories:
 - Tillbehör
 ---
 # Ingredienser

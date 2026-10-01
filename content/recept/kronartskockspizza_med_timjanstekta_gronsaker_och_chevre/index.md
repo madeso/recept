@@ -1,10 +1,10 @@
 ---
-title: " Kronärtskockspizza med timjanstekta grönsaker och chèvre"
+title:  Kronärtskockspizza med timjanstekta grönsaker och chèvre
 tags:
- - 'lina'
+ - lina
 
 categories:
-- 'Mat'
+- Mat
 ---
 
 

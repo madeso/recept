@@ -1,11 +1,11 @@
 ---
-title: "Chokladbollar"
+title: Chokladbollar
 tags:
 - Klassiker
 - Enkelt
 - Avskriven
 - Picknick
-category:
+categories:
 - Kaka
 ---
 # Ingredienser

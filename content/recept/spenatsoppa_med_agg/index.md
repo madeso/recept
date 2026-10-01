@@ -1,10 +1,10 @@
 ---
-title: " Spenatsoppa med ägg"
+title:  Spenatsoppa med ägg
 tags:
- - 'Spenat'
+ - Spenat
 
 categories:
-- 'Soppa'
+- Soppa
 ---
 ![](static/spenatsoppa.jpg)
 

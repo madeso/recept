@@ -1,9 +1,9 @@
 ---
-title: "Pizzabullar"
+title: Pizzabullar
 tags:
 - favorit
 - Pizzabullar
-category:
+categories:
 - Mat
 ---
 # Ingredienser (deg)

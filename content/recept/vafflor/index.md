@@ -1,11 +1,11 @@
 ---
-title: " Våfflor"
+title: Våfflor
 tags:
- - 'Våffla'
- - 'Enkelt'
+ - Våffla
+ - Enkelt
 
 categories:
-- 'Efterrätt'
+- Efterrätt
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: "Perfekt kokade ägg"
+title: Perfekt kokade ägg
 tags:
 - Enkelt
 - todo
-category:
+categories:
 - Tillbehör
 ---
 ![](/recept/agg.jpg)

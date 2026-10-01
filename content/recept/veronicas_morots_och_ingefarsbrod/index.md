@@ -1,8 +1,8 @@
 ---
-title: "Veronicas morots- och ingefärsbröd"
+title: Veronicas morots- och ingefärsbröd
 tags:
 - Inte testat
-category:
+categories:
 - Bröd
 ---
 ![](/recept/morotsbrod.jpg)

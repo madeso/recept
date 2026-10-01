@@ -1,8 +1,8 @@
 ---
-title: " Minestronesoppa"
+title:  Minestronesoppa
 
 categories:
-- 'Soppa'
+- Soppa
 ---
 
 [Källa](https://www.coop.se/recept/minestronesoppa/)

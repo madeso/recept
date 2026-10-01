@@ -1,10 +1,10 @@
 ---
-title: "Krämig potatis- och purjolökssoppa"
+title: Krämig potatis- och purjolökssoppa
 tags:
 - Potatis
 - timjan
 - frysbar
-category:
+categories:
 - Soppa
 ---
 # Ingredienser

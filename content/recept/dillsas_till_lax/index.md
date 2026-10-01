@@ -1,10 +1,10 @@
 ---
-title: "Dillsas Till Lax"
+title: Dillsas Till Lax
 tags:
 - Lax
 - Dill
 - Majonäs
-category:
+categories:
 - Tillbehör
 ---
 # Ingredienser

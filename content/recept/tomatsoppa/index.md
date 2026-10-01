@@ -1,11 +1,11 @@
 ---
-title: "Tomatsoppa i med ingefära (4 port)"
+title: Tomatsoppa i med ingefära (4 port)
 tags:
 - Hos mor
 - Vegetarisk
 - Klassiker
 - Enkelt
-category:
+categories:
 - Soppa
 ---
 Enklare kan det knappast bli. Du kan variera soppan genom att röra ner en burk avrunnen

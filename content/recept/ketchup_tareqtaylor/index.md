@@ -1,11 +1,11 @@
 ---
-title: "Tareq Taylors Ketchup"
+title: Tareq Taylors Ketchup
 tags:
 - Hos mor
 - Vegetarisk
 - Enkelt
 - Vitlök
-category:
+categories:
 - Tillbehör
 ---
 # Ingredienser

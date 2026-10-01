@@ -1,10 +1,10 @@
 ---
-title: "Nutellapizza (4 personer)"
+title: Nutellapizza (4 personer)
 tags:
 - Avskriven
 - Inte testat
 - Nutella
-category:
+categories:
 - Efterrätt
 ---
 # Ingredienser

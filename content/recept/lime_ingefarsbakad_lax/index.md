@@ -1,10 +1,10 @@
 ---
-title: "Lime och ingefärsbakad lax"
+title: Lime och ingefärsbakad lax
 tags:
 - Hos mor
 - Ingefära
 - Lime
-category:
+categories:
 - Mat
 ---
 ![](/recept/lime-och-ingefarsbakad-lax.jpg)

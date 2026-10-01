@@ -1,10 +1,10 @@
 ---
-title: " Salviastekt skinkrulle med ingefärssky, russin och rödkål"
+title:  Salviastekt skinkrulle med ingefärssky, russin och rödkål
 tags:
- - 'lina'
+ - lina
 
 categories:
-- 'Mat'
+- Mat
 ---
 
 

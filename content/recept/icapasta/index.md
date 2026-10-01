@@ -1,8 +1,8 @@
 ---
-title: "ICA pasta"
+title: ICA pasta
 tags:
 - Pasta
-category:
+categories:
 - Mat
 ---
 # Ingredienser

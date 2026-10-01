@@ -1,10 +1,10 @@
 ---
-title: "Nutella Muffins"
+title: Nutella Muffins
 tags:
 - Enkelt
 - Klassiker
 - Nutella
-category:
+categories:
 - Kaka
 ---
 # Ingredienser

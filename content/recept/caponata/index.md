@@ -1,7 +1,7 @@
 ---
-title: "Caponata med aubergine och paprika"
+title: Caponata med aubergine och paprika
 tags:
-category:
+categories:
 ---
 Den sicilianska tomat- och grönsaksröran caponata är som en maxad tomatsås fullproppad med grönsaker. Ett perfekt tillbehör till kyckling, kött eller vegetariska biffar.
 

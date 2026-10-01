@@ -1,8 +1,8 @@
 ---
-title: "Kumminknäcke (20 stycken)"
+title: Kumminknäcke (20 stycken)
 tags:
 - Knäcke
-category:
+categories:
 - Bröd
 ---
 ![](/recept/kumminknacke.jpg)

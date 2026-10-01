@@ -1,8 +1,8 @@
 ---
-title: "Leilas pasta"
+title: Leilas pasta
 tags:
 - Pasta
-category:
+categories:
 - Mat
 ---
 # Ingredienser

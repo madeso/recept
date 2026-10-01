@@ -1,8 +1,8 @@
 ---
-title: "Guacamole"
+title: Guacamole
 tags:
 - Tacos
-category:
+categories:
 - Fest
 ---
 # Ingredienser

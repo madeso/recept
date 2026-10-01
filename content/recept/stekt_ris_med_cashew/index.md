@@ -1,15 +1,15 @@
----
-title: " Stekt ris med cashewnötter (415 kcal)"
+ ---
+title:  Stekt ris med cashewnötter (415 kcal)
 tags:
- - 'Vegetarisk'
- - 'Klassiker'
- - 'Enkelt'
- - 'Cashew nötter'
- - 'todo'
+ - Vegetarisk
+ - Klassiker
+ - Enkelt
+ - Cashew nötter
+ - todo
 
 categories:
-- 'Mat'
-- 'Favorite'
+- Mat
+- Favorite
 ---
 ![](static/stekt-ris-med-cashew.jpg)
 

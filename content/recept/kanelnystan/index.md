@@ -1,9 +1,9 @@
 ---
-title: "Kanelnystan"
+title: Kanelnystan
 tags:
 - Kanel
 - Mandelmassa
-category:
+categories:
 - Kaka
 ---
 ![](/recept/kanelnystan.jpg)

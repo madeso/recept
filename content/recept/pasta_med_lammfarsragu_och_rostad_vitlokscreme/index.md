@@ -1,11 +1,11 @@
 ---
-title: "Pasta med lammfärsragu och rostad vitlökscreme"
+title: Pasta med lammfärsragu och rostad vitlökscreme
 tags:
 - Pasta
 - Klassiker
 - Avskriven
 - Vitlök
-category:
+categories:
 - Mat
 ---
 # Ingredienser

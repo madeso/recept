@@ -1,8 +1,8 @@
 ---
-title: "Smältost"
+title: Smältost
 tags:
 - Ost
-category:
+categories:
 - Burgare
 ---
 ![](/recept/hamburgerost.jpg)

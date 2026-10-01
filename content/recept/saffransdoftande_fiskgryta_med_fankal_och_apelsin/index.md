@@ -1,10 +1,10 @@
 ---
-title: " Saffransdoftande fiskgryta med fänkål och apelsin"
+title:  Saffransdoftande fiskgryta med fänkål och apelsin
 tags:
- - 'lina'
+ - lina
 
 categories:
-- 'Mat'
+- Mat
 ---
 
 

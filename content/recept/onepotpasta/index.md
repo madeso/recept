@@ -1,8 +1,8 @@
 ---
-title: "One-pot-pasta"
+title: One-pot-pasta
 tags:
 - Avskriven
-category:
+categories:
 - Mat
 ---
 # Ingredienser

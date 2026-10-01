@@ -1,12 +1,12 @@
 ---
-title: "Kokossoppa med morosspagetti och räkor"
+title: Kokossoppa med morosspagetti och räkor
 tags:
 - lchf
 - Klassiker
 - Enkelt
 - Avskriven
 - Räkor
-category:
+categories:
 - Soppa
 ---
 # Ingredienser

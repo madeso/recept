@@ -1,9 +1,9 @@
 ---
-title: "Äpplemos utan socker"
+title: Äpplemos utan socker
 tags:
 - Inte testat
 - Äpplemos
-category:
+categories:
 - Tillbehör
 ---
 ![](/recept/appelmos-utan-socker.jpg)

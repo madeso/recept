@@ -1,8 +1,8 @@
 ---
-title: "Jim Laheys knådfria bröd"
+title: Jim Laheys knådfria bröd
 tags:
 - Inte testat
-category:
+categories:
 - Bröd
 ---
 ![](/recept/jim-lahey.jpg)

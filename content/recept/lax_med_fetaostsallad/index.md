@@ -1,9 +1,9 @@
 ---
-title: "Lax med fetaostsallad"
+title: Lax med fetaostsallad
 tags:
 - Avskriven
 - Lax
-category:
+categories:
 - Mat
 ---
 # Ingredienser

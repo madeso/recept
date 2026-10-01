@@ -1,7 +1,7 @@
 ---
-title: "Skummig majssoppa med limemarinerade räkor"
+title: Skummig majssoppa med limemarinerade räkor
 tags:
-category:
+categories:
 - Soppa
 ---
 En lyxig rätt som får det att vattnas i munnen! Den delikata, skummiga majssoppan med limemarinerade räkor får du genom att skumma upp majssoppan med stavmixer före du lägger i en smakrik räkröra och toppar med koriander.

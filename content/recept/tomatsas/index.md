@@ -1,7 +1,7 @@
 ---
-title: "Tomatsås (grundrecept)"
+title: Tomatsås (grundrecept)
 tags:
-category:
+categories:
 ---
 Italienarnas favoritsås! Riv lök, vitlök, morot och selleri fint och koka ihop med krossade tomater och kryddor. Servera till pasta eller använd som bas i andra maträtter.
 

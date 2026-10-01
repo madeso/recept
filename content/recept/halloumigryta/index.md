@@ -1,11 +1,11 @@
 ---
-title: " Halloumigryta"
+title:  Halloumigryta
 tags:
- - 'gryta'
- - 'vegetarisk'
+ - gryta
+ - vegetarisk
 
 categories:
-- 'Mat'
+- Mat
 ---
 
 

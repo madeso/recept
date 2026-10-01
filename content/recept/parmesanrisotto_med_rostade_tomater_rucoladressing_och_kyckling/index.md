@@ -1,10 +1,10 @@
 ---
-title: " Parmesanrisotto med rostade tomater, rucoladressing och kyckling"
+title:  Parmesanrisotto med rostade tomater, rucoladressing och kyckling
 tags:
- - 'lina'
+ - lina
 
 categories:
-- 'Mat'
+- Mat
 ---
 
 

@@ -1,8 +1,8 @@
 ---
-title: "Inlagd rödlök"
+title: Inlagd rödlök
 tags:
 - Lök
-category:
+categories:
 - Tillbehör
 - Burgare
 - Tacos

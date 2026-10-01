@@ -1,8 +1,8 @@
 ---
-title: "Tacos"
+title: Tacos
 tags:
 - Tacos
-category:
+categories:
 - Fest
 ---
 # Exempel på taco ingredienser

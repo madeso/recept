@@ -1,8 +1,8 @@
 ---
-title: "Banan Och Kokos Nicecream"
+title: Banan Och Kokos Nicecream
 tags:
 - Enkelt
-category:
+categories:
 - Efterrätt
 ---
 Gör en söt och krämig nice cream! Mixa färska och frysta bananskivor med vaniljpulver, kokosmjölk, fet yoghurt och lite flytande honung. Garnera med knapriga kokoschips! Det är även gott med chokladsås till.

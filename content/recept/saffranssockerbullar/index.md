@@ -1,10 +1,10 @@
 ---
-title: "Saffranssockerbullar med vit choklad(24–26x)"
+title: Saffranssockerbullar med vit choklad(24–26x)
 tags:
 - Klassiker
 - Saffran
 - Vit choklad
-category:
+categories:
 - Kaka
 ---
 # Ingredienser (bulle)

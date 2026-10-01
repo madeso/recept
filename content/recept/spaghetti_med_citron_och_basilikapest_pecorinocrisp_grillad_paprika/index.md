@@ -1,5 +1,5 @@
 ---
-title: "Spaghetti med citron och basilikapesto pecorinocrisp och grillad paprika"
+title: Spaghetti med citron och basilikapesto pecorinocrisp och grillad paprika
 tags:
 - Pasta
 - Vegetarisk
@@ -7,7 +7,7 @@ tags:
 - Enkelt
 - Avskriven
 - Vitlök
-category:
+categories:
 - Mat
 ---
 

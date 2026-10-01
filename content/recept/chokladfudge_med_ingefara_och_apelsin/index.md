@@ -1,12 +1,12 @@
 ---
-title: "Chokladfudge med ingefära och apelsin (50 st)"
+title: Chokladfudge med ingefära och apelsin (50 st)
 tags:
 - Inte testat
 - Jul
 - Avskriven
 - todo
 - Choklad
-category:
+categories:
 - Kaka
 ---
 Söt mjuk choklad som smälter i munnen är ett säkert sätt att få julstämmningen att infinna sig.

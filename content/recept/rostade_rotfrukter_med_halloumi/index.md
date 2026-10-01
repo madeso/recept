@@ -1,12 +1,12 @@
 ---
-title: "Rostade rotfrukter & halloumiost (490 kcal)"
+title: Rostade rotfrukter & halloumiost (490 kcal)
 tags:
 - Inte testat
 - Bulgur
 - Vegetarisk
 - Saffran
 - todo
-category:
+categories:
 - Mat
 ---
 ![](/recept/rostade-rotfrukter-med-halloumi.jpg)

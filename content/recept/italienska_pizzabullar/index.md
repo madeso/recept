@@ -1,10 +1,10 @@
 ---
-title: "Italienska pizzabullar"
+title: Italienska pizzabullar
 tags:
 - Avskriven
 - Inte testat
 - Pizzabullar
-category:
+categories:
 - Mat
 ---
 Det här är ett av våra mest älskade mellisrecept. De är godast nygräddade men passar även perfekt att ta med på utflykten. Bullarna är godast nygräddade men går bra att frysa. Värm dem i microvågsugn eller ugn före servering.

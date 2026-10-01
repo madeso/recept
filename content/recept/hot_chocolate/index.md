@@ -1,9 +1,9 @@
 ---
-title: "Lyxig varm choklad"
+title: Lyxig varm choklad
 tags:
 - Enkelt
 - Picknick
-category:
+categories:
 - Dricka
 ---
 # Ingredienser

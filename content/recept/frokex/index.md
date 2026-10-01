@@ -1,8 +1,8 @@
 ---
-title: "Frökex (1 plåt)"
+title: Frökex (1 plåt)
 tags:
 - lchf
-category:
+categories:
 - Bröd
 ---
 ![](/recept/frokex.jpg)

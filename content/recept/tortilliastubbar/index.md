@@ -1,11 +1,10 @@
 ---
-title: " Tortillastubbar (24 st)"
+title:  Tortillastubbar (24 st)
 tags:
- - 'Inte testat'
- - 'Tortillabröd'
-
+ - Inte testat
+ - Tortillabröd
 categories:
-- 'Förrätt'
+- Förrätt
 ---
 ![](static/tortilliastubbar.jpg)
 

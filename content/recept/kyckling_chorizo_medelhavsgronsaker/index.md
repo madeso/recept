@@ -1,8 +1,8 @@
 ---
-title: "Kyckling chorizo och medelhavsgrönsaker"
+title: Kyckling chorizo och medelhavsgrönsaker
 tags:
 - Avskriven
-category:
+categories:
 - Mat
 ---
 # Ingredienser

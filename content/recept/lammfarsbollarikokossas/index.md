@@ -1,10 +1,10 @@
 ---
-title: " Lammfärsbollar i kokossås"
+title:  Lammfärsbollar i kokossås
 tags:
- - 'Avskriven'
+ - Avskriven
 
 categories:
-- 'Mat'
+- Mat
 ---
 
 En masala kan variera i det oändliga, men grundmasalan kallas för garam masala, och är för oss nordbor den mest vanliga. De här indiska lammfärsbollarna är kryddiga, men milda i smaken. Servera tillsammans med ris, gärna basmatiris.

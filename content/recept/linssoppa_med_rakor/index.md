@@ -1,7 +1,7 @@
 ---
-title: "Röd linssoppa med räkor"
+title: Röd linssoppa med räkor
 tags:
-category:
+categories:
 - Soppa
 ---
 Laga en krämig och mättande linssoppa på röda linser och kokosmjölk till middag! Denna rätt passar även utmärkt att ta med i matlådan dagen efter. Skippar du räkorna så är soppan vegansk!

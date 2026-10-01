@@ -1,11 +1,11 @@
 ---
-title: "Flensburgs lilla svarta"
+title: Flensburgs lilla svarta
 tags:
 - Klassiker
 - Svårlagat
 - Maffig
 - Choklad
-category:
+categories:
 - Kaka
 ---
 # Ingredienser

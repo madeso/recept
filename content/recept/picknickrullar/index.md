@@ -1,10 +1,10 @@
 ---
-title: "Picknickrullar"
+title: Picknickrullar
 tags:
 - Picknick
 - Tunnbröd
 - Enkelt
-category:
+categories:
 - Mat
 ---
 Saftiga picknickrullar med supergod rostbiffsfyllning! Gör dubbel sats så räcker det till många!

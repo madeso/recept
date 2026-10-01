@@ -1,9 +1,9 @@
 ---
-title: "Nutella Filled Cookie Pies"
+title: Nutella Filled Cookie Pies
 tags:
 - Nutella
 - todo
-category:
+categories:
 - Kaka
 ---
 ![](/recept/nutella-filled-cookie-pies.jpg)
