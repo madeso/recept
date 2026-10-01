@@ -1,0 +1,42 @@
+---
+title: " Martins knådfria surdegsbröd"
+tags:
+ - 'Surdeg'
+ - 'Bröd bröd bröd'
+ - 'Martin'
+
+categories:
+- 'Bröd'
+---
+
+Eftersom det är väldigt få moment i det här receptet är det inte heller så mycket som kan gå fel. Det allra viktigaste är att surdegen är riktigt bubblig och livlig när du blandar degen. Ju varmare degen har det desto snabbare jäser den, så om du har det väldigt varmt inomhus får du korta ner jästiderna. Det går utmärkt att ersätta en del av vetemjölet med en annan sorts mjöl. Upp till en fjärdedel av mjölmängden kan du byta ut utan att det påverkar själva bakningen nämnvärt.
+
+Brödet klarar sig fint ett par, tre dagar stående på en skärbrada med den skurna sidan nedåt. Om det ska frysas in kan det gärna skivas innan
+
+---
+* 25g råsurdegrgrund (2 msk)
+* 100g vatten (1 dl)
+* 55g rågmjöl(1 dl)
+
+1. Blanda surdegsgrund med vatten och mjöl en bunke.
+1. Täck löst med lock och låt stå i rumstemperatur tills surdegen har bubblat upp, 6-10 timmar.
+---
+* rågsurdegen
+* 500g vatten (5 dl)
+* 750g vetemjöl, vanligt eller special (12 1/2 dl)
+* 15-20g salt (1 msk)
+
+1. Spara en klick (25 gram/2 matskedar) av surdegen i en burk i kylskåpet for framtida bak.
+1. Rör ihop resterande surdeg med övriga ingredienser till en deg i en bunke - antingen för hand tills degen precis går ihop eller med degblandare 15 minuter på låg hastighet.
+1. Täck bunken med lock eller plastfoile och låt jäsa i rumstemperatur 6 - 10 timmar.
+---
+
+1. Skrapa ut degen på ett mjölat bakbord, dela den i två bitar och vik ihop varje bit till en limpa.
+1. Lägg bitarna med skarven nedåt på en rikligt mjölad bakhandduk eller i mjölade jäskorgar.
+1. Täck med handduk och lát jäsa i 1-2 timmar.
+---
+
+1. Sätt ugnen på 250 grader i god tid, minst 30 minuter före gräddning.
+1. Vänd över degbitarna på en plat med bakplåtspapper och sätt in i mitten av ugnen, eller skjutsa in dem på en het baksten.
+1. Sänk temperaturen til 230 grader och grädda bröden i cirka 35 minuter.
+1. Låt bröden svalna på galler.

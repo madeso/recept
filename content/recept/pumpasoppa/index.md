@@ -1,0 +1,34 @@
+---
+title: " Pumpasoppa med färskost"
+
+categories:
+- 'Soppa'
+---
+
+Pumpasoppan är god som snabblagad vardagsmat men också given till Halloween, kanske som förrätt? Denna färgglada måltid innehåller massor av vitaminer och med färskost i soppan blir den både krämig och mättande. Servera gärna med ett gott knäckebröd toppat med färskost, krasse och champinjoner.
+
+[Källa](https://www.ica.se/recept/pumpasoppa-med-farskost-724349/)
+
+---
+* 1 gul lök, i bitar
+* 1 vitlöksklyfta, finhackad
+* 500 g skalad urkärnad pumpa (gärna butternutpumpa), i bitar
+
+1. Fräs i olivolja i en kastrull på låg värme några minuter.
+---
+* 6 dl grönsaksbuljong (vatten och tärning eller fond)
+
+1. Tillsätt och koka försiktigt ca 15 minuter.
+---
+* 200 g naturell färskost
+
+1. Tillsätt och koka upp.
+---
+
+1. Mixa soppan med en stavmixer.
+---
+* salt
+* peppar
+* 1/2 citron
+
+1. Smaksätt med salt, peppar och några droppar saft från citronen.
