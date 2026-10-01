@@ -1,6 +1,7 @@
 baseURL = 'https://example.org/'
 locale = 'se-sv'
 title = '🍴 Gustavs recept'
+relativeURLs = true
 
 theme = 'recept'
 
