@@ -1,6 +1,5 @@
 ---
 title: "Spaghetti med citron och basilikapesto pecorinocrisp och grillad paprika"
-date: 2018-09-22T15:32:43+02:00
 tags:
 - Pasta
 - Vegetarisk

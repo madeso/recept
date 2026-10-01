@@ -1,6 +1,5 @@
 ---
 title: "Budapeststubbe"
-date: 2018-07-01T18:30:33+02:00
 tags:
 category:
 - Kaka

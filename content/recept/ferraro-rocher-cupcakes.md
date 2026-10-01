@@ -1,6 +1,5 @@
 ---
 title: "Ferraro Rocher Cupcakes med Nutellasmör (24st)"
-date: 2018-07-03T07:11:39+02:00
 tags:
 - Maffig
 - todo

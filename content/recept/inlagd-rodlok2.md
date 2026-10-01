@@ -1,6 +1,5 @@
 ---
 title: "Inlagd rödlök"
-date: 2018-07-02T22:09:56+02:00
 tags:
 - Lök
 category:

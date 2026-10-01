@@ -1,6 +1,5 @@
 ---
 title: "Pasta med fläskfilé, mozzarella, tomat och basilika"
-date: 2018-07-09T15:50:17+02:00
 tags:
 - Pasta
 - Enkelt

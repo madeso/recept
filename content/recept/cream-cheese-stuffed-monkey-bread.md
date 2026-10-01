@@ -1,6 +1,5 @@
 ---
 title: "Cream Cheese Stuffed Monkey Bread"
-date: 2018-07-01T18:30:56+02:00
 tags:
 - Svårlagat
 category:

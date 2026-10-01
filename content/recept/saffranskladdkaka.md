@@ -1,6 +1,5 @@
 ---
 title: "Saffranskladdkaka"
-date: 2018-07-01T15:19:35+02:00
 tags:
 - Saffran
 - Vit choklad

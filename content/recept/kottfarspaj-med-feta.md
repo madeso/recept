@@ -1,6 +1,5 @@
 ---
 title: "Köttfarspaj med fetaost"
-date: 2020-10-14T22:31:11+02:00
 tags:
 - Inte testat
 category:

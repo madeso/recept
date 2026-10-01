@@ -1,6 +1,5 @@
 ---
 title: "Flensburgs lilla svarta"
-date: 2018-07-02T20:13:35+02:00
 tags:
 - Klassiker
 - Svårlagat

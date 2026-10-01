@@ -1,6 +1,5 @@
 ---
 title: "Guacamole"
-date: 2018-07-02T20:02:13+02:00
 tags:
 - Tacos
 category:

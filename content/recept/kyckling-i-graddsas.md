@@ -1,6 +1,5 @@
 ---
 title: "Kyckling i gräddsås (460 kcal)"
-date: 2018-07-02T09:01:35+02:00
 tags:
 - Kyckling
 - Basilika

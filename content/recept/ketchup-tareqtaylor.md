@@ -1,6 +1,5 @@
 ---
 title: "Tareq Taylors Ketchup"
-date: 2019-08-01T09:41:29+02:00
 tags:
 - Hos mor
 - Vegetarisk

@@ -1,6 +1,5 @@
 ---
 title: "Biff Curry med sötpotatis i kokosmjölk"
-date: 2018-12-22T08:42:50+01:00
 tags:
 - Slowcoocker
 category:

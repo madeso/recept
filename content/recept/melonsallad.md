@@ -1,6 +1,5 @@
 ---
 title: "Melonsallad"
-date: 2018-07-01T20:04:16+02:00
 tags:
 - Enkelt
 - Picknick

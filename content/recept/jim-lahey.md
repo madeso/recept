@@ -1,6 +1,5 @@
 ---
 title: "Jim Laheys knådfria bröd"
-date: 2018-07-01T20:11:56+02:00
 tags:
 - Inte testat
 category:

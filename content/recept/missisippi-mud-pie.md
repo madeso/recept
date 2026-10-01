@@ -1,6 +1,5 @@
 ---
 title: "Missisippi Mudpie"
-date: 2018-07-01T18:31:09+02:00
 tags:
 - Maffig
 category:

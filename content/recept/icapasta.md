@@ -1,6 +1,5 @@
 ---
 title: "ICA pasta"
-date: 2018-07-01T15:59:08+02:00
 tags:
 - Pasta
 category:

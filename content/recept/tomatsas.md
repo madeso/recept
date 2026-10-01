@@ -1,6 +1,5 @@
 ---
 title: "Tomatsås (grundrecept)"
-date: 2019-04-27T13:39:55+02:00
 tags:
 category:
 ---

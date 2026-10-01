@@ -1,6 +1,5 @@
 ---
 title: "KEY LIME PAJ (12 bitar)"
-date: 2018-07-05T23:32:31+02:00
 tags:
 - Enkelt
 - Klassiker

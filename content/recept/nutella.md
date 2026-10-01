@@ -1,6 +1,5 @@
 ---
 title: "Nutella (4 dl)"
-date: 2018-07-01T17:16:31+02:00
 tags:
 - Nutella
 - Inte testat

@@ -1,6 +1,5 @@
 ---
 title: "Dillsas Till Lax"
-date: 2018-07-01T17:17:01+02:00
 tags:
 - Lax
 - Dill

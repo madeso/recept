@@ -1,6 +1,5 @@
 ---
 title: "Kräming risotto med kyckling"
-date: 2019-05-25T14:25:36+02:00
 tags:
 - Risotto
 - Kyckling

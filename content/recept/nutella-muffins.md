@@ -1,6 +1,5 @@
 ---
 title: "Nutella Muffins"
-date: 2018-07-05T23:31:43+02:00
 tags:
 - Enkelt
 - Klassiker

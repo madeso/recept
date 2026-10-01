@@ -1,6 +1,5 @@
 ---
 title: "Saffranssnurror med vit choklad"
-date: 2018-07-02T23:46:18+02:00
 tags:
 - Inte testat
 - Saffran

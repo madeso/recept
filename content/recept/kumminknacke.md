@@ -1,6 +1,5 @@
 ---
 title: "Kumminknäcke (20 stycken)"
-date: 2018-07-03T07:06:32+02:00
 tags:
 - Knäcke
 category:

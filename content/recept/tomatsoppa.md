@@ -1,6 +1,5 @@
 ---
 title: "Tomatsoppa i med ingefära (4 port)"
-date: 2020-03-14T07:46:21+01:00
 tags:
 - Hos mor
 - Vegetarisk

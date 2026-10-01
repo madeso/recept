@@ -1,6 +1,5 @@
 ---
 title: "Saffranssockerbullar med vit choklad(24–26x)"
-date: 2018-07-02T23:02:39+02:00
 tags:
 - Klassiker
 - Saffran

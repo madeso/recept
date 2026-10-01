@@ -1,6 +1,5 @@
 ---
 title: "Mormors Hosta (25x)"
-date: 2018-07-01T17:26:46+02:00
 tags:
 - Klassiker
 category:

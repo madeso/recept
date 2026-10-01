@@ -1,6 +1,5 @@
 ---
 title: "Hamburgerbröd utan dess like"
-date: 2018-07-02T22:09:45+02:00
 tags:
 - Klassiker
 category:

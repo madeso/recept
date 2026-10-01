@@ -1,6 +1,5 @@
 ---
 title: "Ingefärsbröd med solrosfrön"
-date: 2018-07-01T18:30:18+02:00
 tags:
 - Klassiker
 category:

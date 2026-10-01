@@ -1,6 +1,5 @@
 ---
 title: "Stinas äppledricka"
-date: 2018-07-06T10:10:50+02:00
 tags:
 - Från mor
 - Inte testat

@@ -1,6 +1,5 @@
 ---
 title: "Fryst choklad- och hasselnötscheesecake"
-date: 2018-07-09T10:10:23+02:00
 tags:
 - Mums
 - Nutella

@@ -1,6 +1,5 @@
 ---
 title: "Enkla frallor"
-date: 2018-07-01T20:12:15+02:00
 tags:
 - Inte testat
 category:

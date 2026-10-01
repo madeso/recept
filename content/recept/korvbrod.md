@@ -1,6 +1,5 @@
 ---
 title: "Korvbröd (20st)"
-date: 2018-07-05T08:48:16+02:00
 tags:
 - Misslyckats
 category:

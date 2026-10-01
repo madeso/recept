@@ -1,6 +1,5 @@
 ---
 title: "One-pot-pasta"
-date: 2019-06-23T15:16:16+02:00
 tags:
 - Avskriven
 category:

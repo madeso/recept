@@ -1,6 +1,5 @@
 ---
 title: "Tacos"
-date: 2018-07-02T20:00:36+02:00
 tags:
 - Tacos
 category:

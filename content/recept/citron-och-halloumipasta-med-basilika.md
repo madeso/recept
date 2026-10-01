@@ -1,6 +1,5 @@
 ---
 title: "Citron- och halloumipasta med basilika"
-date: 2018-07-09T15:53:16+02:00
 tags:
 - Inte testat
 - Vegetarisk

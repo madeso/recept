@@ -1,6 +1,5 @@
 ---
 title: "Chokladkaka med apelsin"
-date: 2018-07-09T10:11:06+02:00
 tags:
 - Hos mor
 - Inte testat

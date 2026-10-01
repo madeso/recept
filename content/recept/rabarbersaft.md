@@ -1,6 +1,5 @@
 ---
 title: "Rabarbersaft"
-date: 2018-07-02T23:52:43+02:00
 tags:
 - Rabarber
 - Sommar

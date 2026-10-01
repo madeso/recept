@@ -1,6 +1,5 @@
 ---
 title: "Hönökaka (8x)"
-date: 2018-07-02T08:28:02+02:00
 tags:
 - Hönökaka
 category:

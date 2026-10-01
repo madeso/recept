@@ -1,6 +1,5 @@
 ---
 title: "Kladdig Kladdkaka"
-date: 2018-10-26T18:11:54+02:00
 tags:
 - Kladdkaka
 - Enkelt

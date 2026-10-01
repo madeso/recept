@@ -1,6 +1,5 @@
 ---
 title: "Persisk kyckling med kanel, kardemumma och koriander"
-date: 2018-12-08T09:18:43+01:00
 tags:
 - Kyckling
 - Kardemumma

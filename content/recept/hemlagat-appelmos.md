@@ -1,6 +1,5 @@
 ---
 title: "Hemlagat äppelmos (5 dl)"
-date: 2018-07-01T23:35:58+02:00
 tags:
 - Inte testat
 - Äpplemos

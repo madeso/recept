@@ -1,6 +1,5 @@
 ---
 title: "Äpplemos utan socker"
-date: 2018-07-01T23:35:40+02:00
 tags:
 - Inte testat
 - Äpplemos

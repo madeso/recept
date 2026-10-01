@@ -1,6 +1,5 @@
 ---
 title: "Majonäs"
-date: 2018-07-01T17:16:38+02:00
 tags:
 - Enkelt
 category:

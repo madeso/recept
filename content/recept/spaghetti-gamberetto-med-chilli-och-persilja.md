@@ -1,6 +1,5 @@
 ---
 title: "Spagetthi gamberetto med chilli och persilja"
-date: 2018-11-10T09:51:49+01:00
 tags:
 - Pasta
 - Enkelt

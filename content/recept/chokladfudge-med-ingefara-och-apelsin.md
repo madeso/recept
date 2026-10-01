@@ -1,6 +1,5 @@
 ---
 title: "Chokladfudge med ingefära och apelsin (50 st)"
-date: 2018-07-06T10:16:41+02:00
 tags:
 - Inte testat
 - Jul

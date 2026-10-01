@@ -1,6 +1,5 @@
 ---
 title: "Chokladdröm med råmarinerade päron"
-date: 2018-07-02T20:12:28+02:00
 tags:
 - Päron
 - Choklad

@@ -1,6 +1,5 @@
 ---
 title: "Linssoppa med tomat"
-date: 2019-03-09T12:13:16+01:00
 tags:
 - Röda linser
 - Vegetarisk

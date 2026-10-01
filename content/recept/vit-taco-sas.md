@@ -1,6 +1,5 @@
 ---
 title: "Vit tacosås"
-date: 2018-07-02T20:03:04+02:00
 tags:
 - Tacos
 category:

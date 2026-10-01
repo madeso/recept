@@ -1,6 +1,5 @@
 ---
 title: "Pepparkaksvåfflor (8-10 st)"
-date: 2018-12-02T18:07:59+01:00
 tags:
 - Våffla
 category:

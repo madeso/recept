@@ -1,6 +1,5 @@
 ---
 title: "Veronicas morots- och ingefärsbröd"
-date: 2018-07-01T19:43:40+02:00
 tags:
 - Inte testat
 category:

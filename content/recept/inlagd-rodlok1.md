@@ -1,6 +1,5 @@
 ---
 title: "Inlagd rödlök"
-date: 2018-07-02T20:03:16+02:00
 tags:
 - Tacos
 - Lök

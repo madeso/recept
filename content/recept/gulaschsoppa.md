@@ -1,6 +1,5 @@
 ---
 title: "Gulaschsoppa med köttfärs"
-date: 2019-04-06T17:33:03+02:00
 tags:
 category:
 - Soppa

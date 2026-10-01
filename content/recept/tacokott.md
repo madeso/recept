@@ -1,6 +1,5 @@
 ---
 title: "Tacokött"
-date: 2018-07-02T20:02:19+02:00
 tags:
 - Tacos
 category:

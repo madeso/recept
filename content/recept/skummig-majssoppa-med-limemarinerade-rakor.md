@@ -1,6 +1,5 @@
 ---
 title: "Skummig majssoppa med limemarinerade räkor"
-date: 2019-03-31T18:58:42+02:00
 tags:
 category:
 - Soppa

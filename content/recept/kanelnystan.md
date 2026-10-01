@@ -1,6 +1,5 @@
 ---
 title: "Kanelnystan"
-date: 2018-07-02T23:15:55+02:00
 tags:
 - Kanel
 - Mandelmassa

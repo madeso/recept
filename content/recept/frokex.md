@@ -1,6 +1,5 @@
 ---
 title: "Frökex (1 plåt)"
-date: 2018-07-01T19:43:13+02:00
 tags:
 - lchf
 category:

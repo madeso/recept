@@ -1,6 +1,5 @@
 ---
 title: "Kokossoppa med morosspagetti och räkor"
-date: 2018-11-03T07:54:44+01:00
 tags:
 - lchf
 - Klassiker

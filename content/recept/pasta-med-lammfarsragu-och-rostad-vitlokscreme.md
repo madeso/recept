@@ -1,6 +1,5 @@
 ---
 title: "Pasta med lammfärsragu och rostad vitlökscreme"
-date: 2018-11-17T08:22:21+01:00
 tags:
 - Pasta
 - Klassiker

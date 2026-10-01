@@ -1,6 +1,5 @@
 ---
 title: "Italienska pizzabullar"
-date: 2018-07-09T10:11:32+02:00
 tags:
 - Avskriven
 - Inte testat

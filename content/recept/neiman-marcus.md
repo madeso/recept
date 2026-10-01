@@ -1,6 +1,5 @@
 ---
 title: "Neiman Marcus Cookies (75 st)"
-date: 2018-10-14T12:23:40+02:00
 tags:
 - Choklad
 - Nötter

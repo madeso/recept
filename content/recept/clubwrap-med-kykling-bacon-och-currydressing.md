@@ -1,6 +1,5 @@
 ---
 title: "Clubwrap med kykling bacon och currydressing"
-date: 2018-09-08T10:03:27+02:00
 tags:
 - Klassiker
 - Enkelt

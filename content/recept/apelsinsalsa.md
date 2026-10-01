@@ -1,6 +1,5 @@
 ---
 title: "Apelsinsalsa"
-date: 2018-07-02T20:02:50+02:00
 tags:
 - Tacos
 category:

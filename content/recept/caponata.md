@@ -1,6 +1,5 @@
 ---
 title: "Caponata med aubergine och paprika"
-date: 2019-04-27T13:40:25+02:00
 tags:
 category:
 ---

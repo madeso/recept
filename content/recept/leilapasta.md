@@ -1,6 +1,5 @@
 ---
 title: "Leilas pasta"
-date: 2018-07-01T15:27:25+02:00
 tags:
 - Pasta
 category:

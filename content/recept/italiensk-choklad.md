@@ -1,6 +1,5 @@
 ---
 title: "Italiensk Choklad"
-date: 2020-02-06T20:34:55+01:00
 tags:
 - Svårlagat
 - Picknick

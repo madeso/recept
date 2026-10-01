@@ -1,6 +1,5 @@
 ---
 title: "Japp! - en lättlagad mousse"
-date: 2018-07-09T10:10:46+02:00
 tags:
 - Inte testat
 category:

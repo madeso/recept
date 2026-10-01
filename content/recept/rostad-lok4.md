@@ -1,6 +1,5 @@
 ---
 title: "Rostad Lök"
-date: 2018-07-02T08:16:16+02:00
 tags:
 - Rostad lök
 category:

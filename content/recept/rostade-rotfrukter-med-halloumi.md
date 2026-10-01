@@ -1,6 +1,5 @@
 ---
 title: "Rostade rotfrukter & halloumiost (490 kcal)"
-date: 2018-07-02T09:03:00+02:00
 tags:
 - Inte testat
 - Bulgur

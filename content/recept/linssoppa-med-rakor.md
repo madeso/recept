@@ -1,6 +1,5 @@
 ---
 title: "Röd linssoppa med räkor"
-date: 2019-02-16T13:02:45+01:00
 tags:
 category:
 - Soppa

@@ -1,6 +1,5 @@
 ---
 title: "Flädersaft"
-date: 2018-07-01T19:44:08+02:00
 tags:
 - Fläder
 - Klassiker

@@ -1,6 +1,5 @@
 ---
 title: "Luftiga frallor (12 st)"
-date: 2018-07-01T20:12:05+02:00
 tags:
 - Inte testat
 category:

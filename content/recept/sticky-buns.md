@@ -1,6 +1,5 @@
 ---
 title: "Sticky buns med saffran"
-date: 2018-07-02T23:35:52+02:00
 tags:
 - Inte testat
 - Saffran

@@ -1,6 +1,5 @@
 ---
 title: "Lime och ingefärsbakad lax"
-date: 2018-07-06T10:23:14+02:00
 tags:
 - Hos mor
 - Ingefära

@@ -1,6 +1,5 @@
 ---
 title: "Knäckebröd med frön (30 bitar)"
-date: 2018-07-03T07:06:24+02:00
 tags:
 - Knäcke
 - Jul

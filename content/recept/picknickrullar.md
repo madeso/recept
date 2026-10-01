@@ -1,6 +1,5 @@
 ---
 title: "Picknickrullar"
-date: 2018-07-01T20:04:06+02:00
 tags:
 - Picknick
 - Tunnbröd

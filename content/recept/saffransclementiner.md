@@ -1,6 +1,5 @@
 ---
 title: "Saffransclementiner"
-date: 2018-07-05T23:32:19+02:00
 tags:
 - Enkelt
 - Klassiker

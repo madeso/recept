@@ -1,6 +1,5 @@
 ---
 title: "Flädersaft (2 liter)"
-date: 2018-07-05T23:33:37+02:00
 tags:
 - Saft
 - Klassiker

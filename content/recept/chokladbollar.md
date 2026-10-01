@@ -1,6 +1,5 @@
 ---
 title: "Chokladbollar"
-date: 2018-10-20T21:15:32+02:00
 tags:
 - Klassiker
 - Enkelt

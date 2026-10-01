@@ -1,6 +1,5 @@
 ---
 title: "Risbollar"
-date: 2018-07-01T17:26:58+02:00
 tags:
 - Enkelt
 category:

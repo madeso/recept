@@ -1,6 +1,5 @@
 ---
 title: "Rabarberkycling"
-date: 2018-07-02T23:52:39+02:00
 tags:
 - Rabarber
 - Kyckling

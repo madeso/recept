@@ -1,6 +1,5 @@
 ---
 title: "Fruktpaj"
-date: 2018-07-01T17:27:06+02:00
 tags:
 - Smulpaj
 category:

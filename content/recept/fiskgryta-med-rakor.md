@@ -1,6 +1,5 @@
 ---
 title: "Fiskgryta med räkor (440 kcal)"
-date: 2018-07-02T09:01:52+02:00
 tags:
 - Spoonery
 - Klassiker

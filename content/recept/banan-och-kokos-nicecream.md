@@ -1,6 +1,5 @@
 ---
 title: "Banan Och Kokos Nicecream"
-date: 2020-04-04T08:04:46+02:00
 tags:
 - Enkelt
 category:

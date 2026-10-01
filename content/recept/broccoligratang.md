@@ -1,6 +1,5 @@
 ---
 title: "Broccoligratäng med ost och småtomater"
-date: 2020-08-25T09:59:56+02:00
 tags:
 - Hos mor
 - Vegetarisk

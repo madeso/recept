@@ -1,5 +1,5 @@
 ---
-title: " Morotssoppa med fetaost &amp; cashewnötter (4 port)"
+title: " Morotssoppa med fetaost & cashewnötter (4 port)"
 tags:
  - 'Hos mor'
  - 'Vegetarisk'

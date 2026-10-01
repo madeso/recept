@@ -1,6 +1,5 @@
 ---
 title: "Karamelliserad lök"
-date: 2018-07-02T22:14:03+02:00
 tags:
 - Lök
 category:

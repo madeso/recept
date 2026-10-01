@@ -1,6 +1,5 @@
 ---
 title: "American pancakes (10-12)"
-date: 2018-07-05T08:51:48+02:00
 tags:
 - Pannkaka
 category:

@@ -1,6 +1,5 @@
 ---
 title: "Enkelt äppelmos (1 port)"
-date: 2018-07-01T23:35:30+02:00
 tags:
 - Inte testat
 - Äpplemos

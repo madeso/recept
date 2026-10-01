@@ -1,6 +1,5 @@
 ---
 title: "Nutella Filled Cookie Pies"
-date: 2018-07-05T08:52:01+02:00
 tags:
 - Nutella
 - todo

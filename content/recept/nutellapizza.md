@@ -1,6 +1,5 @@
 ---
 title: "Nutellapizza (4 personer)"
-date: 2018-07-06T10:13:23+02:00
 tags:
 - Avskriven
 - Inte testat

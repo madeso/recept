@@ -1,6 +1,5 @@
 ---
 title: "Bullar à la bake-off (25 st)"
-date: 2018-07-05T08:48:09+02:00
 tags:
 - Inte testat
 category:

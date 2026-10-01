@@ -1,6 +1,5 @@
 ---
 title: "Aioli"
-date: 2019-04-27T13:40:13+02:00
 tags:
 category:
 ---

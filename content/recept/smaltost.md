@@ -1,6 +1,5 @@
 ---
 title: "Smältost"
-date: 2018-07-02T22:14:24+02:00
 tags:
 - Ost
 category:

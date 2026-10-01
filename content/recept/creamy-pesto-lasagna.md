@@ -1,6 +1,5 @@
 ---
 title: "Creamy Pesto Lasagna"
-date: 2018-07-09T16:09:40+02:00
 tags:
 - Inte testat
 - todo

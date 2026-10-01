@@ -1,6 +1,5 @@
 ---
 title: "Lyxig varm choklad"
-date: 2020-02-06T20:28:22+01:00
 tags:
 - Enkelt
 - Picknick
