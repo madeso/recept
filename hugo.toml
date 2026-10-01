@@ -4,6 +4,10 @@ title = '🍴 Gustavs recept'
 
 theme = 'recept'
 
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+
 [menus]
   [[menus.main]]
     name = 'Home'
@@ -11,8 +15,8 @@ theme = 'recept'
     weight = 10
 
   [[menus.main]]
-    name = 'Recept'
-    pageRef = '/recept'
+    name = 'Categories'
+    pageRef = '/categories'
     weight = 20
 
   [[menus.main]]
