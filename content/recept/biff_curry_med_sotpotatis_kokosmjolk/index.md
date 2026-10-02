@@ -4,7 +4,6 @@ tags:
 - Slowcoocker
 categories:
 - Mat
-- Burgare
 ---
 ## Ingredienser
 * 1 kilo lövbiff
