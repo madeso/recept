@@ -2,3 +2,58 @@
 @import "components/header.css";
 @import "components/footer.css";
 */
+
+/**** place nav on a single line */
+header nav ul {
+	list-style-type: none;
+	padding: 0;
+	display: inline-flex;
+	flex-wrap: wrap;
+}
+header nav li {
+	white-space: nowrap;
+	display: inline-flex;
+	align-items: center;
+	position: relative;
+	padding-right: 2em;
+}
+
+
+/**** terms list */
+.terms .label {
+    font-weight: bold;
+    display: inline;
+}
+ul.terms-list {
+	list-style-type: none;
+	padding: 0;
+	display: inline;
+	flex-wrap: wrap;
+}
+
+ul.terms-list li {
+	white-space: nowrap;
+	display: inline;
+	align-items: center;
+	position: relative;
+}
+
+ul.terms-list li.bullet:before {
+	content: "•";
+	margin: 0 0.5rem;
+}
+
+ul.terms-list li.bullet:first-child:before {
+	content: "";
+	margin: 0 0.1rem;
+}
+
+ul.terms-list li.spacing {
+	break-after: always;
+	white-space: break-spaces;
+	line-break: anywhere;
+}
+ul.terms-list li.spacing:after {
+	content: " ";
+	display: block;
+}
