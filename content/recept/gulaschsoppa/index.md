@@ -5,7 +5,7 @@ categories:
 - Soppa
 ---
 En riktigt matig och god gulaschsoppa med smak av köttfärs. Servera den rykande heta gulaschsoppan tillsammans med en rejäl klick gräddfil och njut av de goda smakerna!
-# Ingredienser
+## Ingredienser
 * 4 potatisar
 * 1 paprika
 * 1 gul lök
@@ -17,7 +17,7 @@ En riktigt matig och god gulaschsoppa med smak av köttfärs. Servera den rykand
 * 2 tsk kummin
 * salt och peppar
 
-# Tillagning
+## Tillagning
 1. Skala lök och potatis.
 1. Dela och kärna ur paprikan.
 1. Skär grönsakerna i tärningar.
@@ -27,5 +27,5 @@ En riktigt matig och god gulaschsoppa med smak av köttfärs. Servera den rykand
 1. Smaksätt med salt och peppar.
 1. Till servering: Servera soppan med gräddfil (och gärna varmt vitlöksbröd).
 
-# Källa
+## Källa
 * [Källa](https://www.ica.se/recept/gulaschsoppa-med-kottfars-712852/)

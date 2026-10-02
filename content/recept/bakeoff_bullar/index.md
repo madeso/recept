@@ -6,7 +6,7 @@ categories:
 - Bröd
 ---
 ![](/recept/bullar-bakeoff.jpg)
-# Ingredienser
+## Ingredienser
 * 50 gram  jäst
 * 5 dl  vatten
 * 3 dl  grahamsmjöl, 180 g
@@ -15,7 +15,7 @@ categories:
 * 1 tsk  salt
 * 50 gram  Milda
 
-# Tillagning
+## Tillagning
 1. Värm vattnet till 37°C. Smula jästen i en bunke, rör ut den med lite av vattnet. Tillsätt resten av vattnet, socker, salt, mjöl och matfett. Arbeta degen i maskin 7-8 minuter eller för hand 12-15 minuter. Låt degen jäsa övertäckt i bunken i 90 minuter. Buffa ner degen var 30:e minut, detta ger ett mer smakrikt bröd.
 
 2. Ta upp degen och forma till runda eller ovala bullar. Klipp ev dekorativa snitt med en sax. Lägg bullarna på plåtar. Ställ in i frysen. När bullarna frysts in, förpacka dem i plastpåsar och förvara i frysen.

@@ -6,7 +6,7 @@ tags:
 categories:
 - Kaka
 ---
-# Ingredienser (muffins)
+## Ingredienser (muffins)
 * 3 1/2 dl vetemjöl (180 g)
 * 3 1/2 dl strösocker (300 g)
 * 1 3/4 dl osötat kakaopulver (~ 75 g)
@@ -20,7 +20,7 @@ categories:
 * 1 tsk vaniljextrakt (5 ml)
 * 24 Ferraro Rochers
 
-# Ingredienser (glasyr)
+## Ingredienser (glasyr)
 * 1 kopp osaltat smör, mjukt till rumstemperatur (240g)
 * 2 koppar florsocker (200 g)
 * 3/4 kopp Nutella (180 ml)
@@ -28,7 +28,7 @@ categories:
 * 2 tsk vaniljextrakt (10 ml)
 * hackade hasselnötter för att dekorera
 
-# Tillagning (muffins)
+## Tillagning (muffins)
 1. Värm ugnen till 350F/170C.
 2. Med hjälp av en stand mixer, kombinera alla torra ingredienser (mjöl, socker, bakpulver, bikarbonat och salt) och blanda.
 3. Vrid blandaren till låg och tillsätt ägg, vanilj, olja, vatten och kärnmjölk.
@@ -38,10 +38,10 @@ categories:
 7. Upprepa tills samtliga formar är fyllda och grädda i 20 minuter.
 8. Låt svalna helt innan glasyr.
 
-# Tillagning (glasyr)
+## Tillagning (glasyr)
 1. I skål med en köksmaskinen, mixa smör tills det är ljuset och fluffigt.
 2. Lägg till florsocker och mixa.
 3. Lägg vanilj, Nutella och grädde en matsked i taget tills önskad konsistens uppnåtts.
 
-# Källa
+## Källa
 * [Källa](https://www.youtube.com/watch?v=OMrRi9etWtg)

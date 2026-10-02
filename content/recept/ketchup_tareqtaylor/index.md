@@ -8,7 +8,7 @@ tags:
 categories:
 - Tillbehör
 ---
-# Ingredienser
+## Ingredienser
 * 800 g solmogna eller konserverande tomater
 * 1/2 gul lök
 * 1 st vitlöksklyfta
@@ -16,7 +16,7 @@ categories:
 * 1/2 dl ättika (12 %)
 * 150 g tomatpuré
 
-# Tillagning
+## Tillagning
 1. Koka upp vatten i en kastrull.
 1. Skålla tomaterna tills skalet spricker.
 1. Skala dem och hacka dem grovt.
@@ -27,5 +27,5 @@ categories:
 1. Ketchupen håller i upp till ett år i kylen.
 
 
-# Källa
+## Källa
 * [Källa](https://www.svt.se/recept/ketchup-och-skansk-senap-1)

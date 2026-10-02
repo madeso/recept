@@ -5,7 +5,7 @@ tags:
 categories:
 - Kaka
 ---
-# Ingredienser (degen)
+## Ingredienser (degen)
 * 250 g. Mjukt smör
 * 350 g. Socker
 * 4 ägg
@@ -17,7 +17,7 @@ categories:
 * En nypa salt
 * Några nävar marshmellows - skär i mindre bitar.
 
-# Ingredienser (Icing)
+## Ingredienser (Icing)
 * 250 g. Smör
 * 200/225 g. Florsocker
 * 3 msk. cacao
@@ -25,7 +25,7 @@ categories:
 * 1.5 dl vispgrädde
 * 50-75 g. Grovhackade, rostade pekannötter
 
-# Tillagning (deg)
+## Tillagning (deg)
 1. Mjukt smör, socker och ägg vispas tillsammans.
 2. Rör sedan i mjölet, lite i taget, eventuellt lite mindre för att justera konsistensen på den färdiga degen.
 3. Rör i 200 g smält choklad med kakaopulver, vaniljsocker pekannötterna och en nypa salt.
@@ -35,7 +35,7 @@ categories:
 7. Sedan kakan igen ungefär 10 minuter - eller marshmellows'ene smälts och gyllene. Håll ett öga på kakan vid denna tidpunkt. De får inte vara svart.
 8. När kakan har svalnat smörs den in med icing på toppen och om man vill även på sidorna.
 
-# Tillagning (icing)
+## Tillagning (icing)
 1. Smör blandas med florsocker, kakao, smält choklad och vispgrädde.
 2. När blandningen är jämn och stadig rörde 50-75 gram pekannötter i.
 3. Kakan ska vara helt svalnat och tas ur springform innan isbildning blandning smort tårta i en vacker, tjockt lager.
@@ -45,5 +45,5 @@ Drag långa trådar och fastnat i allt. Hur ska det vara. Stor, vulgärt, närin
 
 Nästa dag - efter en natt i kylskåpet - det har lite mer hanterbar konsistens.
 
-# Källa
+## Källa
 [Källa](http://www.dr.dk/Mad/opskrifter/spise-med-price/Mississippi_mudpie.htm)

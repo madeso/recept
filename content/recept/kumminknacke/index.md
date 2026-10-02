@@ -6,7 +6,7 @@ categories:
 - Bröd
 ---
 ![](/recept/kumminknacke.jpg)
-# Ingredienser
+## Ingredienser
 * 5 dl mjölk
 * 3 msk Dansukker Ljus Sirap
 * 1 tsk salt
@@ -16,7 +16,7 @@ categories:
 * 3 dl rågsikt
 * 7 dl grahamsmjöl
 
-# Tillagning
+## Tillagning
 1. Värm mjölk, sirap, salt och kryddor till 37 °C.
 2. Smula jästen i en skål, häll på degvätskan och rör tills jästen löst sig.
 3. Arbeta in mjölet tills du har en elastisk deg.
@@ -29,5 +29,5 @@ categories:
 10. Låt svalna på galler.
 11. Förvaras torrt.
 
-# Källa
+## Källa
 * [Källa](http://www.dansukker.se/se/inspiration/baka/knackebrod.aspx)

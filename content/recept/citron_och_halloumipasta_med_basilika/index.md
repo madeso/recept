@@ -11,7 +11,7 @@ categories:
 
 Goda smaker av basilika, tomat, haricots verts och halloumi kombineras i denna lättlagade rätt. En perfekt vardagsmiddag helt enkelt! Tips! Tina gärna haricots vertsen i kylen över natten.
 
-# Ingredienser
+## Ingredienser
 * 400 gram gemelli, el. annan pasta
 * 1 krm salt
 * 1 st rödlök
@@ -28,7 +28,7 @@ Goda smaker av basilika, tomat, haricots verts och halloumi kombineras i denna l
 * 1 krm salt
 * 1 krm svartpeppar
 
-# Tillagning
+## Tillagning
 1. Koka pastan i saltat vatten enligt anvisning på förpackningen.
 2. Skala och klyfta rödlöken.
 3. Skala och grovhacka vitlöken.
@@ -38,5 +38,5 @@ Goda smaker av basilika, tomat, haricots verts och halloumi kombineras i denna l
 7. Sila av pastavattnet men spara ½ dl vatten kvar i kastrullen. Blanda pastan, pastavattnet och ruccola med grönsakerna i pannan. Fräs runt och smaka av med citronsaft, salt och peppar.
 8. Lägg upp i skålar och toppa med halloumikuberna.
 
-# Källa
+## Källa
 * [Källa](http://www.tasteline.com/recept/citron-och-halloumipasta-med-basilika/)

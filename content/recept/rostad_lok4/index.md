@@ -5,12 +5,12 @@ tags:
 categories:
 - Burgare
 ---
-# Ingredienser
+## Ingredienser
 * 1 kg rå lök
 * 0,5 dl socker
 * 1,5 tsk salt
 
-# Tillagning
+## Tillagning
 1. Skiva gul lök i tunna skivor, helst på en mandolin
 2. Skölj den i iskallt vatten och torka den försiktigt med en duk
 3. Hetta upp en belagd panna på medelvärme samt strila ner lite neutral olja
@@ -24,5 +24,5 @@ categories:
 
 Förvara i glasburk med tättslutande lock så att det inte kommer in ångor eller kondens
 
-# Källa
+## Källa
 * [Källa](https://www.flashback.org/t939681)

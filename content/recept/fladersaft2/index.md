@@ -8,12 +8,12 @@ tags:
 categories:
 - Dricka
 ---
-# Ingredienser
+## Ingredienser
 * 20 blomkronor (minst)
 * 1 kg farinsocker
 * 40g vin eller citronsyra
 
-# Tillagning
+## Tillagning
 1. 1 liter kokande vatten hälls över
 2. 2 st skivade citroner lägges i
 3. Rör om

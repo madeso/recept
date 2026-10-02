@@ -5,7 +5,7 @@ tags:
 categories:
 - Mat
 ---
-# Ingredienser
+## Ingredienser
 * 1 kyld smördeg (250 g)
 * 2 gula lökar
 * 2 vitlöksklyftor
@@ -20,7 +20,7 @@ categories:
 * 200 fetaost
 * 16 oliver
 
-# Tillagning
+## Tillagning
 1. Sätt ugnen på 225°C
 2. Skala och hacka lök och vitlök. Riv rotfrukterna grovt.
 3. Bryn lök, vitlök och köttfärs i oljan. Tillsätt rotfrukterna och låt dem fräsa med ca 5min. Rör ner tomatkross, crème fraiche och kryddor. Låt sjuda på svag värme ca 10min.

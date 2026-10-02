@@ -8,7 +8,7 @@ tags:
 categories:
 - Mat
 ---
-# Ingredienser
+## Ingredienser
 * 1 gul lök
 * 400g körsbärstomater
 * 1/2 kruka persilja
@@ -18,7 +18,7 @@ categories:
 * vitlök
 * 1 flaska vitt matlagningsvin
 
-# Tillagning
+## Tillagning
 1. Koka spaghetti
 1. Finhacka lök, vitlök, chilli och halvera tomaterna.
 1. Fräs lök, vitlöḱ och hilli på medelvärme i olja.

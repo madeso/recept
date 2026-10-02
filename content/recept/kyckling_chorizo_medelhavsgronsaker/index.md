@@ -5,7 +5,7 @@ tags:
 categories:
 - Mat
 ---
-# Ingredienser
+## Ingredienser
 * 400g kycklingfilé
 * 300g färsk chorizo
 * 1 zucchini
@@ -18,7 +18,7 @@ categories:
 * 3 dl couscous
 * salt och peppar
 
-# Tillagning
+## Tillagning
 1. Sätt ugnen på 175 grader
 2. Skär kyckling, chroizo, zucchini, paprika, vitlök och lök i grova bitar och lägg i en ugnsform.
 3. Häll av kikärtor och lägg dem i formen
@@ -31,6 +31,6 @@ categories:
 
 Servera gärna med en sallad och en yoghurtsås.
 
-# Källa
+## Källa
 * Hallå, Mat och dryck, 6-12februari, 2019
 

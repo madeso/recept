@@ -10,7 +10,7 @@ categories:
 - Kaka
 ---
 Söt mjuk choklad som smälter i munnen är ett säkert sätt att få julstämmningen att infinna sig.
-# Ingredienser
+## Ingredienser
 * 3 dl strösocker
 * 3 dl vispgrädde
 * 1 dl mörk sirap
@@ -20,7 +20,7 @@ Söt mjuk choklad som smälter i munnen är ett säkert sätt att få julstämmn
 * 1 apelsin
 * 2 tsk ingefära
 
-# Tillagning
+## Tillagning
 1. Häll socker, grädde och sirap i en kastrull och låt koka på svag värme tlls smeten är 120 grader.
 2. Häll i smör och klykos och låt koka i en minut till.
 3. Hacka chokladen och rör i.
@@ -29,6 +29,6 @@ Söt mjuk choklad som smälter i munnen är ett säkert sätt att få julstämmn
 6. Häll i en form med bakplåtspapper.
 7. Låt svalna och skär sedan i bitar.
 
-# Källa
+## Källa
 * Mjölkpaket
 * [hitta mer exakt källa här](http://www.skanemejerier.se/recept)

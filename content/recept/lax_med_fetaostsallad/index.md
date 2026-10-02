@@ -6,7 +6,7 @@ tags:
 categories:
 - Mat
 ---
-# Ingredienser
+## Ingredienser
 * 1 gurka
 * 1 avokado
 * 1/2 lime, pressad saft
@@ -23,7 +23,7 @@ categories:
 * citronskivor
 * dill
 
-# Tillagning
+## Tillagning
 1. Dela gurkan på längden och ta bort kärnorna.
 1. Skär i centimetertjocka bitar.
 1. Dela och kärna ur avokadon och skär köttet i bitar.

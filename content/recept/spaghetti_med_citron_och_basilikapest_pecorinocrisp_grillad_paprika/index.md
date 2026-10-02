@@ -11,10 +11,10 @@ categories:
 - Mat
 ---
 
-# Ingredienser
+## Ingredienser
 * 150g pecorino, finriven
 
-# Ingredienser (Pesto)
+## Ingredienser (Pesto)
 * hälten av pecorinon
 * 1 kruka basilika
 * 1/2 ask persilja
@@ -24,10 +24,10 @@ categories:
 * 2 msk olja
 * 2 msk pressad citron
 
-# Tillagning (Pesto)
+## Tillagning (Pesto)
 1. Mixa alla ingredienser till en pestro med stavmixer.
 
-# Tillagning
+## Tillagning
 1. Sätt ugnen på 250 grader.
 1. Kvarta rödlök
 1. Skär paprika i stora bitar.

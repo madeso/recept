@@ -10,7 +10,7 @@ categories:
 
 Knaprigt hembakat knäckebröd med olivolja och sesamfrö, linfrö och solros- eller pumpakärnor. Enkelt att baka själv och grädda i ugnen. Förgrädda, skär upp i lagom bitar och grädda lite till. Gott till skinkmackan med senap, eller att toppa med inlagd sill och kall potatis. Givet på julbordet!
 
-# Ingredienser
+## Ingredienser
 * 1 dl sesamfrö
 1 dl solrosfrön eller pumpakärnor
 1/2 dl krossade linfrön
@@ -19,12 +19,12 @@ Knaprigt hembakat knäckebröd med olivolja och sesamfrö, linfrö och solros- e
 2 dl kallt vatten
 2 msk olivolja
 
-# Tillagning
+## Tillagning
 1. Sätt ugnen på 150°C.
 2. Blanda alla torra ingredienser i en bunke. Tillsätt vattnet och oljan och rör om till en lös smet.
 3. Bred ut smeten på en plåt (ca 30x40 cm, för 30 bitar) med bakplåtspapper.
 4. Grädda mitt i ugnen ca 25 minuter. Ta ut plåten och skär eller sporra i så stora bitar du vill ha.
 5. Grädda ytterligare 20- 25 minuter. Låt brödet svalna på galler.
 
-# Källa
+## Källa
 * [Källa](http://www.ica.se/recept/knackebrod-med-fron-715497/)

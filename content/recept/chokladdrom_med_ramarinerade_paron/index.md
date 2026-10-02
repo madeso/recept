@@ -6,25 +6,25 @@ tags:
 categories:
 - Efterrätt
 ---
-# Ingredienser (marinerat päron)
+## Ingredienser (marinerat päron)
 * ett stort päron
 * 2 msk färskpressad citronjuice
 * 1-2 msk cointreau
 * 1 msk socker.
 
-# Ingredienser (chokladdröm)
+## Ingredienser (chokladdröm)
 * 100g smör
 * 150g mörk choklad
 * 1 msk snabbkaffepulver
 * 3 ägg
 * 1 1/2 dl socker
 
-# Tillagning (marinerat päron)
+## Tillagning (marinerat päron)
 1. Skala och skär päron i bitar.
 2. Blanda med citronjuice, cointreau och socker.
 3. Låt marinera ca 30 minuter.
 
-# Tillagning (chokladdröm)
+## Tillagning (chokladdröm)
 4. Sätt ugnen på 225 grader.
 5. Smält smör.
 6. Bryt choklad i bitar och låt dem smälta i smöret tillsammans med snabbkaffepulver.

@@ -11,7 +11,7 @@ categories:
 
 Kyckling på annorlunda vis - supergott, måste provas! Rabarber gör maträtten vacker och syrligt god. För mindre syrlighet, ta lite mer honung.
 
-# Ingredienser
+## Ingredienser
 * 500 g kycklinglårfilé
 * 1 tsk salt
 * Smör
@@ -23,7 +23,7 @@ Kyckling på annorlunda vis - supergott, måste provas! Rabarber gör maträtten
 * 1 st pressad vitlöksklyfta
 * 1/2 dl hackad gräslök
 
-# Tillagning
+## Tillagning
 1. Sätt ugnen på 225°.
 2. Salta kycklingen och bryn den i smör i en stekpanna.
 3. Lägg kyckling och rabarber i en ugnssäker form.
@@ -34,5 +34,5 @@ Kyckling på annorlunda vis - supergott, måste provas! Rabarber gör maträtten
 Servera med färskpotatis eller ris.
 
 
-# Källa
+## Källa
 * [Källa](http://www.arla.se/recept/rabarberkyckling/)

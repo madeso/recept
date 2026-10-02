@@ -10,7 +10,7 @@ categories:
 - Mat
 ---
 ![](/recept/fiskgryta-med-rakor.jpg)
-# Ingredienser (2 pers)
+## Ingredienser (2 pers)
 * 300 g räkor
 * 2 msk tomatpuré och 1 liten grovhackad gul lök
 * 1 dl vitt vin
@@ -26,7 +26,7 @@ categories:
 * ½ dl lätt crème fraiche
 * ½ finriven vitlöksklyfta
 
-# Tillagning
+## Tillagning
 1. Skala räkor. Fräs skalen i smör i en kastrull med tomatpuré och grovhackad lök
 2. Häll på vin och vatten och låt koka 10 min.
 3. Sila av ner i en kastrull.
@@ -39,5 +39,5 @@ categories:
 10. Smaka av och toppa med färsk timjan.
 11. Servera med crème fraiche smaksatt med finriven vitlöks och salt.
 
-# Källa
+## Källa
 * [Källa](https://www.hemmets.se/10-mattande-middagar-for-dig-som-vill-ga-ner-i-vikt/)

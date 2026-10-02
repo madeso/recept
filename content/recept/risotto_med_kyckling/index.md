@@ -10,7 +10,7 @@ categories:
 Krämig risotto med saftig kyckling.
 Frida Eriksson är känd från Sveriges Mästerkock och här är hennes bästa recept!
 
-# Ingredienser (risotto)
+## Ingredienser (risotto)
 * 1 dl olivolja
 * 2 st schalottenlökar
 * 3 dl arborioris
@@ -19,7 +19,7 @@ Frida Eriksson är känd från Sveriges Mästerkock och här är hennes bästa r
 * 2 dl finriven parmesanost
 * salt & svartpeppar
 
-# Ingredienser (kyckling)
+## Ingredienser (kyckling)
 * 4 st kycklingfiléer
 * 2 msk pressad citron
 * 1 knippe oregano
@@ -29,7 +29,7 @@ Frida Eriksson är känd från Sveriges Mästerkock och här är hennes bästa r
 * svartpeppar
 * olivolja & smör till stekning
 
-# Tillagning (risotto)
+## Tillagning (risotto)
 1. Värm fonden/buljongen i en kastrull.
 1. Finhacka och fräs schalottenlöken i olivoljan på ganska låg värme utan att den tar färg.
 1. Häll sedan på riset och höj värmen.
@@ -44,7 +44,7 @@ Frida Eriksson är känd från Sveriges Mästerkock och här är hennes bästa r
 1. Smaka av med salt och peppar.
 1. Servera din risotto med den saftiga kycklingen och gärna ett glas ripassovin!
 
-# Tillagning (kyckling)
+## Tillagning (kyckling)
 1. Börja med att lägga kycklingfiléerna i en bunke.
 1. Hacka oregano ganska grova och strö över kycklingen.
 1. Pressa över vitlöken och häll på olivoljan och den pressade citronen.
@@ -54,6 +54,6 @@ Frida Eriksson är känd från Sveriges Mästerkock och här är hennes bästa r
 1. Kycklingen är klar när termometern visar 63-64 grader, cirka 15-20 minuter.
 1. Lägg kycklingen i folie och låt vila i minst 10 minuter.
 
-# Källa
+## Källa
 * [Källa](https://www.ellematovin.se/kramig-risotto-med-kyckling/)
 

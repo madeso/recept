@@ -9,14 +9,14 @@ categories:
 ---
 Det här är ett av våra mest älskade mellisrecept. De är godast nygräddade men passar även perfekt att ta med på utflykten. Bullarna är godast nygräddade men går bra att frysa. Värm dem i microvågsugn eller ugn före servering.
 
-# Ingredienser
+## Ingredienser
 * 1 pizza deg
 * 4 msk tomatsås
 * 3 skivor rökt skinka
 * 6 skivor ost
 * 2 tsk torkad oregano
 
-# Tillagning
+## Tillagning
 1. Rulla ut degen och kavla den tunn.
 2. Bred på tomatsås och toppa med skinka och ost.
 3. Strö på torkad oregano och rulla ihopa degen

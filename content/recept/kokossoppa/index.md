@@ -9,7 +9,7 @@ tags:
 categories:
 - Soppa
 ---
-# Ingredienser
+## Ingredienser
 * 1 knippa persilja
 * 1 gul lök
 * 600g morötter
@@ -21,7 +21,7 @@ categories:
 * 1 tsk curry
 * 1/2 tsk kajenpeppar
 
-# Tillagning
+## Tillagning
 1. Skölj och finhacka persiljan
 1. Skala och finhacka löken
 1. Skala morötterna och skär bort ändarna. Strimla dem sedan till smal spagetti med grönsaksstrimlaren eller i grönsakssvarven. Korta strimlorna till lagom längd.

@@ -7,7 +7,7 @@ categories:
 - Mat
 - Tortillabröd
 ---
-# Ingredienser
+## Ingredienser
 * 1 förpackning, bacon
 * 250g Kycklingfilé, inner
 * 2 dl Matyoghhurt
@@ -19,10 +19,10 @@ categories:
 * Flytade honung
 * Olja
 
-# Tillagning Currydressing
+## Tillagning Currydressing
 1. Blanda matyoghhurt, 1 tsk curry, 1.5 tsk honung med 2 krm salt och 1 tsk olja.
 
-# Tillagning wraps
+## Tillagning wraps
 1. Sätt ugnen på 250 grader
 2. Skär paprikor i mindre bitar
 3. Lägg kyckling file och bacon brevid paprika i en ugsplåt, blanda med olja, salt och svartpeppar.

@@ -9,7 +9,7 @@ categories:
 - Mat
 ---
 ![](/recept/kyckling-i-graddsas.jpg)
-# Ingredienser (2 pers)
+## Ingredienser (2 pers)
 * 2 kycklingfiléer (à 125 g)
 * 1 gul
 * 1 röd paprika
@@ -22,7 +22,7 @@ categories:
 * ½ dl grovhackad basilika
 * 1 dl ris
 
-# Tillagning
+## Tillagning
 1. Bryn kycklingfiléer i smör, salta och peppra under stekningen.
 2. Lägg i en ugnsform och stek klart i ugn, 200°, ca 20 min till en innertemperatur på 70°.
 3. Torka ur pannan och stek paprika i bitar till fin färg i smör.
@@ -35,5 +35,5 @@ categories:
 10. Garnera med paprikan och basilikablad.
 1. Servera med kokt ris.
 
-# Källa
+## Källa
 * [Källa](https://www.hemmets.se/10-mattande-middagar-for-dig-som-vill-ga-ner-i-vikt/)

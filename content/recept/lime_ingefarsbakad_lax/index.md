@@ -11,7 +11,7 @@ categories:
 
 Supergod lax med fräscha asiatiska smaker och knapriga sesamfrön. En allt-i-ett rätt som enkelt tillagas i ugnen och toppas med crème fraiche vid servering.
 
-# Ingredienser
+## Ingredienser
 * 600 g laxfilé
 * 500 g sparris potatis
 * 3 paprikor
@@ -26,7 +26,7 @@ Supergod lax med fräscha asiatiska smaker och knapriga sesamfrön. En allt-i-et
 * 2 msk sesamfrön
 * 2 dl lätt crème fraiche ingefära & chili
 
-# Tillagning
+## Tillagning
 1. Sätt ugnen på 200°.
 2. Skär potatisen i klyftor.
 3. Lägg dem i en smord långpanna och stek i mitten av ugnen ca 10 min.
@@ -39,5 +39,5 @@ Supergod lax med fräscha asiatiska smaker och knapriga sesamfrön. En allt-i-et
 10. Stek i mitten av ugnen 10–15 min till.
 11. Servera med crème fraiche.
 
-# Källa
+## Källa
 * [Källa](https://www.arla.se/recept/lime--och-ingefarsbakad-lax/)

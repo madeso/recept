@@ -5,7 +5,7 @@ tags:
 categories:
 - Bröd
 ---
-# Ingredienser
+## Ingredienser
 * 50 g jäst
 * 1 l mjölk
 * ½ dl flytande margarin (eller olja)
@@ -14,7 +14,7 @@ categories:
 * 6 ½ dl rågsikt
 * 17 - 18 dl vetemjöl
 
-# Tillagning
+## Tillagning
 1. Smula jästen i en degbunke. Värm mjölken till 37 grader och häll i matfettet. Lös jästen i lite av degspadet. Tillsätt resten av mjölkblandningen, sirap, salt, rågsikt och det mesta vetemjölet. Arbeta degen smidig, gärna med maskin, tills den släpper bunken. Täck över bunken och jäs ca 30 min.
 2. Ta upp degen på lätt mjölat bord och arbeta snabbt samman den. Värm ugnen till 275 grader och ställ in en plåt. Dela degen iA? 8 delar och rulla till bullar. Jäs dem på bakplåtspapper på bänken under bakdukar 20 - 30 min.
 3. Kavla ut en bulle, gärna med kruskavel, till en rund kaka, ca 30 cm i diameter. Picka den även gärna med en gaffel, den vill gärna bli bubblig annars vid gräddning. Lägg kakorna, en i taget på varm plåt.
@@ -22,5 +22,5 @@ categories:
 
 Variation: byt ut 1 dl av vetemjölet mot 1 dl havrekli och ½ dl av rågsikten mot ½ dl vetegroddar.
 
-# Källa
+## Källa
 * [Källa](http://www.tasteline.com/recept/Honokaka)

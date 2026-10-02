@@ -7,7 +7,7 @@ categories:
 - Kaka
 ---
 ![](/recept/kanelnystan.jpg)
-# Ingredienser
+## Ingredienser
 * 50 g jäst
 * 50 g smör
 * 3 dl mjölk
@@ -17,7 +17,7 @@ categories:
 * 150 g mandelmassa
 * Kanel
 
-# Tillagning
+## Tillagning
 1. Smula jästen i en bunke. Lägg smör och mjölk i en gryta och värm till fingervarmt, 37°C.
 2. Häll lite av degvätskan över jästen och rör tills den löst sig.
 3. Tillsätt resten av degvätska, socker, salt och nästan allt vetemjölet, spara lite till utbakningen.
@@ -30,5 +30,5 @@ categories:
 11. Pensla bullarna med uppvispat ägg.
 12. Grädda bullarna mitt i ugnen i 250°C, ca 8 min. Låt kallna på galler under bakduk.
 
-# Källa
+## Källa
 * [Källa](http://krantz.biz/2014/09/kanelnystan-kanenbullensdag/)

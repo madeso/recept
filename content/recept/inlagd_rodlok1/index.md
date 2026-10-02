@@ -6,14 +6,14 @@ tags:
 categories:
 - Fest
 ---
-# Ingredienser
+## Ingredienser
 * 2 rödlökar
 * 1/2 dl ättiksprit (12%)
 * 3/4 dl socker
 * 2 dl vatten
 * 1 krm salt
 
-# Tillagning
+## Tillagning
 1. Skala halvera och strimla rödlökarna och lägg i skål
 2. Koka upp ättiksprit, socker och vatten i en kastrull
 3. Häll den varma lagen över löken

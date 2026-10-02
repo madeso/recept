@@ -12,7 +12,7 @@ Hard-boiled eggs may not get nearly the love that scrambled, fried, or poached e
 
 One reason hard-boiled eggs don’t get much affection is because far too many people overcook them. If you’ve ever opened a boiled egg to find a grainy, light-yellow center with a grayish-green ring around it, that’s how you know it’s been overcooked. With the method I’m about to show you, you’ll never need worry about this happening. I learned this technique from culinary yoda Jacques Pépin at one of his cooking demos more than five years ago, and it’s so reliable that it’s the only way I’ve boiled eggs since.
 
-# You’ll need:
+## You’ll need:
 
 * A sharp object like a thumbtack
 * Any number of eggs, preferably ones that aren’t ultra-fresh
@@ -20,7 +20,7 @@ One reason hard-boiled eggs don’t get much affection is because far too many p
 * A pasta fork or slotted spoon
 * Water and ice
 
-# Beskrivning 
+## Beskrivning 
 1. To start, puncture a hole in the round end of each egg with a thumbtack. That’s where the air chamber is, and poking a hole in the egg releases pressure inside, so the shell won’t crack.
 2. Apply gentle pressure with the tack, as you don’t want to crack the egg!
 3. Bring water to a very gentle boil, then quickly drop eggs in one at a time. I like to do this with a pasta fork, which, with its upturned sides, is the perfect vehicle for transferring the egg into the water carefully.
@@ -33,5 +33,5 @@ Enjoy! Preferably with a sprinkle of truffle salt to feel fancy.
 
 Now your eggs are ready to be used in an Italian-style tuna sandwich or anything else that suits your fancy.
 
-# Källa
+## Källa
 * [Källa](http://skillet.lifehacker.com/how-to-make-the-perfect-hard-boiled-egg-1699544159)

@@ -7,7 +7,7 @@ tags:
 categories:
 - Soppa
 ---
-# Ingredienser
+## Ingredienser
 * 600 g potatis
 * 1 purjolök
 * 1 tsk olja
@@ -19,7 +19,7 @@ categories:
 * 2 msk finhackad persilja
 * salt och peppar
 
-# Tillagning
+## Tillagning
 1. Skala och skiva potatisen. Ansa och strimla purjolöken.
 1. Fräs purjolöken i oljan i en stor kastrull.
 1. Tillsätt potatis, timjan, buljong och mjölk. Låt soppan koka ca 15 minuter.
@@ -29,5 +29,5 @@ categories:
 1. Vänd ner persilja och bacon i soppan. Smaka av med salt och peppar.
 1. Servera gärna soppan med bröd.
 
-# Källa
+## Källa
 * [Källa](https://www.ica.se/recept/kramig-potatis-och-purjolokssoppa-716077/)

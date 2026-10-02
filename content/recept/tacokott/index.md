@@ -5,7 +5,7 @@ tags:
 categories:
 - Fest
 ---
-# Ingredienser
+## Ingredienser
 * 1/2 msk paprikapulver
 * 1/2 msk spiskummin
 * 1/2 msk lökpulver
@@ -14,5 +14,5 @@ categories:
 * 2 msk smör
 * 500g nötfärs
 
-# Tillagning
+## Tillagning
 1. Blanda

@@ -7,7 +7,7 @@ tags:
 categories:
 - Kaka
 ---
-# Ingredienser (totalt)
+## Ingredienser (totalt)
 * 7 Eier / eggs
 * 180 g Mehl / flour
 * 90g Kakaopulver / cacao powder
@@ -17,7 +17,7 @@ categories:
 * 110g Zucker / sugar
 * 170g Frischkäse / cream cheese
 
-# Ingredienser (dekoreringssmör)
+## Ingredienser (dekoreringssmör)
 * 100g Butter / butter
 * 90g Puderzucker / powdered sugar
 * 120g Mehl / flour
@@ -25,7 +25,7 @@ categories:
 
 Gör mindre, 1/3 till nästa gång?
 
-# Tillagning (dekoreringssmör)
+## Tillagning (dekoreringssmör)
 1. rumstempererat smör
 2. lägg till florsocker
 3. vispa till konsistens
@@ -34,14 +34,14 @@ Gör mindre, 1/3 till nästa gång?
 6. tryck ut i form
 7. in i frys
 
-# Ingredienser (kakan)
+## Ingredienser (kakan)
 * 60g Mehl / flour
 * 110g Zucker / sugar
 * 4 Eier getrennt / 4 separated eggs
 * 30g Kakaopulver / cacao powder
 * 60g Butter / butter
 
-# Tillagning (kakan)
+## Tillagning (kakan)
 1. 200 grader ugn
 2. vispa äggvitor
 3. halva sockret
@@ -52,14 +52,14 @@ Gör mindre, 1/3 till nästa gång?
 8. snöa ner mjöl
 9. Max 7 minuter i ugn
 
-# Ingredienser (fyllning)
+## Ingredienser (fyllning)
 * 170g Frischkäse Zimmertemperatur / cream cheese room temperatur
 * 60 g Butter Zimmertemperatur / butter room temperatur
 * 60g Kakaopulver / cacao powder
 * 180g Puderzucker / powdered sugar
 * 2 Teelöffel Vanillezucker / 2 teaspoons vanilla sugar
 
-# Tillagning (fyllning)
+## Tillagning (fyllning)
 1. ner med smör
 2. och ost
 3. rör
@@ -67,5 +67,5 @@ Gör mindre, 1/3 till nästa gång?
 5. lägg ner kakao långsammt
 6. dunka ut fyllning på utrullad kaka och rulla ihop igen
 
-# Källa
+## Källa
 [Källa](https://www.youtube.com/watch?v=_cG6kZOl4aw)

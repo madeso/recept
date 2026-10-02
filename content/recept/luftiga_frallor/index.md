@@ -5,7 +5,7 @@ tags:
 categories:
 - Bröd
 ---
-# Ingredienser
+## Ingredienser
 * 1 msk margarin
 * 4 dl lättmjölk
 * 50 g jäst
@@ -14,7 +14,7 @@ categories:
 * 1/2 tsk salt
 * 9-10 dl vetemjöl
 
-# Tillagning
+## Tillagning
 1. Värm margarin och mjölk i en bunke i mikron till 37 grader (eller i en gryta på spisen)
 2. Smula ner jästen och rör tills den har löst sig.
 3. Vispa upp ägget lätt och häll i ungefär hälften.
@@ -28,5 +28,5 @@ categories:
 11. Pensla bullarna och strö på vallmofröna.
 12. Grädda i 225 grader i 8-10 min.
 
-# Källa
+## Källa
 * [Källa](http://www.tasteline.com/Recept/Luftiga_frallor)

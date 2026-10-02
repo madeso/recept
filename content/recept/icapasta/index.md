@@ -5,11 +5,11 @@ tags:
 categories:
 - Mat
 ---
-# Ingredienser
+## Ingredienser
 * 8 dl durumvetemjöl (8 dl durumvete motsvarar 520 g)
 * 10 - 11 färska äggulo
 
-# Tillagning
+## Tillagning
 1. Blanda mjöl och äggulor.
 2. Knåda eller kör i matberedare till en slät deg.
 3. Knåda den ca 5 minuter till en elastisk och smidig deg.
@@ -19,5 +19,5 @@ categories:
 Vid tillagning, koka i saltat vatten i 2-4 minuter (beroende på tjocklek).
 Beräkna 1/2-1 msk salt per liter vatten.
 
-# Källa
+## Källa
 [Källa](http://www.ica.se/buffe/recept/gor-egen-pasta-605273/)

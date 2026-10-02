@@ -6,7 +6,7 @@ categories:
 - Bröd
 ---
 ![](/recept/morotsbrod.jpg)
-# Ingredienser
+## Ingredienser
 * 2 dl  kokande vatten
 * 1 dl  ekologiskt rågmjöl
 * 2 dl  kallt vatten
@@ -17,7 +17,7 @@ categories:
 * 0,5 msk  honung
 * 10 g  salt
 
-# Tillagning
+## Tillagning
 1. Använd gärna köksmaskin. Häll 2 dl skållande vattnet i bunken tillsammans med 1 dl rågmjöl, låt gå runt tills det svalnat något.
 2. Häll i 2 dl kallt vatten och vänta tills det är fingervarmt. Tillsätt då jästen. Rör om tills det har löst upp.
 3. Blanda i honung och därefter vetemjölet. Arbeta tills det har blivit en smidig deg, runt 10-12 minuter. Kör i morötterna och ingefäran mot slutet.

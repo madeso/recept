@@ -7,12 +7,12 @@ categories:
 - Tillbehör
 ---
 ![](/recept/enkelt-appelmos.jpg)
-# Ingredienser
+## Ingredienser
 * 1 kg äpplen
 * 1/2 dl vatten
 * 6 dl socker
 
-# Tillagning
+## Tillagning
 Använd väl mogna, men inte övermogna äpplen till mos.
 
 1. Skala och kärna ur äpplena med en potatisskalare och skalkniv. Det är viktigt att ev skadade partier och insektsangrepp skärs bort.
@@ -24,8 +24,8 @@ Använd väl mogna, men inte övermogna äpplen till mos.
 
 Förvara burkarna i frys. Där är mosets hållbarhet ca 1 år. Ta fram så mycket som går åt och låt tina i kylskåp. Mosets hållbarhet i kylskåp är begränsat till 1-2 veckor
 
-# Tips
+## Tips
 Moset kan också djupfrysas. Sockermängden kan uteslutas helt eller också sockras moset mycket litet efter smak.
 
-# Källa
+## Källa
 * [Källa](http://www.ica.se/recept/enkelt-appelmos-4153/)

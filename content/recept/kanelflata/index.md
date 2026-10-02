@@ -4,7 +4,7 @@ tags:
 categories:
 - Kaka
 ---
-# Ingredienser (deg)
+## Ingredienser (deg)
 * 50 g jäst
 * 150 g smör
 * 6 dl mjölk
@@ -13,13 +13,13 @@ categories:
 * 1 tsk kardemumma
 * 15–16 dl vetemjöl
 
-# Ingredienser (fyllning)
+## Ingredienser (fyllning)
 * 75 g smör
 * 1 dl strösocker
 * 2 msk vaniljsocker
 * 2 msk kanel
 
-# Tillagning
+## Tillagning
 1. Smula ner jästen i en skål. Smält smöret och häll i mjölken. Värm vätskan till 37 grader.
 2. Häll degvätskan över jästen och rör tills den har löst sig.
 3. Tillsätt salt, socker, kardeumma och mjölet, litet i taget. Arbeta till en smidig deg och låt den jäsa under bakduk i ca 45 min.
@@ -33,5 +33,5 @@ categories:
 11. Pensla flätan med uppvispat ägg och strö över pärlsocker.
 12. Grädda i nedre delen av ugnen i 15–20 min.
 
-# Källa
+## Källa
 [Källa](http://tidningenhembakat.se/recept/festlig-kanelflata-steg-for-steg/)

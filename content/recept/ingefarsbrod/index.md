@@ -7,7 +7,7 @@ categories:
 ---
 Ett snabbakat matbröd med smak av ingefära.
 
-# Ingredienser
+## Ingredienser
 * 5 dl filmjölk
 * 1 dl sirap
 * 2 dl dinkelsikt
@@ -21,12 +21,12 @@ Ett snabbakat matbröd med smak av ingefära.
 * ¾ tsk salt
 * havregryn för garnering
 
-# Tillagning
+## Tillagning
 1. Sätt ugnen på 175 grader. Smörj en avlång brödform, ca 1 ½ liter, och bröa den med lite grahamsmjöl.
 2. Blanda ihop alla ingredienserna till en lös deg. Fördela degen jämnt i formen och strö havregryn på toppen.
 3. Grädda brödet mitt i ugnen i ca 1 ½ tim. Lägg ett
 bakplåtspapper över brödet om det ser ut att bli bränt. Låt brödet vila i
  formen innan du stjälper upp det och låter det kallna under en bakduk.
 
-# Källa
+## Källa
 [Källa](https://tidningenhembakat.se/recept/ingefarsbrod-med-solrosfron/)

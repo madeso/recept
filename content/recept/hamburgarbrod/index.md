@@ -7,7 +7,7 @@ categories:
 - Burgare
 ---
 ![](/recept/hamburgerbrod.jpg)
-# Ingredienser (8-9 bröd)
+## Ingredienser (8-9 bröd)
 * 25g smör
 * 30g proteinrikt mjöl (Manitoba Cream eller Vetemjöl Special)
 * 150g mjölk
@@ -17,7 +17,7 @@ categories:
 * 20g socker
 * 5g salt
 
-# Tillagning
+## Tillagning
 1. Börja med att ta fram smöret, skär det i kuber och låt det bli rumstempererat.
 
 2. Värm 30g mjöl och 150g mjölk i en kastrull på medelvärme. Rör hela
@@ -51,5 +51,5 @@ längre tid. De håller minst 3 – 4 dagar i påsen. Släng in dem i frysen
 om du inte äter upp dem. Om man tinar upp dem i en påse blir de nästan
 ännu bättre än innan frysningen.
 
-# Källa
+## Källa
 * [Källa](http://www.hamburgare.org/hamburgerbrod-utan-dess-like-videoinlagg/)

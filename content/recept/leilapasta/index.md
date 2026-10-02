@@ -5,11 +5,11 @@ tags:
 categories:
 - Mat
 ---
-# Ingredienser
+## Ingredienser
 * 5 dl durumvete
 * 4 ekologiska ägg
 
-# Tillagning
+## Tillagning
 1. Mät upp 5 dl durumvete på ett bakbord och gör en stor grop i mitten.
 2. Knäck 4 ägg i gropen och vispa upp dem med en gaffel.
 3. Vispa in mjölet i äggen med en gaffel, lite i taget.
@@ -21,5 +21,5 @@ categories:
 9. Forma till valfri pasta: spagetti, tagliatelle eller ravioli.
 10. Koka pastan al dente i cirka 3 minuter i välsaltat vatten.
 
-# Källa
+## Källa
 [Källa](http://www.leila.se/husmorstips/gor-din-egen-pasta/sa-har-gor-du-din-egen-pasta-/index1,193.htm?id=4771)

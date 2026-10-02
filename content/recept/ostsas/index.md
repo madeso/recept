@@ -5,13 +5,13 @@ tags:
 categories:
 - Fest
 ---
-# Ingredienser
+## Ingredienser
 * Ost
 * Gräddfil
 * Spiskummin
 * Oregano
 
-# Tillagning
+## Tillagning
 1. Blanda ost och gräddfil.
 2. Smält i mikron.
 3. Blandar man i spiskummin och oregano

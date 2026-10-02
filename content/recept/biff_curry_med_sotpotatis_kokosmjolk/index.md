@@ -6,7 +6,7 @@ categories:
 - Mat
 - Burgare
 ---
-# Ingredienser
+## Ingredienser
 * 1 kilo lövbiff
 * 2 gula lökar
 * 1 vitlök solo
@@ -22,7 +22,7 @@ categories:
 * 1 sötpotatis
 * kokosolja och smör att steka i
 
-# Tillagning
+## Tillagning
 1. Skär lövbiffen i strimlor och stek i omgångar i het panna med kokosolja utan smak och smör.
 1. Salta och peppra och lägg över i Crockpot.
 1. Finhacka lök och vitlök och fräs i olja, krydda med kanel, kardemumma, spiskummin, curry, ingefära och sambal oelek.
@@ -32,5 +32,5 @@ categories:
 1. Sätt Crockpoten på 4 timmar HIGH eller 8 timmar LOW.
 1. Efter 4 timmar high, sätt resterande 1-2 timmar på LOW.
 
-# Källa
+## Källa
 * [Källa](http://www.56kilo.se/biff-curry-med-sotpotatis-kokosmjolk/)

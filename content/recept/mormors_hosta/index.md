@@ -5,7 +5,7 @@ tags:
 categories:
 - Kaka
 ---
-# Ingredienser
+## Ingredienser
 * 50 g jäst
 * 2½ dl Arla® mjölk, kall
 * 2 ägg
@@ -14,7 +14,7 @@ categories:
 * 1 liter vetemjöl
 * 400 g Arla® Svenskt Smör osaltat
 
-# Ingredienser
+## Ingredienser
 * 2 dl Arla® mjölk
 * 2 äggulor
 * 2 msk strösocker
@@ -22,7 +22,7 @@ categories:
 * 1 tsk vaniljsocker
 * 15 g Arla® Svenskt Smör
 
-# Tillagning
+## Tillagning
 1. Smula ner jästen i en bunke.
 Tillsätt mjölk, ägg, socker, salt och det mesta av mjölet. Arbeta till en smidig deg.
 

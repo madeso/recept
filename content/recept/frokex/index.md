@@ -9,7 +9,7 @@ categories:
 
 Knapriga kex. Passar bra som knäckebröd och gott med smör och ost på.
 
-# Ingredienser
+## Ingredienser
 * 2 dl linfrön
 * 1,5 dl sesamfrön
 * 1 dl pumpafrön
@@ -17,7 +17,7 @@ Knapriga kex. Passar bra som knäckebröd och gott med smör och ost på.
 * 4 dl vatten
 * lite salt
 
-# Tillagning
+## Tillagning
 1. Häll alla frön i en bunke, täck med vatten och låt stå i kylen i minst sex timmar. Förslagsvis över natten.
 2. Bred ut smeten på bakplåtspapper i en ugnsform, försök få det så jämnt som möjligt. Strö över salt efter behag.
 3. Grädda i 125°c i ugnen en timme.
@@ -25,9 +25,9 @@ Knapriga kex. Passar bra som knäckebröd och gott med smör och ost på.
 5. Stäng av ugnen, låt plåten stå kvar i ugnen och ha ugnsluckan öppen lite grann (bara en glipa) och låt stå där tills ugnen svalnat.
 6. Ta ut och bryt i valfria stora bitar.
 
-# Tips
+## Tips
 * Om smeten fortfarande är mjuk efter den andra timmen, låt grädda ytterligare en liten stund till.
 * Frökexen kan lätt gå sönder om man brer smör på dem, pröva i så fall att bre smör på ostskivan.
 
-# Källa
+## Källa
 [Källa](http://levamedlchf.se/frokex/)

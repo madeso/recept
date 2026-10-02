@@ -5,7 +5,7 @@ tags:
 categories:
 - Mat
 ---
-# Ingredienser (gryta)
+## Ingredienser (gryta)
 * 1 kg högrev
 * 2 gula lökar
 * 5 vitlöksklyftor
@@ -19,7 +19,7 @@ categories:
 * 2,5 dl urkärnade kalamataoliver
 * salt, peppar, oregano
 
-# Ingredienser (Potatispirog):
+## Ingredienser (Potatispirog):
 * 600g potatis
 * 1 schalottenlök
 * 2 dl creme fraiche
@@ -28,13 +28,13 @@ categories:
 * salt, peppar
 * 1 rulle smördeg
 
-# Ingredienser (Citron- och koriandercreme):
+## Ingredienser (Citron- och koriandercreme):
 * 1 citron
 * 1 kruka koriander
 * 3 dl creme fraiche
 * salt, peppar
 
-# Tillagning (gryta)
+## Tillagning (gryta)
 1. Skär köttet till lagom bitar.
 1. Smält smör i stekpanna och bryn köttet på hög värme.
 2. Ha ner hackad gul lök och vitlök, skivade morötter och selleri samt det brynta köttet i slökokaren.
@@ -44,7 +44,7 @@ categories:
 2. Lägg på locket och kör slökokaren på det högre värmeläget i cirka 6 timmar.
 2. När det är en timme kvar, ha ner resten av körsbären, oliverna samt cocktailtomaterna.
 
-# Tillagning (Potatispirog)
+## Tillagning (Potatispirog)
 3. Skala och skiva potatisen.
 3. Hacka löken och bryn den i en stekpanna.
 3. Smöra en avlång sockerkaksform och fördela ut potatisskivorna varvat med löken.
@@ -56,9 +56,9 @@ categories:
 3. Grädda ytterligare 15-20 minuter i 200°.
 
 
-# Tillagning (Citron- och korandercreme)
+## Tillagning (Citron- och korandercreme)
 4. Rör ihop rivet citronskal med hackad koriander, creme fraiche och kryddor.
 4. Ställ såsen svalt fram till servering.
 
-# Källa
+## Källa
 * [Källa](https://www.landleyskok.se/recept/italiensk-korsbarsgryta-med-potatispirog-och-citron-och-koriandercreme)

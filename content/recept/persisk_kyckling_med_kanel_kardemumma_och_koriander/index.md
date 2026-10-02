@@ -7,7 +7,7 @@ tags:
 categories:
 - Mat
 ---
-# Ingredienser
+## Ingredienser
 * 1 hel kyckling
 * 3 vitlöksklyftor pressade
 * 1 tsk chili
@@ -20,12 +20,12 @@ categories:
 * 100 g smör
 * 10 st vitlöksklyftor, hela
 
-# Tillagning
+## Tillagning
 1. Smält smöret och blanda samman med pressad vitlök och kryddor. 
 1. Häll en sked kryddsmörblandning i botten av pottan och lägg på kycklingen.
 1. Häll över resterande kryddsmörblandning över kycklingen och gnugga lite så kryddorna fäster.
 1. Lägg ner de andra vitlöksklyftorna runt om kycklingen. 
 1. Sätt på låg i 5- 7 h 
 
-# Källa
+## Källa
 * [Källa](http://lindasmathorna.se/crockpot-persisk-kyckling-med-kanel-kardemumma-och-koriander/)

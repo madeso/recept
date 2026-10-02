@@ -9,7 +9,7 @@ categories:
 ---
 Färgglad och mättande middag som alla gillar. Broccolin kan bytas ut mot t ex blomkål.
 
-# Ingredienser
+## Ingredienser
 * 250g Broccoli
 * 125g Körsbärstomater
 * 3 Ägg
@@ -20,7 +20,7 @@ Färgglad och mättande middag som alla gillar. Broccolin kan bytas ut mot t ex 
 * 1 tsk Salt
 * 2 krm Svartpeppar
 
-# Tillagning
+## Tillagning
 1. Sätt ugnen på 175°.
 1. Dela broccolin i bitar och koka den knappt mjuk i lättsaltat vatten.
 1. Dela tomaterna
@@ -33,5 +33,5 @@ Färgglad och mättande middag som alla gillar. Broccolin kan bytas ut mot t ex 
 1. Kärna ur och skär paprikan i bitar.
 1. Servera gratängen med råkostsalladen och bröd.
 
-# Källa
+## Källa
 * [Källa](https://www.arla.se/recept/broccoligratang-med-ost-och-smatomater/)

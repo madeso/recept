@@ -6,7 +6,7 @@ categories:
 - Bröd
 ---
 ![](/recept/korvbrod.jpg)
-# Ingredienser
+## Ingredienser
 * 3 dl mjölk
 * 25 gram jäst
 * 0,5 tsk salt
@@ -15,7 +15,7 @@ categories:
 * 7,5 dl vetemjöl
 * 1 dl grahamsmjöl
 
-# Tillagning
+## Tillagning
 1. Värm mjölken till fingervarm. Tillsätt olivolja eller smör. Lös upp jästen med saltet i lite av det mjölken i en stor bunke.
 2. Blanda i mjölet och resten av ingredienserna utom 1 dl mjöl. Blanda korvbrödsdegen tills den blir genomarbetad och börjar släppa från kanten i bunken. Knåda mellan 5-10 minuter. En bakmaskin funkar utmärkt eller matberedare eller knåda för hand.
 3. Låt degen till korvbröden jäsa under bakduk på en varm plats i en halvtimme.

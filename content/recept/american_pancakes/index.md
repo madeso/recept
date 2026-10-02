@@ -6,7 +6,7 @@ categories:
 - Efterrätt
 ---
 
-# Ingredienser
+## Ingredienser
 * 3 dl vetemjöl
 * 1 msk socker
 * 0.5 tsk salt
@@ -17,7 +17,7 @@ categories:
 * 1 ägg
 * Flytande margarin till stekning
 
-# Tillagning
+## Tillagning
 1. Blanda torra varor i en bunke och rör ner allt det mjuka, smeten skall vara ganska tjock.
 2. Klicka ut smeten i en varm stekpanna och bred ut den lite.
 3. Grädda på svag värme och vänd dem när de jäst upp och börjat stelna och få färg.

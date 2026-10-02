@@ -8,7 +8,7 @@ tags:
 categories:
 - Kaka
 ---
-# Ingredienser
+## Ingredienser
 * 1/2 cup flour
 * 1 cup sugar
 * 2 eggs, beaten
@@ -20,7 +20,7 @@ categories:
 * pinch of salt
 * 1 ready-made piecrust
 
-# Tillagning
+## Tillagning
 1. Preheat oven to 350 degrees F.
 2. Combine flour and sugar in a mixing bowl.
 3. Add the eggs and butter; mix to combine.
@@ -29,5 +29,5 @@ categories:
 6. Bake for 40 to 45 minutes.
 7. Let cool before slicing.
 
-# Källa
+## Källa
 * [Källa](http://americanfood.about.com/od/desserts/r/chocwalnutpie.htm)

@@ -5,7 +5,7 @@ tags:
 categories:
 - Mat
 ---
-# Ingredienser
+## Ingredienser
 * 350g pasta (gemelli)
 * 1 burk tomater (filetti)
 * 5 dl kycklingbuljong
@@ -18,7 +18,7 @@ categories:
 * 1 påse babyspenat
 * riven parmesan
 
-# Tillagning
+## Tillagning
 1. Lägg allt utom spenat och parmesan i en kastrull med lock på och koka i 12-15 minuter
 1. skruva ner värmen och låt puttra ytterligare 10-12 minuter tills pastan är al dente.  Rör ett par gånger under tiden.
 1. Ta av från plattan och rör ner spenaten

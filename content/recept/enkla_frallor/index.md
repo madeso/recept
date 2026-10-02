@@ -11,7 +11,7 @@ Enkla frallor. Ljusa frallor som är enkla att baka. Goda till frukost, fika, ti
 Du kan byta ut en del av vetemjölet mot siktat dinkel, speltvetemjöl, durumvetemjöl eller grahamsmjöl.
 Vill du ha frallor till frukost kan du jäsa degen kvällen innan, baka ut frallor och ställ sedan att kalljäsa i kylen över natten. Baka sedan frallorna på morgonen.
 
-# Ingredienser
+## Ingredienser
 * 13 dl vetemjöl special (mindre mjöl nästa gång)
 * 1 paket färsk jäst (50 gram)
 * 2 tsk salt
@@ -21,7 +21,7 @@ Vill du ha frallor till frukost kan du jäsa degen kvällen innan, baka ut frall
 * 0,5 dl mjölk eller filmjölk att pensla med (valfritt)
 * 1 dl frön som vallmofrön, sesamfrön, solrosfrön eller pumpakärnor att strö över frallorna (valfritt)
 
-# Tillagning
+## Tillagning
 1. Värm 30g mjöl och 150g mjölk i en kastrull på medelvärme. Rör hela tiden så att du inte får brända bitar i botten. Vid ca 65 grader kommer blandningen att börja tjockna. När den är som tapetklister och det blir ränder efter vispen är den färdig.
 2. Smula jästen i en stor degbunke. Tillsätt och rör ut jästen i fingervarmt vatten (38 grader).
 3. Blanda i vetemjöl, olivolja och salt. Knåda till en fast deg.
@@ -37,6 +37,6 @@ Vill du ha frallor till frukost kan du jäsa degen kvällen innan, baka ut frall
 13. Grädda frallorna i 15 minuter i mitten av ugnen tills de fått fin färg.
 14. Ta ut frallorna och låt svalna på galler några minuter innan servering.
 
-# Källa
+## Källa
 * [Källa](http://receptfavoriter.se/recept/enkla-frallor.html)
 * [Källa](http://www.kokaihop.se/recept/havrebullar-frukostbroed)

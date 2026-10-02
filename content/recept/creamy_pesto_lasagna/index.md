@@ -6,7 +6,7 @@ tags:
 categories:
 - Mat
 ---
-# Ingredienser
+## Ingredienser
 * 4 tablespoons unsalted butter
 * ¼ cup all-purpose flour
 * 1 cup whole milk
@@ -19,7 +19,7 @@ categories:
 * 3 cups diced rotisserie chicken, divided
 * 4 cups shredded part-skim mozzarella, divided
 
-# Tillagning
+## Tillagning
 1. Preheat the oven to 350.
 2. For the béchamel, melt butter in a large saucepan over medium heat. Whisk in flour and cook 2 minutes.
 3. Slowly whisk in milk and nutmeg, brint to a simmer, and cook 2 minutes more. Off heat, stir in ½ cup pesto; season with salt and pepper.
@@ -28,5 +28,5 @@ categories:
 6. Bake lasagna until bubbly, about 45 minutes. Remove foil and bake lasagna 15 minutes more, then broil on high until golden, 2-3 minutes.
 7. Let lasagna rest 15 minutes before serving.
 
-# Källa
+## Källa
 * [Källa](http://www.takingonmagazines.com/creamy-pesto-lasagna/)
