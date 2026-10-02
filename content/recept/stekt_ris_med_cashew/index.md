@@ -9,7 +9,7 @@ tags:
 
 categories:
 - Mat
-- Favorite
+- Favorit
 ---
 ![](static/stekt-ris-med-cashew.jpg)
 

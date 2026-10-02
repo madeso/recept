@@ -8,7 +8,7 @@ tags:
 
 categories:
 - Mat
-- Favorite
+- Favorit
 ---
 
 
