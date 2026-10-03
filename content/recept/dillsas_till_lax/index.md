@@ -1,5 +1,5 @@
 ---
-title: Dillsas Till Lax
+title: Dillsås Till Lax
 tags:
 - Lax
 - Dill
