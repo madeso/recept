@@ -3,6 +3,21 @@
 @import "components/footer.css";
 */
 
+
+.image-card {
+    max-width: 190px;
+    display: inline-block;
+}
+
+.card-label {
+    display: block;
+}
+
+.image-card img {
+    display: inline;
+}
+
+
 /**** place nav on a single line */
 header nav ul {
 	list-style-type: none;
