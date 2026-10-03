@@ -1,5 +1,8 @@
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
+  {{ with .Resources.Get "recept.jpg" }}
+		<img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="">
+	{{ end }}
   {{ .Content }}
   {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
   {{ partial "terms.html" (dict "taxonomy" "categories" "page" .) }}
