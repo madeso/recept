@@ -1,29 +1,13 @@
 {{ define "main" }}
-  {{ .Content }}
-  
-  {{ range site.RegularPages.ByTitle }}
-    {{ $page := .}}
-    {{ with .Resources.Get "recept.jpg" }}
-      {{ with .Fill "smart 195x150" }}
-        <a href="{{ $page.RelPermalink }}" class="for-image">
-          <div class="image-card">
-            <div class="card-label">
-              {{ $page.LinkTitle }}
-            </div>
-          <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}"
-                alt="{{ $page.LinkTitle }}" title="{{ $page.LinkTitle }}">
-          </div>
-        </a>
-      {{ end }}
-    {{ end }}
-  {{ end }}
+	{{ .Content }}
 
-  <ul>
-  {{ range site.RegularPages.ByTitle }}
-    {{ with .Resources.Get "recept.jpg" }}
-    {{else}}
-      <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
-    {{ end }}
-  {{ end }}
-  </ul>
+	{{ range site.RegularPages.ByTitle }}
+		{{ partial "card-image.html" .}}
+	{{ end }}
+
+	<ul>
+		{{ range site.RegularPages.ByTitle }}
+			{{ partial "card-li.html" . }}
+		{{ end }}
+	</ul>
 {{ end }}

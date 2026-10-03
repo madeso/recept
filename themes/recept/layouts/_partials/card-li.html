@@ -1,0 +1,4 @@
+{{ with .Resources.Get "recept.jpg" }}
+{{else}}
+    <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+{{ end }}
