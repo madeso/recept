@@ -9,7 +9,6 @@ tags:
 categories:
 - Mat
 ---
-![](/recept/fiskgryta-med-rakor.jpg)
 ## Ingredienser (2 pers)
 * 300 g räkor
 * 2 msk tomatpuré och 1 liten grovhackad gul lök

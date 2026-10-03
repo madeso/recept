@@ -9,7 +9,6 @@ tags:
 categories:
 - Mat
 ---
-![](/recept/rostade-rotfrukter-med-halloumi.jpg)
 ## Ingredienser (2 pers)
 * 3/4 dl bulgur
 * 150 g skalade morötter och 150 g skalad färsk rödbeta

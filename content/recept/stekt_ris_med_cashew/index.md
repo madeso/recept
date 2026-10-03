@@ -11,7 +11,6 @@ categories:
 - Mat
 - Favorit
 ---
-![](static/stekt-ris-med-cashew.jpg)
 
 
 ---

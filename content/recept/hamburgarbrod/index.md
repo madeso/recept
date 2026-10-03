@@ -6,7 +6,6 @@ categories:
 - Bröd
 - Burgare
 ---
-![](/recept/hamburgerbrod.jpg)
 ## Ingredienser (8-9 bröd)
 * 25g smör
 * 30g proteinrikt mjöl (Manitoba Cream eller Vetemjöl Special)

@@ -6,7 +6,6 @@ tags:
 categories:
 - Tillbehör
 ---
-![](/recept/hemlagat-appelmos.jpg)
 ## Ingredienser
 * 8 st äpplen
 * 1 dl vatten

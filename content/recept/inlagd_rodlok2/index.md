@@ -7,7 +7,6 @@ categories:
 - Burgare
 - Tacos
 ---
-![](/recept/inlagd-rodlok.jpg)
 ## Ingredienser
 * 2 medelstora rödlökar
 * 2 dl vitvinsvinäger

@@ -7,7 +7,6 @@ tags:
 categories:
 - Kaka
 ---
-![](/recept/fryst-choklad-och-hasselnotscheesecake.jpg)
 
 Cornflakes, hasselnötskräm, choklad och färskost. Tänk att så få ingredienser kan blandas till något så underbart och mäktigt gott som denna drömmiga cheesecake! På jakt efter den perfekta desserten? Som du lätt kan förbereda? This is it.
 

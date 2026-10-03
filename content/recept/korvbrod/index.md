@@ -5,7 +5,6 @@ tags:
 categories:
 - Bröd
 ---
-![](/recept/korvbrod.jpg)
 ## Ingredienser
 * 3 dl mjölk
 * 25 gram jäst

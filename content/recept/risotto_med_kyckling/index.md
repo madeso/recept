@@ -6,7 +6,6 @@ tags:
 categories:
 - Mat
 ---
-![](/recept/risotto-kyckling.jpg)
 Krämig risotto med saftig kyckling.
 Frida Eriksson är känd från Sveriges Mästerkock och här är hennes bästa recept!
 

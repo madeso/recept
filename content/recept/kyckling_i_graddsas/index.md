@@ -8,7 +8,6 @@ tags:
 categories:
 - Mat
 ---
-![](/recept/kyckling-i-graddsas.jpg)
 ## Ingredienser (2 pers)
 * 2 kycklingfiléer (à 125 g)
 * 1 gul

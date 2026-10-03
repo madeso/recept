@@ -6,7 +6,6 @@ tags:
 categories:
 - Förrätt
 ---
-![](static/tortilliastubbar.jpg)
 
 Ett snabbt och enkelt tilltugg till festen. Fyll tortillabröden med rökt skinka och hemlagad ostcrème. Grädda stubbarna i ugnen och servera i bitar.
 

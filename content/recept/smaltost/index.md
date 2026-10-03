@@ -5,7 +5,6 @@ tags:
 categories:
 - Burgare
 ---
-![](/recept/hamburgerost.jpg)
 ## Ingredienser
 * 2 msk varmt vatten
 * 1 tsk citronsyra

@@ -6,7 +6,6 @@ tags:
 categories:
 - Soppa
 ---
-![](static/spenatsoppa.jpg)
 
 [Källa](https://www.ica.se/recept/spenatsoppa-med-agg-367220/)
 

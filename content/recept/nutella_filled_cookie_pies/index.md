@@ -6,7 +6,6 @@ tags:
 categories:
 - Kaka
 ---
-![](/recept/nutella-filled-cookie-pies.jpg)
 ## Ingredienser (deg)
 * 7 dl mjöl
 * 2 tesked Baking Powder

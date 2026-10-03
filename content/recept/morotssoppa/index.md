@@ -8,7 +8,6 @@ tags:
 categories:
 - Soppa
 ---
-![](static/morotssoppa.jpg)
 
 [Källa](http://lillamatderiven.blogspot.com/2013/01/morotssoppa-med-fetaost-cashewnotter.html)
 

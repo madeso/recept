@@ -5,7 +5,6 @@ tags:
 categories:
 - Bröd
 ---
-![](/recept/bullar-bakeoff.jpg)
 ## Ingredienser
 * 50 gram  jäst
 * 5 dl  vatten

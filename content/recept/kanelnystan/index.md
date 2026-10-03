@@ -6,7 +6,6 @@ tags:
 categories:
 - Kaka
 ---
-![](/recept/kanelnystan.jpg)
 ## Ingredienser
 * 50 g jäst
 * 50 g smör

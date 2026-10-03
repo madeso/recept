@@ -7,7 +7,6 @@ tags:
 categories:
 - Mat
 ---
-![](/recept/lime-och-ingefarsbakad-lax.jpg)
 
 Supergod lax med fräscha asiatiska smaker och knapriga sesamfrön. En allt-i-ett rätt som enkelt tillagas i ugnen och toppas med crème fraiche vid servering.
 

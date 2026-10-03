@@ -5,7 +5,6 @@ tags:
 categories:
 - Bröd
 ---
-![](/recept/kumminknacke.jpg)
 ## Ingredienser
 * 5 dl mjölk
 * 3 msk Dansukker Ljus Sirap

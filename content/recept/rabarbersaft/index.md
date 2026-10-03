@@ -7,7 +7,6 @@ tags:
 categories:
 - Dricka
 ---
-![](/recept/rabarbersaft.jpg)
 
 Rabarbersaft. Saft på rabarber blir kanongod saft. Vill du ha en hållbar saft du ska spara länge så tillsätter du konserveringsmedel sk natriumbensoat.
 Mängden socker är en smaksak men saften blir mer hållbar med mer socker speciellt om du har i konserveringsmedel.

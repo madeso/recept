@@ -6,7 +6,6 @@ tags:
 categories:
 - Tillbehör
 ---
-![](/recept/appelmos-utan-socker.jpg)
 ## Ingredienser
 * Valfri mängd äpplen. Jag använde ca 10 stycken äpplen från ett äppelträd på gården som är bra att göra äppelmos på (kommer inte ihåg vad sorten heter, men jag antar att ju mosigare äpplen, desto bättre).
 * 0,75 tsk askorbinsyra (detta är helt enkelt c-vitamin och gör att äppelmoset inte blir brunt och har en konserverande effekt)

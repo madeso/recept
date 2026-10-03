@@ -5,7 +5,6 @@ tags:
 categories:
 - Efterrätt
 ---
-![](/recept/japp-lattlagad-mousse.jpg)
 
 Denna mousse är perfekt till efterrätt. Du gör den av mörk choklad, chokladbitar av Japp eller Mars, ägg, socker, salt och grädde. Servera den krämiga desserten i glas och garnera med hackad choklad.
 

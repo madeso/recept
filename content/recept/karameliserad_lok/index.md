@@ -5,7 +5,6 @@ tags:
 categories:
 - Burgare
 ---
-![](/recept/karamelliserad-lok.jpg)
 ## Ingredienser
 * 2 mellanstora gula lökar, finhackade
 * 1,5 msk rapsolja

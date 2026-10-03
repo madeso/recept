@@ -6,7 +6,6 @@ tags:
 categories:
 - Tillbehör
 ---
-![](/recept/enkelt-appelmos.jpg)
 ## Ingredienser
 * 1 kg äpplen
 * 1/2 dl vatten

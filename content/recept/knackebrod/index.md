@@ -6,7 +6,6 @@ tags:
 categories:
 - Bröd
 ---
-![](/recept/knackebrod-med-fro.jpg)
 
 Knaprigt hembakat knäckebröd med olivolja och sesamfrö, linfrö och solros- eller pumpakärnor. Enkelt att baka själv och grädda i ugnen. Förgrädda, skär upp i lagom bitar och grädda lite till. Gott till skinkmackan med senap, eller att toppa med inlagd sill och kall potatis. Givet på julbordet!
 

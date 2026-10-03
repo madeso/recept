@@ -9,7 +9,6 @@ tags:
 categories:
 - Mat
 ---
-![](static/italienska-kottbullar-i-tomatsas.jpg)
 
 * [Källa](https://www.hemmets.se/10-mattande-middagar-for-dig-som-vill-ga-ner-i-vikt/)
 

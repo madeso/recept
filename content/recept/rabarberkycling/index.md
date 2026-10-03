@@ -7,7 +7,6 @@ tags:
 categories:
 - Mat
 ---
-![](/recept/rabarberkyckling.jpg)
 
 Kyckling på annorlunda vis - supergott, måste provas! Rabarber gör maträtten vacker och syrligt god. För mindre syrlighet, ta lite mer honung.
 

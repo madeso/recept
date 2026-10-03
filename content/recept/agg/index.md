@@ -6,7 +6,6 @@ tags:
 categories:
 - Tillbehör
 ---
-![](/recept/agg.jpg)
 
 Hard-boiled eggs may not get nearly the love that scrambled, fried, or poached eggs do, but they’re a versatile workhorse that can add a heavy dose of protein to everything from salads to sandwiches—as long as you do it right.
 

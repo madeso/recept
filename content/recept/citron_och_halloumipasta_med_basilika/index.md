@@ -7,7 +7,6 @@ tags:
 categories:
 - Mat
 ---
-![](/recept/citron-och-halloumipasta-med-basilika.jpg)
 
 Goda smaker av basilika, tomat, haricots verts och halloumi kombineras i denna lättlagade rätt. En perfekt vardagsmiddag helt enkelt! Tips! Tina gärna haricots vertsen i kylen över natten.
 
